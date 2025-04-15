@@ -44,7 +44,7 @@ local Converted = {
 	["_UIStroke"] = Instance.new("UIStroke");
 	["_Invisible"] = Instance.new("LocalScript");
 	["_FloatingButtons"] = Instance.new("Frame");
-	["_AddCustomModule"] = Instance.new("Frame");
+	["_AdicionarCustomModule"] = Instance.new("Frame");
 	["_UICorner6"] = Instance.new("UICorner");
 	["_UIStroke1"] = Instance.new("UIStroke");
 	["_UIGradient"] = Instance.new("UIGradient");
@@ -55,12 +55,12 @@ local Converted = {
 	["_UICorner7"] = Instance.new("UICorner");
 	["_UIPadding4"] = Instance.new("UIPadding");
 	["_TextLabel2"] = Instance.new("TextLabel");
-	["_Add"] = Instance.new("TextButton");
+	["_Adicionar"] = Instance.new("TextButton");
 	["_UICorner8"] = Instance.new("UICorner");
 	["_UIPadding5"] = Instance.new("UIPadding");
 	["_UIStroke2"] = Instance.new("UIStroke");
 	["_LocalScript"] = Instance.new("LocalScript");
-	["_Cancel"] = Instance.new("TextButton");
+	["_Cancelar"] = Instance.new("TextButton");
 	["_UICorner9"] = Instance.new("UICorner");
 	["_UIPadding6"] = Instance.new("UIPadding");
 	["_UIStroke3"] = Instance.new("UIStroke");
@@ -68,7 +68,7 @@ local Converted = {
 	["_DroppedGunBGUI"] = Instance.new("BillboardGui");
 	["_TextLabel3"] = Instance.new("TextLabel");
 	["_UIStroke4"] = Instance.new("UIStroke");
-	["_MurdererBGUI"] = Instance.new("BillboardGui");
+	["_AssassinoBGUI"] = Instance.new("BillboardGui");
 	["_TextLabel4"] = Instance.new("TextLabel");
 	["_UIStroke5"] = Instance.new("UIStroke");
 	["_DraggableObject"] = Instance.new("ModuleScript");
@@ -88,12 +88,12 @@ local Converted = {
 	["_UIGradient3"] = Instance.new("UIGradient");
 	["_UIStroke7"] = Instance.new("UIStroke");
 	["_UIGradient4"] = Instance.new("UIGradient");
-	["_AddCustomModule1"] = Instance.new("TextButton");
+	["_AdicionarCustomModule1"] = Instance.new("TextButton");
 	["_UICorner12"] = Instance.new("UICorner");
 	["_UIPadding9"] = Instance.new("UIPadding");
 	["_UIStroke8"] = Instance.new("UIStroke");
 	["_LocalScript2"] = Instance.new("LocalScript");
-	["_Close"] = Instance.new("TextButton");
+	["_Fechar"] = Instance.new("TextButton");
 	["_UICorner13"] = Instance.new("UICorner");
 	["_LocalScript3"] = Instance.new("LocalScript");
 	["_UIStroke9"] = Instance.new("UIStroke");
@@ -110,10 +110,10 @@ local Converted = {
 	["_TextLabel6"] = Instance.new("TextLabel");
 	["_TextLabel7"] = Instance.new("TextLabel");
 	["_UIGradient5"] = Instance.new("UIGradient");
-	["_CloseArea"] = Instance.new("TextButton");
+	["_FecharArea"] = Instance.new("TextButton");
 	["_Frame"] = Instance.new("Frame");
 	["_UICorner15"] = Instance.new("UICorner");
-	["_CloseOpen"] = Instance.new("LocalScript");
+	["_FecharOpen"] = Instance.new("LocalScript");
 	["_TextLabel8"] = Instance.new("TextLabel");
 	["_UICorner16"] = Instance.new("UICorner");
 	["_AllowForSpring"] = Instance.new("BindableEvent");
@@ -181,7 +181,7 @@ local Converted = {
 	["_ImageLabel2"] = Instance.new("ImageLabel");
 	["_TextLabel11"] = Instance.new("TextLabel");
 	["_UITextSizeConstraint1"] = Instance.new("UITextSizeConstraint");
-	["_Close1"] = Instance.new("ImageButton");
+	["_Fechar1"] = Instance.new("ImageButton");
 	["_UICorner27"] = Instance.new("UICorner");
 	["_UIStroke14"] = Instance.new("UIStroke");
 	["_UIScale3"] = Instance.new("UIScale");
@@ -198,7 +198,7 @@ Converted["_LucSky"].Name = "LucSky"
 Converted["_LucSky"].Parent = game:GetService("CoreGui")
 
 Converted["_Open"].Font = Enum.Font.Gotham
-Converted["_Open"].Text = "Triple-click this region to open LucSky."
+Converted["_Open"].Text = "Clique três vezes nesta área para abrir o LucSky."
 Converted["_Open"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Open"].TextScaled = true
 Converted["_Open"].TextSize = 14
@@ -336,7 +336,7 @@ Converted["_TextBox"].Parent = Converted["_TextBoxPlaceholder"]
 Converted["_UICorner4"].Parent = Converted["_TextBox"]
 
 Converted["_FloatingButton"].Font = Enum.Font.Unknown
-Converted["_FloatingButton"].Text = "Shoot into murderer"
+Converted["_FloatingButton"].Text = "Atirar no assassino"
 Converted["_FloatingButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_FloatingButton"].TextScaled = true
 Converted["_FloatingButton"].TextSize = 14
@@ -374,22 +374,22 @@ Converted["_FloatingButtons"].ZIndex = 3
 Converted["_FloatingButtons"].Name = "FloatingButtons"
 Converted["_FloatingButtons"].Parent = Converted["_LucSky"]
 
-Converted["_AddCustomModule"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_AddCustomModule"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_AddCustomModule"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_AddCustomModule"].BorderSizePixel = 0
-Converted["_AddCustomModule"].ClipsDescendants = true
-Converted["_AddCustomModule"].Position = UDim2.new(0.5, 0, -0.5, 0)
-Converted["_AddCustomModule"].Size = UDim2.new(0, 440, 0, 268)
-Converted["_AddCustomModule"].ZIndex = 3
-Converted["_AddCustomModule"].Name = "AddCustomModule"
-Converted["_AddCustomModule"].Parent = Converted["_LucSky"]
+Converted["_AdicionarCustomModule"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_AdicionarCustomModule"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_AdicionarCustomModule"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_AdicionarCustomModule"].BorderSizePixel = 0
+Converted["_AdicionarCustomModule"].ClipsDescendants = true
+Converted["_AdicionarCustomModule"].Position = UDim2.new(0.5, 0, -0.5, 0)
+Converted["_AdicionarCustomModule"].Size = UDim2.new(0, 440, 0, 268)
+Converted["_AdicionarCustomModule"].ZIndex = 3
+Converted["_AdicionarCustomModule"].Name = "AdicionarCustomModule"
+Converted["_AdicionarCustomModule"].Parent = Converted["_LucSky"]
 
-Converted["_UICorner6"].Parent = Converted["_AddCustomModule"]
+Converted["_UICorner6"].Parent = Converted["_AdicionarCustomModule"]
 
 Converted["_UIStroke1"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke1"].Thickness = 2
-Converted["_UIStroke1"].Parent = Converted["_AddCustomModule"]
+Converted["_UIStroke1"].Parent = Converted["_AdicionarCustomModule"]
 
 Converted["_UIGradient"].Color = ColorSequence.new{
 	ColorSequenceKeypoint.new(0, Color3.fromRGB(53.00000064074993, 53.00000064074993, 53.00000064074993)),
@@ -406,12 +406,12 @@ Converted["_UIGradient1"].Color = ColorSequence.new{
 	ColorSequenceKeypoint.new(1, Color3.fromRGB(68.00000354647636, 68.00000354647636, 68.00000354647636))
 }
 Converted["_UIGradient1"].Rotation = 68
-Converted["_UIGradient1"].Parent = Converted["_AddCustomModule"]
+Converted["_UIGradient1"].Parent = Converted["_AdicionarCustomModule"]
 
-Converted["_UIScale"].Parent = Converted["_AddCustomModule"]
+Converted["_UIScale"].Parent = Converted["_AdicionarCustomModule"]
 
 Converted["_TextLabel1"].Font = Enum.Font.Gotham
-Converted["_TextLabel1"].Text = "Add a module"
+Converted["_TextLabel1"].Text = "Adicionar um módulo"
 Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel1"].TextScaled = true
 Converted["_TextLabel1"].TextSize = 14
@@ -423,7 +423,7 @@ Converted["_TextLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel1"].BorderSizePixel = 0
 Converted["_TextLabel1"].Position = UDim2.new(0.352256238, 0, 0.133915231, 0)
 Converted["_TextLabel1"].Size = UDim2.new(0.619047642, 0, 0.125920027, 0)
-Converted["_TextLabel1"].Parent = Converted["_AddCustomModule"]
+Converted["_TextLabel1"].Parent = Converted["_AdicionarCustomModule"]
 
 Converted["_TextBox1"].ClearTextOnFocus = false
 Converted["_TextBox1"].Font = Enum.Font.Gotham
@@ -439,7 +439,7 @@ Converted["_TextBox1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextBox1"].BorderSizePixel = 0
 Converted["_TextBox1"].Position = UDim2.new(0.499648541, 0, 0.500059664, 0)
 Converted["_TextBox1"].Size = UDim2.new(0.804988742, 0, 0.544776142, 0)
-Converted["_TextBox1"].Parent = Converted["_AddCustomModule"]
+Converted["_TextBox1"].Parent = Converted["_AdicionarCustomModule"]
 
 Converted["_UICorner7"].Parent = Converted["_TextBox1"]
 
@@ -450,7 +450,7 @@ Converted["_UIPadding4"].PaddingTop = UDim.new(0, 10)
 Converted["_UIPadding4"].Parent = Converted["_TextBox1"]
 
 Converted["_TextLabel2"].Font = Enum.Font.Gotham
-Converted["_TextLabel2"].Text = "Only add modules you trust!"
+Converted["_TextLabel2"].Text = "Adicione apenas módulos confiáveis!"
 Converted["_TextLabel2"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel2"].TextScaled = true
 Converted["_TextLabel2"].TextSize = 14
@@ -462,61 +462,61 @@ Converted["_TextLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel2"].BorderSizePixel = 0
 Converted["_TextLabel2"].Position = UDim2.new(0.499648541, 0, 0.833542168, 0)
 Converted["_TextLabel2"].Size = UDim2.new(0.619047642, 0, 0.0550245307, 0)
-Converted["_TextLabel2"].Parent = Converted["_AddCustomModule"]
+Converted["_TextLabel2"].Parent = Converted["_AdicionarCustomModule"]
 
-Converted["_Add"].Font = Enum.Font.Gotham
-Converted["_Add"].Text = "Add"
-Converted["_Add"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Add"].TextScaled = true
-Converted["_Add"].TextSize = 14
-Converted["_Add"].TextWrapped = true
-Converted["_Add"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_Add"].BackgroundColor3 = Color3.fromRGB(50.00000461935997, 50.00000461935997, 50.00000461935997)
-Converted["_Add"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Add"].BorderSizePixel = 0
-Converted["_Add"].Position = UDim2.new(0.108492024, 0, 0.927298486, 0)
-Converted["_Add"].Size = UDim2.new(0.163265288, 0, 0.0858208984, 0)
-Converted["_Add"].Name = "Add"
-Converted["_Add"].Parent = Converted["_AddCustomModule"]
+Converted["_Adicionar"].Font = Enum.Font.Gotham
+Converted["_Adicionar"].Text = "Adicionar"
+Converted["_Adicionar"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Adicionar"].TextScaled = true
+Converted["_Adicionar"].TextSize = 14
+Converted["_Adicionar"].TextWrapped = true
+Converted["_Adicionar"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Adicionar"].BackgroundColor3 = Color3.fromRGB(50.00000461935997, 50.00000461935997, 50.00000461935997)
+Converted["_Adicionar"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Adicionar"].BorderSizePixel = 0
+Converted["_Adicionar"].Position = UDim2.new(0.108492024, 0, 0.927298486, 0)
+Converted["_Adicionar"].Size = UDim2.new(0.163265288, 0, 0.0858208984, 0)
+Converted["_Adicionar"].Name = "Adicionar"
+Converted["_Adicionar"].Parent = Converted["_AdicionarCustomModule"]
 
-Converted["_UICorner8"].Parent = Converted["_Add"]
+Converted["_UICorner8"].Parent = Converted["_Adicionar"]
 
 Converted["_UIPadding5"].PaddingBottom = UDim.new(0, 5)
 Converted["_UIPadding5"].PaddingLeft = UDim.new(0, 5)
 Converted["_UIPadding5"].PaddingRight = UDim.new(0, 5)
 Converted["_UIPadding5"].PaddingTop = UDim.new(0, 5)
-Converted["_UIPadding5"].Parent = Converted["_Add"]
+Converted["_UIPadding5"].Parent = Converted["_Adicionar"]
 
 Converted["_UIStroke2"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 Converted["_UIStroke2"].Color = Color3.fromRGB(255, 255, 255)
-Converted["_UIStroke2"].Parent = Converted["_Add"]
+Converted["_UIStroke2"].Parent = Converted["_Adicionar"]
 
-Converted["_Cancel"].Font = Enum.Font.Gotham
-Converted["_Cancel"].Text = "Cancel"
-Converted["_Cancel"].TextColor3 = Color3.fromRGB(255, 0, 0)
-Converted["_Cancel"].TextScaled = true
-Converted["_Cancel"].TextSize = 14
-Converted["_Cancel"].TextWrapped = true
-Converted["_Cancel"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_Cancel"].BackgroundColor3 = Color3.fromRGB(50.00000461935997, 50.00000461935997, 50.00000461935997)
-Converted["_Cancel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Cancel"].BorderSizePixel = 0
-Converted["_Cancel"].Position = UDim2.new(0.899875283, 0, 0.931029797, 0)
-Converted["_Cancel"].Size = UDim2.new(0.163265288, 0, 0.0858208984, 0)
-Converted["_Cancel"].Name = "Cancel"
-Converted["_Cancel"].Parent = Converted["_AddCustomModule"]
+Converted["_Cancelar"].Font = Enum.Font.Gotham
+Converted["_Cancelar"].Text = "Cancelar"
+Converted["_Cancelar"].TextColor3 = Color3.fromRGB(255, 0, 0)
+Converted["_Cancelar"].TextScaled = true
+Converted["_Cancelar"].TextSize = 14
+Converted["_Cancelar"].TextWrapped = true
+Converted["_Cancelar"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Cancelar"].BackgroundColor3 = Color3.fromRGB(50.00000461935997, 50.00000461935997, 50.00000461935997)
+Converted["_Cancelar"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Cancelar"].BorderSizePixel = 0
+Converted["_Cancelar"].Position = UDim2.new(0.899875283, 0, 0.931029797, 0)
+Converted["_Cancelar"].Size = UDim2.new(0.163265288, 0, 0.0858208984, 0)
+Converted["_Cancelar"].Name = "Cancelar"
+Converted["_Cancelar"].Parent = Converted["_AdicionarCustomModule"]
 
-Converted["_UICorner9"].Parent = Converted["_Cancel"]
+Converted["_UICorner9"].Parent = Converted["_Cancelar"]
 
 Converted["_UIPadding6"].PaddingBottom = UDim.new(0, 5)
 Converted["_UIPadding6"].PaddingLeft = UDim.new(0, 5)
 Converted["_UIPadding6"].PaddingRight = UDim.new(0, 5)
 Converted["_UIPadding6"].PaddingTop = UDim.new(0, 5)
-Converted["_UIPadding6"].Parent = Converted["_Cancel"]
+Converted["_UIPadding6"].Parent = Converted["_Cancelar"]
 
 Converted["_UIStroke3"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 Converted["_UIStroke3"].Color = Color3.fromRGB(255, 0, 0)
-Converted["_UIStroke3"].Parent = Converted["_Cancel"]
+Converted["_UIStroke3"].Parent = Converted["_Cancelar"]
 
 Converted["_DroppedGunBGUI"].Active = true
 Converted["_DroppedGunBGUI"].AlwaysOnTop = true
@@ -528,7 +528,7 @@ Converted["_DroppedGunBGUI"].Name = "DroppedGunBGUI"
 Converted["_DroppedGunBGUI"].Parent = Converted["_LucSky"]
 
 Converted["_TextLabel3"].Font = Enum.Font.SourceSansBold
-Converted["_TextLabel3"].Text = "Dropped Gun!"
+Converted["_TextLabel3"].Text = "Arma Derrubada!"
 Converted["_TextLabel3"].TextColor3 = Color3.fromRGB(255, 225.00001698732376, 0)
 Converted["_TextLabel3"].TextScaled = true
 Converted["_TextLabel3"].TextSize = 14
@@ -544,19 +544,19 @@ Converted["_TextLabel3"].Parent = Converted["_DroppedGunBGUI"]
 
 Converted["_UIStroke4"].Parent = Converted["_TextLabel3"]
 
-Converted["_MurdererBGUI"].Active = true
-Converted["_MurdererBGUI"].AlwaysOnTop = true
-Converted["_MurdererBGUI"].ClipsDescendants = true
-Converted["_MurdererBGUI"].MaxDistance = 99999
-Converted["_MurdererBGUI"].Size = UDim2.new(0, 70, 0, 70)
-Converted["_MurdererBGUI"].StudsOffset = Vector3.new(0, 2, 2)
-Converted["_MurdererBGUI"].Enabled = false
-Converted["_MurdererBGUI"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-Converted["_MurdererBGUI"].Name = "MurdererBGUI"
-Converted["_MurdererBGUI"].Parent = Converted["_LucSky"]
+Converted["_AssassinoBGUI"].Active = true
+Converted["_AssassinoBGUI"].AlwaysOnTop = true
+Converted["_AssassinoBGUI"].ClipsDescendants = true
+Converted["_AssassinoBGUI"].MaxDistance = 99999
+Converted["_AssassinoBGUI"].Size = UDim2.new(0, 70, 0, 70)
+Converted["_AssassinoBGUI"].StudsOffset = Vector3.new(0, 2, 2)
+Converted["_AssassinoBGUI"].Enabled = false
+Converted["_AssassinoBGUI"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_AssassinoBGUI"].Name = "AssassinoBGUI"
+Converted["_AssassinoBGUI"].Parent = Converted["_LucSky"]
 
 Converted["_TextLabel4"].Font = Enum.Font.SourceSansBold
-Converted["_TextLabel4"].Text = "Murderer"
+Converted["_TextLabel4"].Text = "Assassino"
 Converted["_TextLabel4"].TextColor3 = Color3.fromRGB(255, 0, 4.000000236555934)
 Converted["_TextLabel4"].TextScaled = true
 Converted["_TextLabel4"].TextSize = 14
@@ -568,7 +568,7 @@ Converted["_TextLabel4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel4"].BorderSizePixel = 0
 Converted["_TextLabel4"].Position = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_TextLabel4"].Size = UDim2.new(1, 0, 1, 0)
-Converted["_TextLabel4"].Parent = Converted["_MurdererBGUI"]
+Converted["_TextLabel4"].Parent = Converted["_AssassinoBGUI"]
 
 Converted["_UIStroke5"].Parent = Converted["_TextLabel4"]
 
@@ -657,55 +657,55 @@ Converted["_UIGradient4"].Color = ColorSequence.new{
 Converted["_UIGradient4"].Rotation = -44
 Converted["_UIGradient4"].Parent = Converted["_UIStroke7"]
 
-Converted["_AddCustomModule1"].Font = Enum.Font.Gotham
-Converted["_AddCustomModule1"].Text = "Add module"
-Converted["_AddCustomModule1"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_AddCustomModule1"].TextScaled = true
-Converted["_AddCustomModule1"].TextSize = 14
-Converted["_AddCustomModule1"].TextWrapped = true
-Converted["_AddCustomModule1"].AnchorPoint = Vector2.new(0.5, 1)
-Converted["_AddCustomModule1"].BackgroundColor3 = Color3.fromRGB(50.00000461935997, 50.00000461935997, 50.00000461935997)
-Converted["_AddCustomModule1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_AddCustomModule1"].BorderSizePixel = 0
-Converted["_AddCustomModule1"].Position = UDim2.new(0.5, 0, 1, 0)
-Converted["_AddCustomModule1"].Size = UDim2.new(1, 0, 0, 30)
-Converted["_AddCustomModule1"].Name = "AddCustomModule"
-Converted["_AddCustomModule1"].Parent = Converted["_List"]
+Converted["_AdicionarCustomModule1"].Font = Enum.Font.Gotham
+Converted["_AdicionarCustomModule1"].Text = "Adicionar module"
+Converted["_AdicionarCustomModule1"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_AdicionarCustomModule1"].TextScaled = true
+Converted["_AdicionarCustomModule1"].TextSize = 14
+Converted["_AdicionarCustomModule1"].TextWrapped = true
+Converted["_AdicionarCustomModule1"].AnchorPoint = Vector2.new(0.5, 1)
+Converted["_AdicionarCustomModule1"].BackgroundColor3 = Color3.fromRGB(50.00000461935997, 50.00000461935997, 50.00000461935997)
+Converted["_AdicionarCustomModule1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_AdicionarCustomModule1"].BorderSizePixel = 0
+Converted["_AdicionarCustomModule1"].Position = UDim2.new(0.5, 0, 1, 0)
+Converted["_AdicionarCustomModule1"].Size = UDim2.new(1, 0, 0, 30)
+Converted["_AdicionarCustomModule1"].Name = "AdicionarCustomModule"
+Converted["_AdicionarCustomModule1"].Parent = Converted["_List"]
 
-Converted["_UICorner12"].Parent = Converted["_AddCustomModule1"]
+Converted["_UICorner12"].Parent = Converted["_AdicionarCustomModule1"]
 
 Converted["_UIPadding9"].PaddingBottom = UDim.new(0, 5)
 Converted["_UIPadding9"].PaddingLeft = UDim.new(0, 5)
 Converted["_UIPadding9"].PaddingRight = UDim.new(0, 5)
 Converted["_UIPadding9"].PaddingTop = UDim.new(0, 5)
-Converted["_UIPadding9"].Parent = Converted["_AddCustomModule1"]
+Converted["_UIPadding9"].Parent = Converted["_AdicionarCustomModule1"]
 
 Converted["_UIStroke8"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 Converted["_UIStroke8"].Color = Color3.fromRGB(255, 255, 255)
-Converted["_UIStroke8"].Parent = Converted["_AddCustomModule1"]
+Converted["_UIStroke8"].Parent = Converted["_AdicionarCustomModule1"]
 
-Converted["_Close"].Font = Enum.Font.GothamBold
-Converted["_Close"].Text = "Close"
-Converted["_Close"].TextColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Close"].TextSize = 14
-Converted["_Close"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_Close"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Close"].BackgroundTransparency = 0.30000001192092896
-Converted["_Close"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Close"].BorderSizePixel = 0
-Converted["_Close"].Position = UDim2.new(0.914614439, 0, 0.914238751, 0)
-Converted["_Close"].Size = UDim2.new(0.133786857, 0, 0.111940302, 0)
-Converted["_Close"].Visible = false
-Converted["_Close"].ZIndex = 999999999
-Converted["_Close"].Name = "Close"
-Converted["_Close"].Parent = Converted["_Menu"]
+Converted["_Fechar"].Font = Enum.Font.GothamBold
+Converted["_Fechar"].Text = "Fechar"
+Converted["_Fechar"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Fechar"].TextSize = 14
+Converted["_Fechar"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Fechar"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Fechar"].BackgroundTransparency = 0.30000001192092896
+Converted["_Fechar"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Fechar"].BorderSizePixel = 0
+Converted["_Fechar"].Position = UDim2.new(0.914614439, 0, 0.914238751, 0)
+Converted["_Fechar"].Size = UDim2.new(0.133786857, 0, 0.111940302, 0)
+Converted["_Fechar"].Visible = false
+Converted["_Fechar"].ZIndex = 999999999
+Converted["_Fechar"].Name = "Fechar"
+Converted["_Fechar"].Parent = Converted["_Menu"]
 
-Converted["_UICorner13"].Parent = Converted["_Close"]
+Converted["_UICorner13"].Parent = Converted["_Fechar"]
 
-Converted["_UIStroke9"].Parent = Converted["_Close"]
+Converted["_UIStroke9"].Parent = Converted["_Fechar"]
 
 Converted["_HubCredits"].Font = Enum.Font.GothamBold
-Converted["_HubCredits"].Text = "made and open sourced by imperial"
+Converted["_HubCredits"].Text = "criado e disponibilizado por imperial"
 Converted["_HubCredits"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_HubCredits"].TextScaled = true
 Converted["_HubCredits"].TextSize = 14
@@ -723,7 +723,7 @@ Converted["_HubCredits"].Name = "HubCredits"
 Converted["_HubCredits"].Parent = Converted["_Menu"]
 
 Converted["_HubDesc"].Font = Enum.Font.GothamBold
-Converted["_HubDesc"].Text = "yet another random hub menu"
+Converted["_HubDesc"].Text = "mais um menu de hub aleatório"
 Converted["_HubDesc"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_HubDesc"].TextSize = 14
 Converted["_HubDesc"].TextWrapped = true
@@ -793,7 +793,7 @@ Converted["_Opener"].Name = "Opener"
 Converted["_Opener"].Parent = Converted["_CanvasGroup"]
 
 Converted["_TextLabel5"].Font = Enum.Font.GothamBold
-Converted["_TextLabel5"].Text = "Yet Another Random Hub Menu"
+Converted["_TextLabel5"].Text = "Mais um Menu de Hub Aleatório"
 Converted["_TextLabel5"].TextColor3 = Color3.fromRGB(255, 69.00000348687172, 67.00000360608101)
 Converted["_TextLabel5"].TextScaled = true
 Converted["_TextLabel5"].TextSize = 14
@@ -833,7 +833,7 @@ Converted["_Area1"].Name = "Area"
 Converted["_Area1"].Parent = Converted["_Area"]
 
 Converted["_TextLabel6"].Font = Enum.Font.GothamBold
-Converted["_TextLabel6"].Text = "happy spooky season"
+Converted["_TextLabel6"].Text = "feliz temporada assustadora"
 Converted["_TextLabel6"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel6"].TextSize = 14
 Converted["_TextLabel6"].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -867,16 +867,16 @@ Converted["_UIGradient5"].Color = ColorSequence.new{
 Converted["_UIGradient5"].Rotation = 68
 Converted["_UIGradient5"].Parent = Converted["_Menu"]
 
-Converted["_CloseArea"].Text = ""
-Converted["_CloseArea"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_CloseArea"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_CloseArea"].BackgroundTransparency = 1
-Converted["_CloseArea"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_CloseArea"].BorderSizePixel = 0
-Converted["_CloseArea"].Position = UDim2.new(0.5, 0, 0.00295135868, 0)
-Converted["_CloseArea"].Size = UDim2.new(0.326999992, 0, 0.184, 0)
-Converted["_CloseArea"].Name = "CloseArea"
-Converted["_CloseArea"].Parent = Converted["_Menu"]
+Converted["_FecharArea"].Text = ""
+Converted["_FecharArea"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_FecharArea"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_FecharArea"].BackgroundTransparency = 1
+Converted["_FecharArea"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_FecharArea"].BorderSizePixel = 0
+Converted["_FecharArea"].Position = UDim2.new(0.5, 0, 0.00295135868, 0)
+Converted["_FecharArea"].Size = UDim2.new(0.326999992, 0, 0.184, 0)
+Converted["_FecharArea"].Name = "FecharArea"
+Converted["_FecharArea"].Parent = Converted["_Menu"]
 
 Converted["_Frame"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -885,13 +885,13 @@ Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Frame"].BorderSizePixel = 0
 Converted["_Frame"].Position = UDim2.new(0.5, 0, 0.699999988, 0)
 Converted["_Frame"].Size = UDim2.new(0.699999988, 0, 0.100000001, 0)
-Converted["_Frame"].Parent = Converted["_CloseArea"]
+Converted["_Frame"].Parent = Converted["_FecharArea"]
 
 Converted["_UICorner15"].CornerRadius = UDim.new(0, 9999)
 Converted["_UICorner15"].Parent = Converted["_Frame"]
 
 Converted["_TextLabel8"].Font = Enum.Font.Gotham
-Converted["_TextLabel8"].Text = "Tap here to minimize."
+Converted["_TextLabel8"].Text = "Toque aqui para minimizar."
 Converted["_TextLabel8"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel8"].TextSize = 15
 Converted["_TextLabel8"].TextWrapped = true
@@ -902,12 +902,12 @@ Converted["_TextLabel8"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel8"].BorderSizePixel = 0
 Converted["_TextLabel8"].Position = UDim2.new(0.5, 0, 0.680000007, 0)
 Converted["_TextLabel8"].Size = UDim2.new(1.39999998, 0, 0.740999997, 0)
-Converted["_TextLabel8"].Parent = Converted["_CloseArea"]
+Converted["_TextLabel8"].Parent = Converted["_FecharArea"]
 
 Converted["_UICorner16"].Parent = Converted["_TextLabel8"]
 
 Converted["_AllowForSpring"].Name = "AllowForSpring"
-Converted["_AllowForSpring"].Parent = Converted["_CloseArea"]
+Converted["_AllowForSpring"].Parent = Converted["_FecharArea"]
 
 Converted["_Toggle"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Toggle"].BackgroundTransparency = 1
@@ -919,7 +919,7 @@ Converted["_Toggle"].Name = "Toggle"
 Converted["_Toggle"].Parent = Converted["_LucSky"]
 
 Converted["_TextLabel9"].Font = Enum.Font.Unknown
-Converted["_TextLabel9"].Text = "Loop walkspeed and FOV"
+Converted["_TextLabel9"].Text = "Loop de velocidade de movimento e FOV"
 Converted["_TextLabel9"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel9"].TextScaled = true
 Converted["_TextLabel9"].TextSize = 14
@@ -1035,7 +1035,7 @@ Converted["_UIListLayout4"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIListLayout4"].Parent = Converted["_ScrollingFrame1"]
 
 Converted["_Sample"].Font = Enum.Font.Unknown
-Converted["_Sample"].Text = "This can fit a lot of text, probably."
+Converted["_Sample"].Text = "Isso pode conter muito texto, provavelmente."
 Converted["_Sample"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Sample"].TextScaled = true
 Converted["_Sample"].TextSize = 14
@@ -1072,7 +1072,7 @@ Converted["_Range"].Name = "Range"
 Converted["_Range"].Parent = Converted["_LucSky"]
 
 Converted["_TextLabel10"].Font = Enum.Font.Unknown
-Converted["_TextLabel10"].Text = "How many #### I give"
+Converted["_TextLabel10"].Text = "Quantos %% eu me importo"
 Converted["_TextLabel10"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel10"].TextScaled = true
 Converted["_TextLabel10"].TextSize = 14
@@ -1320,24 +1320,24 @@ Converted["_TextLabel11"].Parent = Converted["_NotificationSample"]
 Converted["_UITextSizeConstraint1"].MaxTextSize = 30
 Converted["_UITextSizeConstraint1"].Parent = Converted["_TextLabel11"]
 
-Converted["_Close1"].Image = "rbxassetid://10002373478"
-Converted["_Close1"].ScaleType = Enum.ScaleType.Fit
-Converted["_Close1"].Active = false
-Converted["_Close1"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_Close1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Close1"].BackgroundTransparency = 1
-Converted["_Close1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Close1"].BorderSizePixel = 0
-Converted["_Close1"].Position = UDim2.new(0.899999976, 0, 0.5, 0)
-Converted["_Close1"].Selectable = false
-Converted["_Close1"].Size = UDim2.new(0.0799999982, 0, 0.639999986, 0)
-Converted["_Close1"].Name = "Close"
-Converted["_Close1"].Parent = Converted["_NotificationSample"]
+Converted["_Fechar1"].Image = "rbxassetid://10002373478"
+Converted["_Fechar1"].ScaleType = Enum.ScaleType.Fit
+Converted["_Fechar1"].Active = false
+Converted["_Fechar1"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Fechar1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Fechar1"].BackgroundTransparency = 1
+Converted["_Fechar1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Fechar1"].BorderSizePixel = 0
+Converted["_Fechar1"].Position = UDim2.new(0.899999976, 0, 0.5, 0)
+Converted["_Fechar1"].Selectable = false
+Converted["_Fechar1"].Size = UDim2.new(0.0799999982, 0, 0.639999986, 0)
+Converted["_Fechar1"].Name = "Fechar"
+Converted["_Fechar1"].Parent = Converted["_NotificationSample"]
 
-Converted["_UICorner27"].Parent = Converted["_Close1"]
+Converted["_UICorner27"].Parent = Converted["_Fechar1"]
 
 Converted["_UIStroke14"].Color = Color3.fromRGB(255, 255, 255)
-Converted["_UIStroke14"].Parent = Converted["_Close1"]
+Converted["_UIStroke14"].Parent = Converted["_Fechar1"]
 
 Converted["_UIScale3"].Scale = 0.800000011920929
 Converted["_UIScale3"].Parent = Converted["_NotificationSample"]
@@ -1442,7 +1442,7 @@ do -- Fake Module: StarterGui.LucSky.FUNCTIONS
 					MaxVisibleGraphemes = #s
 				}):Play()
 				
-				notif.Close.MouseButton1Click:Connect(function()
+				notif.Fechar.MouseButton1Click:Connect(function()
 					notif:SetAttribute("close", true)
 				end)
 				
@@ -1951,7 +1951,7 @@ do -- Fake Module: StarterGui.LucSky.Spring
     script.Name = "Spring"
     script.Parent = Converted["_LucSky"]
     local function module_script()
-		local a=game:GetService("RunService")local b={}function OverDamping(c,d,e,f,g,h)local i=d*d-4*e/c;local j=-1/2;local k=d+math.sqrt(i)local l=d-math.sqrt(i)local m,n=j*k,j*l;local o,p=(n*f-g)/(n-m),(m*f-g)/(m-n)local q=h/e;return{Offset=function(r)return o*math.exp(m*r)+p*math.exp(n*r)+q end,Velocity=function(r)return o*m*math.exp(m*r)+p*n*math.exp(n*r)end,Acceleration=function(r)return o*m*m*math.exp(m*r)+p*n*n*math.exp(n*r)end}end;function CriticalDamping(c,d,e,f,g,h)local s=-d/2;local o,p=f,g-s*f;local q=h/e;return{Offset=function(r)return math.exp(s*r)*(o+p*r)+q end,Velocity=function(r)return math.exp(s*r)*(p*s*r+o*s+p)end,Acceleration=function(r)return s*math.exp(s*r)*(p*s*r+o*s+2*p)end}end;function UnderDamping(c,d,e,f,g,h)local i=d*d-4*e/c;local s=-d/2;local t=math.sqrt(-i)local o,p=f,(g-s*f)/t;local q=h/e;return{Offset=function(r)return math.exp(s*r)*(o*math.cos(t*r)+p*math.sin(t*r))+q end,Velocity=function(r)return-math.exp(s*r)*((o*t-p*s)*math.sin(t*r)+(-p*t-o*s)*math.cos(t*r))end,Acceleration=function(r)return-math.exp(s*r)*((p*t*t+2*o*s*t-p*s*s)*math.sin(t*r)+(o*t*t-2*p*s*t-o*s*s)*math.cos(t*r))end}end;function b.F(u)local f,g,h=u.InitialOffset,u.InitialVelocity,u.ExternalForce;local c,d,e=u.Mass,u.Damping,u.Constant;local i=d*d-4*e/c;if i>0 then return OverDamping(c,d,e,f,g,h)elseif i==0 then return CriticalDamping(c,d,e,f,g,h)else return UnderDamping(c,d,e,f,g,h)end end;local v=b;local w=math.sqrt;local x=math.pi;local y={OFFSET="Offset",VELOCITY="Velocity",ACCELERATION="Acceleration",GOAL="Goal",FREQUENCY="Frequency"}local z=[[.]]local A=[[.]]local u={}local B={}B.__index=function(self,C)local D={[y.OFFSET]=function()local r=tick()-self.StartTick;local E=self.F;local F=E.Offset(r)return F end,[y.VELOCITY]=function()local r=tick()-self.StartTick;local E=self.F;local G=E.Velocity(r)return G end,[y.ACCELERATION]=function()local r=tick()-self.StartTick;local E=self.F;local H=E.Acceleration(r)return H end,[y.GOAL]=function()local I=self.ExternalForce;local J=self.Constant;return I/J end,[y.FREQUENCY]=function()local K=self.Damping;local L=self.Constant;local M=self.Mass;return w(-K*K+4*L/M)/(2*x)end}local N=rawget(self,C)if N~=nil then return N end;local O=D[C]if O~=nil then return O()end;return B[C]end;B.__tostring=function(self)local r=tick()-self.StartTick;local E=self.F;local P=self.AdvancedObjectStringEnabled;local Q;if P==false then Q=string.format(z,E.Offset(r),E.Velocity(r),E.Acceleration(r))elseif P==true then Q=string.format(A,self.Mass,self.Damping,self.Constant,self.Goal,self.Frequency,self.InitialOffset,self.InitialVelocity,self.ExternalForce,self.StartTick,E.Offset(r),E.Velocity(r),E.Acceleration(r))end;return Q end;function u.new(M,K,L,f,g,R)assert(M>0,"Mass for spring system cannot be less than or equal to 0")assert(L>0,"Spring constant for spring system cannot be less than or equal to 0")f=f or 0;g=g or 0;R=R or 0;local S=R*L;local T={Mass=M,Damping=K,Constant=L,InitialOffset=f-R,InitialVelocity=g,ExternalForce=S,AdvancedObjectStringEnabled=false,StartTick=0}setmetatable(T,B)T:Reset()return T end;function u.fromFrequency(M,K,U,f,g,R)assert(M>0,"Mass for spring system cannot be less than or equal to 0")assert(U>0,"Spring frequency for spring system cannot be less than or equal to 0")local L=0.25*M*(4*x*x*U*U+K*K)f=f or 0;g=g or 0;R=R or 0;local S=R*L;local T={Mass=M,Damping=K,Constant=L,InitialOffset=f-R,InitialVelocity=g,ExternalForce=S,AdvancedObjectStringEnabled=false,StartTick=0}setmetatable(T,B)T:Reset()return T end;function B:Reset()self.F=v.F(self)self.StartTick=tick()end;function B:SetExternalForce(V)self.ExternalForce=V;self.InitialOffset=self.Offset-V/self.Constant;self.InitialVelocity=self.Velocity;self:Reset()end;function B:SetGoal(R)self.ExternalForce=R*self.Constant;self.InitialOffset=self.Offset-R;self.InitialVelocity=self.Velocity;self:Reset()end;function B:SetFrequency(U)self.Constant=0.25*self.Mass*(4*x*x*U*U+self.Damping*self.Damping)self.InitialOffset=self.Offset;self.InitialVelocity=self.Velocity;self:Reset()end;function B:SnapToCriticalDamping()self.Damping=2*w(self.Constant/self.Mass)self.InitialOffset=self.Offset;self.InitialVelocity=self.Velocity;self:Reset()end;function B:SetOffset(F,W)self.InitialOffset=F-self.Goal;self.InitialVelocity=W and 0 or self.Velocity;self:Reset()end;function B:AddOffset(F)self.InitialOffset=self.Offset+F;self.InitialVelocity=self.Velocity;self:Reset()end;function B:SetVelocity(G)self.InitialOffset=self.Offset;self.InitialVelocity=G;self:Reset()end;function B:AddVelocity(G)self.InitialOffset=self.Offset;self.InitialVelocity=self.Velocity+G;self:Reset()end;function B:Print()local X=tostring(self)print(X)end;return u
+		local a=game:GetService("RunService")local b={}function OverDamping(c,d,e,f,g,h)local i=d*d-4*e/c;local j=-1/2;local k=d+math.sqrt(i)local l=d-math.sqrt(i)local m,n=j*k,j*l;local o,p=(n*f-g)/(n-m),(m*f-g)/(m-n)local q=h/e;return{Offset=function(r)return o*math.exp(m*r)+p*math.exp(n*r)+q end,Velocity=function(r)return o*m*math.exp(m*r)+p*n*math.exp(n*r)end,Acceleration=function(r)return o*m*m*math.exp(m*r)+p*n*n*math.exp(n*r)end}end;function CriticalDamping(c,d,e,f,g,h)local s=-d/2;local o,p=f,g-s*f;local q=h/e;return{Offset=function(r)return math.exp(s*r)*(o+p*r)+q end,Velocity=function(r)return math.exp(s*r)*(p*s*r+o*s+p)end,Acceleration=function(r)return s*math.exp(s*r)*(p*s*r+o*s+2*p)end}end;function UnderDamping(c,d,e,f,g,h)local i=d*d-4*e/c;local s=-d/2;local t=math.sqrt(-i)local o,p=f,(g-s*f)/t;local q=h/e;return{Offset=function(r)return math.exp(s*r)*(o*math.cos(t*r)+p*math.sin(t*r))+q end,Velocity=function(r)return-math.exp(s*r)*((o*t-p*s)*math.sin(t*r)+(-p*t-o*s)*math.cos(t*r))end,Acceleration=function(r)return-math.exp(s*r)*((p*t*t+2*o*s*t-p*s*s)*math.sin(t*r)+(o*t*t-2*p*s*t-o*s*s)*math.cos(t*r))end}end;function b.F(u)local f,g,h=u.InitialOffset,u.InitialVelocity,u.ExternalForce;local c,d,e=u.Mass,u.Damping,u.Constant;local i=d*d-4*e/c;if i>0 then return OverDamping(c,d,e,f,g,h)elseif i==0 then return CriticalDamping(c,d,e,f,g,h)else return UnderDamping(c,d,e,f,g,h)end end;local v=b;local w=math.sqrt;local x=math.pi;local y={OFFSET="Offset",VELOCITY="Velocity",ACCELERATION="Acceleration",GOAL="Goal",FREQUENCY="Frequency"}local z=[[.]]local A=[[.]]local u={}local B={}B.__index=function(self,C)local D={[y.OFFSET]=function()local r=tick()-self.StartTick;local E=self.F;local F=E.Offset(r)return F end,[y.VELOCITY]=function()local r=tick()-self.StartTick;local E=self.F;local G=E.Velocity(r)return G end,[y.ACCELERATION]=function()local r=tick()-self.StartTick;local E=self.F;local H=E.Acceleration(r)return H end,[y.GOAL]=function()local I=self.ExternalForce;local J=self.Constant;return I/J end,[y.FREQUENCY]=function()local K=self.Damping;local L=self.Constant;local M=self.Mass;return w(-K*K+4*L/M)/(2*x)end}local N=rawget(self,C)if N~=nil then return N end;local O=D[C]if O~=nil then return O()end;return B[C]end;B.__tostring=function(self)local r=tick()-self.StartTick;local E=self.F;local P=self.AdvancedObjectStringEnabled;local Q;if P==false then Q=string.format(z,E.Offset(r),E.Velocity(r),E.Acceleration(r))elseif P==true then Q=string.format(A,self.Mass,self.Damping,self.Constant,self.Goal,self.Frequency,self.InitialOffset,self.InitialVelocity,self.ExternalForce,self.StartTick,E.Offset(r),E.Velocity(r),E.Acceleration(r))end;return Q end;function u.new(M,K,L,f,g,R)assert(M>0,"Mass for spring system cannot be less than or equal to 0")assert(L>0,"Spring constant for spring system cannot be less than or equal to 0")f=f or 0;g=g or 0;R=R or 0;local S=R*L;local T={Mass=M,Damping=K,Constant=L,InitialOffset=f-R,InitialVelocity=g,ExternalForce=S,AdvancedObjectStringEnabled=false,StartTick=0}setmetatable(T,B)T:Reset()return T end;function u.fromFrequency(M,K,U,f,g,R)assert(M>0,"Mass for spring system cannot be less than or equal to 0")assert(U>0,"Spring frequency for spring system cannot be less than or equal to 0")local L=0.25*M*(4*x*x*U*U+K*K)f=f or 0;g=g or 0;R=R or 0;local S=R*L;local T={Mass=M,Damping=K,Constant=L,InitialOffset=f-R,InitialVelocity=g,ExternalForce=S,AdvancedObjectStringEnabled=false,StartTick=0}setmetatable(T,B)T:Reset()return T end;function B:Reset()self.F=v.F(self)self.StartTick=tick()end;function B:SetExternalForce(V)self.ExternalForce=V;self.InitialOffset=self.Offset-V/self.Constant;self.InitialVelocity=self.Velocity;self:Reset()end;function B:SetGoal(R)self.ExternalForce=R*self.Constant;self.InitialOffset=self.Offset-R;self.InitialVelocity=self.Velocity;self:Reset()end;function B:SetFrequency(U)self.Constant=0.25*self.Mass*(4*x*x*U*U+self.Damping*self.Damping)self.InitialOffset=self.Offset;self.InitialVelocity=self.Velocity;self:Reset()end;function B:SnapToCriticalDamping()self.Damping=2*w(self.Constant/self.Mass)self.InitialOffset=self.Offset;self.InitialVelocity=self.Velocity;self:Reset()end;function B:SetOffset(F,W)self.InitialOffset=F-self.Goal;self.InitialVelocity=W and 0 or self.Velocity;self:Reset()end;function B:AdicionarOffset(F)self.InitialOffset=self.Offset+F;self.InitialVelocity=self.Velocity;self:Reset()end;function B:SetVelocity(G)self.InitialOffset=self.Offset;self.InitialVelocity=G;self:Reset()end;function B:AdicionarVelocity(G)self.InitialOffset=self.Offset;self.InitialVelocity=self.Velocity+G;self:Reset()end;function B:Print()local X=tostring(self)print(X)end;return u
     end
     fake_module_scripts[script] = module_script
 end
@@ -2218,7 +2218,7 @@ local function VXLACE_fake_script() -- Fake Script: StarterGui.LucSky.Init
 	script.Parent.Menu.CanvasGroup.ImageLabel.Visible = true
 	script.Parent.Menu.CanvasGroup.Interactable = true
 	
-	script.Parent.Menu.CloseArea.AllowForSpring:Fire()
+	script.Parent.Menu.FecharArea.AllowForSpring:Fire()
 end
 local function JGXWB_fake_script() -- Fake Script: StarterGui.LucSky.FloatingButton.Keybinding
     local script = Instance.new("LocalScript")
@@ -2285,10 +2285,10 @@ local function MGTT_fake_script() -- Fake Script: StarterGui.LucSky.FloatingButt
 	--	holding = false
 	--end)
 end
-local function TKTMNY_fake_script() -- Fake Script: StarterGui.LucSky.AddCustomModule.Add.LocalScript
+local function TKTMNY_fake_script() -- Fake Script: StarterGui.LucSky.AdicionarCustomModule.Adicionar.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
-    script.Parent = Converted["_Add"]
+    script.Parent = Converted["_Adicionar"]
     local req = require
     local require = function(obj)
         local fake = fake_module_scripts[obj]
@@ -2326,10 +2326,10 @@ local function TKTMNY_fake_script() -- Fake Script: StarterGui.LucSky.AddCustomM
 		end
 	end)
 end
-local function ZNJPL_fake_script() -- Fake Script: StarterGui.LucSky.AddCustomModule.Cancel.LocalScript
+local function ZNJPL_fake_script() -- Fake Script: StarterGui.LucSky.AdicionarCustomModule.Cancelar.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
-    script.Parent = Converted["_Cancel"]
+    script.Parent = Converted["_Cancelar"]
     local req = require
     local require = function(obj)
         local fake = fake_module_scripts[obj]
@@ -2425,10 +2425,10 @@ local function PCGAKG_fake_script() -- Fake Script: StarterGui.LucSky.Menu.List.
 		end
 	end)
 end
-local function HXNHH_fake_script() -- Fake Script: StarterGui.LucSky.Menu.List.AddCustomModule.LocalScript
+local function HXNHH_fake_script() -- Fake Script: StarterGui.LucSky.Menu.List.AdicionarCustomModule.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
-    script.Parent = Converted["_AddCustomModule1"]
+    script.Parent = Converted["_AdicionarCustomModule1"]
     local req = require
     local require = function(obj)
         local fake = fake_module_scripts[obj]
@@ -2444,15 +2444,15 @@ local function HXNHH_fake_script() -- Fake Script: StarterGui.LucSky.Menu.List.A
 		ts:Create(script.Parent.Parent.UIScale, TweenInfo.new(0.6, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
 			Scale = 0.9
 		}):Play()
-		ts:Create(script.Parent.Parent.Parent.AddCustomModule, TweenInfo.new(0.6, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+		ts:Create(script.Parent.Parent.Parent.AdicionarCustomModule, TweenInfo.new(0.6, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
 			Position = UDim2.fromScale(0.5, 0.5)
 		}):Play()
 	end)
 end
-local function DGSNCYE_fake_script() -- Fake Script: StarterGui.LucSky.Menu.Close.LocalScript
+local function DGSNCYE_fake_script() -- Fake Script: StarterGui.LucSky.Menu.Fechar.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
-    script.Parent = Converted["_Close"]
+    script.Parent = Converted["_Fechar"]
     local req = require
     local require = function(obj)
         local fake = fake_module_scripts[obj]
@@ -2475,10 +2475,10 @@ local function DGSNCYE_fake_script() -- Fake Script: StarterGui.LucSky.Menu.Clos
 		}):Play()
 	end)
 end
-local function BVLUONR_fake_script() -- Fake Script: StarterGui.LucSky.Menu.CloseArea.CloseOpen
+local function BVLUONR_fake_script() -- Fake Script: StarterGui.LucSky.Menu.FecharArea.FecharOpen
     local script = Instance.new("LocalScript")
-    script.Name = "CloseOpen"
-    script.Parent = Converted["_CloseArea"]
+    script.Name = "FecharOpen"
+    script.Parent = Converted["_FecharArea"]
     local req = require
     local require = function(obj)
         local fake = fake_module_scripts[obj]
@@ -2992,7 +2992,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 	
 	local claimedCoins = {}
 	
-	local function findMurderer()
+	local function findAssassino()
 
 
 		-- Fallback
@@ -3011,7 +3011,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 
 		if playerData then
 			for player, data in playerData do
-				if data.Role == "Murderer" then
+				if data.Role == "Assassino" then
 					if game.Players:FindFirstChild(player) then
 						return game.Players:FindFirstChild(player)
 					end
@@ -3098,10 +3098,10 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 					a.FillColor = Color3.fromRGB(255, 255, 255)
 					a.FillTransparency = 0.5
 					task.spawn(function()
-						if player == findMurderer() then
-							--local mbgui = script.Parent.MurdererBGUI:Clone()
+						if player == findAssassino() then
+							--local mbgui = script.Parent.AssassinoBGUI:Clone()
 							--mbgui.Enabled = true
-							--mbgui.Name = "AppliedMurdererBGUI"
+							--mbgui.Name = "AppliedAssassinoBGUI"
 							--mbgui.Parent = _G.LucSky
 							--mbgui.Adornee = character
 							a.FillColor = Color3.fromRGB(255,0,0)
@@ -3116,7 +3116,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 						end
 						if a then
 							if not player then return end
-							a.Adornee = player.Character or player.CharactedAdded:Wait()
+							a.Adornee = player.Character or player.CharactedAdicionared:Wait()
 						end
 					end)
 				end
@@ -3220,11 +3220,11 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 	--	local NamecallMethod = getnamecallmethod()
 	
 	--	if NamecallMethod == "InvokeServer" and Args[1] == 1 and sheriffAimbot then
-	--		if not findMurderer() then
+	--		if not findAssassino() then
 	--			print("No murderer to be shot!")
 	--		else
 	--			print("Shot - Intercepting shot to murderer")
-	--			Args[2] = findMurderer().Character:FindFirstChild("HumanoidRootPart").Position
+	--			Args[2] = findAssassino().Character:FindFirstChild("HumanoidRootPart").Position
 	--		end
 	--	end
 	
@@ -3239,12 +3239,12 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 	module["Name"] = "Murder Mystery 2"
 	
 	-- Player ESP
-	workspace.ChildAdded:Connect(function(ch)
+	workspace.ChildAdicionared:Connect(function(ch)
 		if ch == getMap() and playerESP then
 			fu.notification("Map has loaded, waiting for roles...")
 			repeat
 				task.wait(1)
-			until findMurderer()
+			until findAssassino()
 			
 			fu.notification("Player ESP reloaded.")
 		end
@@ -3254,21 +3254,21 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 		if ch == getMap() and playerESP then
 			fu.notification("Game ended, removing Player ESPs.")
 			playerData = {}
-			if _G.LucSky:FindFirstChild("AppliedMurdererBGUI") then _G.LucSky:FindFirstChild("AppliedMurdererBGUI"):Destroy() end
+			if _G.LucSky:FindFirstChild("AppliedAssassinoBGUI") then _G.LucSky:FindFirstChild("AppliedAssassinoBGUI"):Destroy() end
 			if _G.LucSky:FindFirstChild("DGBGUIClone") then _G.LucSky:FindFirstChild("DGBGUIClone"):Destroy() end
 			for _, v in ipairs(script.Parent:GetChildren()) do if v.Name == "PlayerESP" then v:Destroy() end end
 		end
 	end)
 	
 	-- Dropped Gun ESP
-	workspace.DescendantAdded:Connect(function(ch)
+	workspace.DescendantAdicionared:Connect(function(ch)
 		if trapDetection and ch.Name == "Trap" and ch.Parent:IsDescendantOf(workspace) then
 			ch.Transparency = 0
 			local trapesp = trapESP:Clone()
 			trapesp.Parent = script.Parent
 			trapesp.Adornee = ch
 			
-			fu.notification("Murderer has placed a trap!")
+			fu.notification("Assassino has placed a trap!")
 		end
 		
 		if gunDropESP and ch.Name == "GunDrop" then
@@ -3295,7 +3295,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 				if not getMap():FindFirstChild("GunDrop") then fu.notification("No dropped gun to be teleported to.") return end
 				local previousPosition = localplayer.Character:GetPivot()
 				localplayer.Character:MoveTo(getMap():FindFirstChild("GunDrop").Position)
-				localplayer.Backpack.ChildAdded:Wait()
+				localplayer.Backpack.ChildAdicionared:Wait()
 				localplayer.Character:PivotTo(previousPosition)
 			end
 		end
@@ -3332,10 +3332,10 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 						a.FillColor = Color3.fromRGB(255, 255, 255)
 						a.FillTransparency = 0.5
 						task.spawn(function()
-							if player == findMurderer() then
-								local mbgui = script.Parent.MurdererBGUI:Clone()
+							if player == findAssassino() then
+								local mbgui = script.Parent.AssassinoBGUI:Clone()
 								mbgui.Enabled = true
-								mbgui.Name = "AppliedMurdererBGUI"
+								mbgui.Name = "AppliedAssassinoBGUI"
 								mbgui.Parent = _G.LucSky
 								mbgui.Adornee = character
 								a.FillColor = Color3.fromRGB(255,0,0)
@@ -3349,7 +3349,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 							end
 							if a then
 								if not player then return end
-								a.Adornee = player.Character or player.CharactedAdded:Wait()
+								a.Adornee = player.Character or player.CharactedAdicionared:Wait()
 							end
 						end)
 					end
@@ -3358,7 +3358,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 		end
 	end)
 	
-	function getClosestModelToPlayer(player, models)
+	function getFecharstModelToPlayer(player, models)
 		local closestModel = nil
 		local closestDistance = math.huge 
 	
@@ -3391,7 +3391,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 	
 				if getMap() then
 					if getMap():FindFirstChild("CoinContainer") and #getMap():FindFirstChild("CoinContainer"):GetChildren() > 1 then
-						local closestCoin = getClosestModelToPlayer(localplayer, getMap():FindFirstChild("CoinContainer"):GetChildren())
+						local closestCoin = getFecharstModelToPlayer(localplayer, getMap():FindFirstChild("CoinContainer"):GetChildren())
 						if closestCoin then
 							if not localplayer.Character:FindFirstChild("HumanoidRootPart") then continue end
 							local distance = (localplayer.Character:FindFirstChild("HumanoidRootPart").Position - closestCoin:GetPivot().Position).Magnitude
@@ -3450,7 +3450,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 				fu.notification("Auto-shooting started.")
 				repeat
 					task.wait(0.1)
-					local murderer = findMurderer()
+					local murderer = findAssassino()
 					if not murderer then fu.notification("No murderer.") continue end
 					local murdererPosition = murderer.Character.HumanoidRootPart.Position
 					local characterRootPart = localplayer.Character.HumanoidRootPart
@@ -3510,16 +3510,16 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 			Players = function()
 				if playerESP then
 					playerESP = false
-					if _G.LucSky:FindFirstChild("AppliedMurdererBGUI") then _G.LucSky:FindFirstChild("AppliedMurdererBGUI"):Destroy() end
+					if _G.LucSky:FindFirstChild("AppliedAssassinoBGUI") then _G.LucSky:FindFirstChild("AppliedAssassinoBGUI"):Destroy() end
 					if _G.LucSky:FindFirstChild("DGBGUIClone") then _G.LucSky:FindFirstChild("DGBGUIClone"):Destroy() end
 					for _, v in ipairs(script.Parent:GetChildren()) do if v.Name == "PlayerESP" then v:Destroy() end end
 				else
 					playerESP = true
-					if not findMurderer() or not findSheriff() then
+					if not findAssassino() or not findSheriff() then
 						fu.notification("No roles yet. Waiting for roles...")
 						repeat
 							task.wait(1)
-						until findSheriff() or findMurderer()
+						until findSheriff() or findAssassino()
 					end
 					reloadESP()
 				end
@@ -3587,7 +3587,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 				return 
 			end
 	
-			local murderer = findMurderer() or findSheriffThatsNotMe()
+			local murderer = findAssassino() or findSheriffThatsNotMe()
 			if not murderer then
 				fu.notification("No murderer (or sheriff) to shoot.")
 				return
@@ -3683,7 +3683,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 					fu.notification("Auto-shooting started.")
 					repeat
 						task.wait(0.1)
-						local murderer = findMurderer() or findSheriffThatsNotMe()
+						local murderer = findAssassino() or findSheriffThatsNotMe()
 						if not murderer then warn("[LucSky] > MM2 Autoshoot - No murderer.") continue end
 						local murdererPosition = murderer.Character.HumanoidRootPart.Position
 						local characterRootPart = localplayer.Character.HumanoidRootPart
@@ -3776,18 +3776,18 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 	
 	table.insert(module, {
 		Type = "Button",
-		Args = {"Send Sheriff and Murderer names into chat", function(Self)
+		Args = {"Send Sheriff and Assassino names into chat", function(Self)
 			local textchannels = game:GetService("TextChatService"):WaitForChild("TextChannels"):GetChildren()
 			for _, textchannel in ipairs(textchannels) do
 				if textchannel.Name == "RBXSystem" then continue end
-				local murd = findMurderer()
+				local murd = findAssassino()
 				local sher = findSheriff()
 				
 				local murdName = "-"
 				local sherName = "-"
 				if murd then murdName = murd.Name end
 				if sher then sherName = sher.Name end
-				local message = string.format([[Murderer: %s |
+				local message = string.format([[Assassino: %s |
 	Sheriff: %s |
 	<<LucSky>>]], murdName, sherName)
 				textchannel:SendAsync(message)
@@ -3826,12 +3826,12 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 				miniFling(findSheriff())
 			end,
 			
-			Fling_Murderer = function()
-				if not findMurderer() then
+			Fling_Assassino = function()
+				if not findAssassino() then
 					fu.notification("No murderer to fling.")
 					return
 				end
-				miniFling(findMurderer())
+				miniFling(findAssassino())
 			end,
 		}}
 	})
@@ -3842,7 +3842,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 			if not getMap():FindFirstChild("GunDrop") then fu.notification("No dropped gun to be teleported to.") return end
 			local previousPosition = localplayer.Character:GetPivot()
 			localplayer.Character:PivotTo(getMap():FindFirstChild("GunDrop"):GetPivot())
-			localplayer.Backpack.ChildAdded:Wait()
+			localplayer.Backpack.ChildAdicionared:Wait()
 			localplayer.Character:PivotTo(previousPosition)
 		end,}
 	})
@@ -3855,7 +3855,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 	})
 	
 	local ignoreknifethrow = false
-	game.Workspace.ChildAdded:Connect(function(chi)
+	game.Workspace.ChildAdicionared:Connect(function(chi)
 		if chi.Name == "ThrowingKnife" and ignoreknifethrow then
 			chi:Destroy()
 		end
@@ -3900,7 +3900,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 	table.insert(module, {
 		Type = "Button",
 		Args = {"Kill closest player as murderer", function()
-			if findMurderer() ~= localplayer then fu.notification("You're not murderer.") return end
+			if findAssassino() ~= localplayer then fu.notification("You're not murderer.") return end
 	
 			if not localplayer.Character:FindFirstChild("Knife") then
 				local hum = localplayer.Character:FindFirstChild("Humanoid")
@@ -3976,7 +3976,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 	
 	table.insert(module, {
 		Type = "Toggle",
-		Args = {"Murderer kill aura", function(Self, state)
+		Args = {"Assassino kill aura", function(Self, state)
 			if state then
 				if killAuraCon then killAuraCon:Disconnect() end
 			else
@@ -4006,7 +4006,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 	table.insert(module, {
 		Type = "Button",
 		Args = {"Kill EVERYONE as murderer", function()
-			if findMurderer() ~= localplayer then fu.notification("You're not murderer.") return end
+			if findAssassino() ~= localplayer then fu.notification("You're not murderer.") return end
 	
 			if not localplayer.Character:FindFirstChild("Knife") then
 				local hum = localplayer.Character:FindFirstChild("Humanoid")
@@ -4041,7 +4041,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mys
 	table.insert(module, {
 		Type = "Button",
 		Args = {"Hold everyone hostage", function()
-			if findMurderer() ~= localplayer then fu.notification("You're not murderer. This'll only be useful if you're the murderer.") return end
+			if findAssassino() ~= localplayer then fu.notification("You're not murderer. This'll only be useful if you're the murderer.") return end
 	
 			for _, player in ipairs(game.Players:GetPlayers()) do
 				if player.Character and player.Character:FindFirstChild("HumanoidRootPart") and player ~= localplayer then
@@ -4450,7 +4450,7 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.LucSky.Universal
 	
 	table.insert(module, {
 		Type = "Toggle",
-		Args = {"Loop walkspeed and FOV", function(Self, state)
+		Args = {"Loop de velocidade de movimento e FOV", function(Self, state)
 			loopfovandws = state
 		end,}
 	})
@@ -5133,7 +5133,7 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.LucSky.Universal
 						v.Enabled = false
 					end
 				end
-				workspace.DescendantAdded:Connect(function(child)
+				workspace.DescendantAdicionared:Connect(function(child)
 					task.spawn(function()
 						if child:IsA('ForceField') then
 							rs.Heartbeat:Wait()
@@ -5291,8 +5291,8 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.LucSky.Universal
 		end
 	end
 
-	local function onCharacterAdded(player)
-		player.CharacterAdded:Connect(function(character)
+	local function onCharacterAdicionared(player)
+		player.CharacterAdicionared:Connect(function(character)
 			-- Wait for 10 seconds before reapplying the tag
 			task.wait(10)
 			checkForPlayer(player)
@@ -5301,14 +5301,14 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.LucSky.Universal
 
 	local function handlePlayer(player)
 		checkForPlayer(player)
-		onCharacterAdded(player)
+		onCharacterAdicionared(player)
 	end
 
 	for _, player in ipairs(Players:GetPlayers()) do
 		handlePlayer(player)
 	end
 
-	Players.PlayerAdded:Connect(handlePlayer)
+	Players.PlayerAdicionared:Connect(handlePlayer)
 
 	table.insert(module, {
 		Type = "Toggle",
