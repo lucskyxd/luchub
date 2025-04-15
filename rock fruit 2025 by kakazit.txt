@@ -1,9 +1,3 @@
-This made by Alchemy Team ( alchemyhub.xyz )
-Modification of the script, including attempting to bypass
-or crack the script for any reason is not allowed.
-
-Copyright © 2025 Alchemy Hub - Script. All Rights Reserved.
-
 ]]--
 
 repeat wait(1) until game:IsLoaded()
