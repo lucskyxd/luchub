@@ -4,8 +4,8 @@
 
 if not game:IsLoaded() then
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "Script loading",
-		Text = "Waiting for the game to finish loading!",
+		Title = "Carregando Script...",
+		Text = "Esperando pelo jogo para carregar a script!",
 		Duration = 5
 	})
 	game.Loaded:Wait()
@@ -705,7 +705,7 @@ Converted["_UICorner13"].Parent = Converted["_Close"]
 Converted["_UIStroke9"].Parent = Converted["_Close"]
 
 Converted["_HubCredits"].Font = Enum.Font.GothamBold
-Converted["_HubCredits"].Text = "made and open sourced by imperial"
+Converted["_HubCredits"].Text = "Editado e atualizado por LucSky"
 Converted["_HubCredits"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_HubCredits"].TextScaled = true
 Converted["_HubCredits"].TextSize = 14
@@ -723,7 +723,7 @@ Converted["_HubCredits"].Name = "HubCredits"
 Converted["_HubCredits"].Parent = Converted["_Menu"]
 
 Converted["_HubDesc"].Font = Enum.Font.GothamBold
-Converted["_HubDesc"].Text = "yet another random hub menu"
+Converted["_HubDesc"].Text = "HUB em ascensão"
 Converted["_HubDesc"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_HubDesc"].TextSize = 14
 Converted["_HubDesc"].TextWrapped = true
