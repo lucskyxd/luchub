@@ -1,4 +1,4 @@
--- YARHM 1.18.2
+-- LucSky 1.18.2
 -- is anyone even gonna see these comments
 
 
@@ -13,75 +13,55 @@ end
 		-- Instances:
 
 local Converted = {
-	["_YARHM"] = Instance.new("ScreenGui");
+	["_LucSky"] = Instance.new("ScreenGui");
 	["_Open"] = Instance.new("TextButton");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner"] = Instance.new("UICorner");
 	["_InitOpen"] = Instance.new("LocalScript");
 	["_OnClick"] = Instance.new("LocalScript");
 	["_Resizer"] = Instance.new("LocalScript");
 	["_UIPadding"] = Instance.new("UIPadding");
 	["_Init"] = Instance.new("LocalScript");
 	["_ListButton"] = Instance.new("TextButton");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)1"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner1"] = Instance.new("UICorner");
 	["_FUNCTIONS"] = Instance.new("ModuleScript");
 	["_Notifications"] = Instance.new("Frame");
 	["_UIListLayout"] = Instance.new("UIListLayout");
 	["_UIPadding1"] = Instance.new("UIPadding");
 	["_Placeholder"] = Instance.new("Frame");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)2"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner2"] = Instance.new("UICorner");
 	["_TextLabel"] = Instance.new("TextLabel");
 	["_TextBoxPlaceholder"] = Instance.new("Frame");
 	["_UIListLayout1"] = Instance.new("UIListLayout");
 	["_TextButton"] = Instance.new("TextButton");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)3"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner3"] = Instance.new("UICorner");
 	["_UIPadding2"] = Instance.new("UIPadding");
 	["_TextBox"] = Instance.new("TextBox");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)4"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner4"] = Instance.new("UICorner");
 	["_FloatingButton"] = Instance.new("TextButton");
 	["_UIPadding3"] = Instance.new("UIPadding");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)5"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner5"] = Instance.new("UICorner");
 	["_Keybinding"] = Instance.new("LocalScript");
 	["_UIStroke"] = Instance.new("UIStroke");
 	["_Invisible"] = Instance.new("LocalScript");
 	["_FloatingButtons"] = Instance.new("Frame");
 	["_AddCustomModule"] = Instance.new("Frame");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)6"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner6"] = Instance.new("UICorner");
 	["_UIStroke1"] = Instance.new("UIStroke");
 	["_UIGradient"] = Instance.new("UIGradient");
 	["_UIGradient1"] = Instance.new("UIGradient");
 	["_UIScale"] = Instance.new("UIScale");
 	["_TextLabel1"] = Instance.new("TextLabel");
 	["_TextBox1"] = Instance.new("TextBox");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)7"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner7"] = Instance.new("UICorner");
 	["_UIPadding4"] = Instance.new("UIPadding");
 	["_TextLabel2"] = Instance.new("TextLabel");
 	["_Add"] = Instance.new("TextButton");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)8"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner8"] = Instance.new("UICorner");
 	["_UIPadding5"] = Instance.new("UIPadding");
 	["_UIStroke2"] = Instance.new("UIStroke");
 	["_LocalScript"] = Instance.new("LocalScript");
 	["_Cancel"] = Instance.new("TextButton");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)9"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner9"] = Instance.new("UICorner");
 	["_UIPadding6"] = Instance.new("UIPadding");
 	["_UIStroke3"] = Instance.new("UIStroke");
 	["_LocalScript1"] = Instance.new("LocalScript");
@@ -93,17 +73,13 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
 	["_UIStroke5"] = Instance.new("UIStroke");
 	["_DraggableObject"] = Instance.new("ModuleScript");
 	["_Menu"] = Instance.new("Frame");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)10"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner10"] = Instance.new("UICorner");
 	["_UIScale1"] = Instance.new("UIScale");
 	["_UIStroke6"] = Instance.new("UIStroke");
 	["_UIGradient2"] = Instance.new("UIGradient");
 	["_Animator"] = Instance.new("LocalScript");
 	["_List"] = Instance.new("Frame");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)11"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner11"] = Instance.new("UICorner");
 	["_AutoSetup"] = Instance.new("LocalScript");
 	["_ScrollingFrame"] = Instance.new("ScrollingFrame");
 	["_UIListLayout2"] = Instance.new("UIListLayout");
@@ -113,25 +89,19 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
 	["_UIStroke7"] = Instance.new("UIStroke");
 	["_UIGradient4"] = Instance.new("UIGradient");
 	["_AddCustomModule1"] = Instance.new("TextButton");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)12"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner12"] = Instance.new("UICorner");
 	["_UIPadding9"] = Instance.new("UIPadding");
 	["_UIStroke8"] = Instance.new("UIStroke");
 	["_LocalScript2"] = Instance.new("LocalScript");
 	["_Close"] = Instance.new("TextButton");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)13"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner13"] = Instance.new("UICorner");
 	["_LocalScript3"] = Instance.new("LocalScript");
 	["_UIStroke9"] = Instance.new("UIStroke");
 	["_HubCredits"] = Instance.new("TextLabel");
 	["_HubDesc"] = Instance.new("TextLabel");
 	["_HubName"] = Instance.new("TextLabel");
 	["_CanvasGroup"] = Instance.new("CanvasGroup");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)14"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner14"] = Instance.new("UICorner");
 	["_ImageLabel"] = Instance.new("ImageLabel");
 	["_Opener"] = Instance.new("TextButton");
 	["_TextLabel5"] = Instance.new("TextLabel");
@@ -142,14 +112,10 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
 	["_UIGradient5"] = Instance.new("UIGradient");
 	["_CloseArea"] = Instance.new("TextButton");
 	["_Frame"] = Instance.new("Frame");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)15"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner15"] = Instance.new("UICorner");
 	["_CloseOpen"] = Instance.new("LocalScript");
 	["_TextLabel8"] = Instance.new("TextLabel");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)16"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner16"] = Instance.new("UICorner");
 	["_AllowForSpring"] = Instance.new("BindableEvent");
 	["_ClickAndHold"] = Instance.new("ModuleScript");
 	["_Spring"] = Instance.new("ModuleScript");
@@ -158,13 +124,9 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
 	["_UIListLayout3"] = Instance.new("UIListLayout");
 	["_Frame1"] = Instance.new("Frame");
 	["_Frame2"] = Instance.new("Frame");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)17"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner17"] = Instance.new("UICorner");
 	["_Toggler"] = Instance.new("TextButton");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)18"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner18"] = Instance.new("UICorner");
 	["_ImageLabel1"] = Instance.new("ImageLabel");
 	["_UIPadding10"] = Instance.new("UIPadding");
 	["_Modules"] = Instance.new("Folder");
@@ -172,9 +134,7 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
 	["_Murder Mystery 2"] = Instance.new("LocalScript");
 	["_Universal"] = Instance.new("LocalScript");
 	["_DropdownFrameSample"] = Instance.new("Frame");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)19"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner19"] = Instance.new("UICorner");
 	["_UIGradient6"] = Instance.new("UIGradient");
 	["_UIStroke10"] = Instance.new("UIStroke");
 	["_UIGradient7"] = Instance.new("UIGradient");
@@ -182,9 +142,7 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
 	["_UIListLayout4"] = Instance.new("UIListLayout");
 	["_Sample"] = Instance.new("TextButton");
 	["_UIPadding11"] = Instance.new("UIPadding");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)20"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner20"] = Instance.new("UICorner");
 	["_UIPadding12"] = Instance.new("UIPadding");
 	["_Range"] = Instance.new("Frame");
 	["_TextLabel10"] = Instance.new("TextLabel");
@@ -192,21 +150,13 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
 	["_UIPadding13"] = Instance.new("UIPadding");
 	["_Frame3"] = Instance.new("Frame");
 	["_UIPadding14"] = Instance.new("UIPadding");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)21"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner21"] = Instance.new("UICorner");
 	["_Frame4"] = Instance.new("Frame");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)22"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner22"] = Instance.new("UICorner");
 	["_TextButton1"] = Instance.new("TextButton");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)23"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner23"] = Instance.new("UICorner");
 	["_Dialog"] = Instance.new("Frame");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)24"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner24"] = Instance.new("UICorner");
 	["_UIGradient8"] = Instance.new("UIGradient");
 	["_UIPadding15"] = Instance.new("UIPadding");
 	["_UIStroke11"] = Instance.new("UIStroke");
@@ -219,50 +169,44 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
 	["_UIListLayout7"] = Instance.new("UIListLayout");
 	["_OptionPlaceholder"] = Instance.new("TextButton");
 	["_UIPadding16"] = Instance.new("UIPadding");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)25"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner25"] = Instance.new("UICorner");
 	["_UIStroke12"] = Instance.new("UIStroke");
 	["_UIGradient10"] = Instance.new("UIGradient");
 	["_OnSelect"] = Instance.new("BindableEvent");
 	["_UIScale2"] = Instance.new("UIScale");
 	["_NotificationSample"] = Instance.new("Frame");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)26"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner26"] = Instance.new("UICorner");
 	["_UIStroke13"] = Instance.new("UIStroke");
 	["_UIGradient11"] = Instance.new("UIGradient");
 	["_ImageLabel2"] = Instance.new("ImageLabel");
 	["_TextLabel11"] = Instance.new("TextLabel");
 	["_UITextSizeConstraint1"] = Instance.new("UITextSizeConstraint");
 	["_Close1"] = Instance.new("ImageButton");
-	["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)27"] = Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)");
+	["_UICorner27"] = Instance.new("UICorner");
 	["_UIStroke14"] = Instance.new("UIStroke");
 	["_UIScale3"] = Instance.new("UIScale");
 }
 
 -- Properties:
 
-Converted["_YARHM"].DisplayOrder = 3
-Converted["_YARHM"].IgnoreGuiInset = true
-Converted["_YARHM"].ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets
-Converted["_YARHM"].ResetOnSpawn = false
-Converted["_YARHM"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-Converted["_YARHM"].Name = "YARHM"
-Converted["_YARHM"].Parent = game:GetService("CoreGui")
+Converted["_LucSky"].DisplayOrder = 3
+Converted["_LucSky"].IgnoreGuiInset = true
+Converted["_LucSky"].ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets
+Converted["_LucSky"].ResetOnSpawn = false
+Converted["_LucSky"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_LucSky"].Name = "LucSky"
+Converted["_LucSky"].Parent = game:GetService("CoreGui")
 
 Converted["_Open"].Font = Enum.Font.Gotham
-Converted["_Open"].Text = "Triple-click this region to open YARHM."
-Converted["_Open"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_Open"].Text = "Triple-click this region to open LucSky."
+Converted["_Open"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Open"].TextScaled = true
 Converted["_Open"].TextSize = 14
 Converted["_Open"].TextTransparency = 1
 Converted["_Open"].TextWrapped = true
 Converted["_Open"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_Open"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_Open"].BackgroundTransparency = 0.2
+Converted["_Open"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Open"].BackgroundTransparency = 1
 Converted["_Open"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Open"].BorderSizePixel = 0
 Converted["_Open"].Position = UDim2.new(0.499372631, 0, 0.06341701, 0)
@@ -270,10 +214,9 @@ Converted["_Open"].Selectable = false
 Converted["_Open"].Size = UDim2.new(0, 493, 0, 50)
 Converted["_Open"].Visible = false
 Converted["_Open"].Name = "Open"
-Converted["_Open"].Parent = Converted["_YARHM"]
+Converted["_Open"].Parent = Converted["_LucSky"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)"].Parent = Converted["_Open"]
+Converted["_UICorner"].Parent = Converted["_Open"]
 
 Converted["_UIPadding"].PaddingBottom = UDim.new(0, 10)
 Converted["_UIPadding"].PaddingLeft = UDim.new(0, 20)
@@ -283,7 +226,7 @@ Converted["_UIPadding"].Parent = Converted["_Open"]
 
 Converted["_ListButton"].Font = Enum.Font.Gotham
 Converted["_ListButton"].Text = "Placeholder"
-Converted["_ListButton"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_ListButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_ListButton"].TextSize = 14
 Converted["_ListButton"].TextWrapped = true
 Converted["_ListButton"].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -294,20 +237,19 @@ Converted["_ListButton"].Position = UDim2.new(0.0450000018, 0, 0.112000003, 0)
 Converted["_ListButton"].Size = UDim2.new(1, 0, 0, 50)
 Converted["_ListButton"].Visible = false
 Converted["_ListButton"].Name = "ListButton"
-Converted["_ListButton"].Parent = Converted["_YARHM"]
+Converted["_ListButton"].Parent = Converted["_LucSky"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)1"].Parent = Converted["_ListButton"]
+Converted["_UICorner1"].Parent = Converted["_ListButton"]
 
 Converted["_Notifications"].AnchorPoint = Vector2.new(1, 0.5)
-Converted["_Notifications"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_Notifications"].BackgroundTransparency = 0.2
+Converted["_Notifications"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Notifications"].BackgroundTransparency = 1
 Converted["_Notifications"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Notifications"].BorderSizePixel = 0
 Converted["_Notifications"].Position = UDim2.new(0.99000001, 0, 0.5, 0)
 Converted["_Notifications"].Size = UDim2.new(0, 242, 1, 0)
 Converted["_Notifications"].Name = "Notifications"
-Converted["_Notifications"].Parent = Converted["_YARHM"]
+Converted["_Notifications"].Parent = Converted["_LucSky"]
 
 Converted["_UIListLayout"].Padding = UDim.new(0, 10)
 Converted["_UIListLayout"].HorizontalAlignment = Enum.HorizontalAlignment.Center
@@ -328,32 +270,31 @@ Converted["_Placeholder"].Visible = false
 Converted["_Placeholder"].Name = "Placeholder"
 Converted["_Placeholder"].Parent = Converted["_Notifications"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)2"].Parent = Converted["_Placeholder"]
+Converted["_UICorner2"].Parent = Converted["_Placeholder"]
 
 Converted["_TextLabel"].Font = Enum.Font.Gotham
-Converted["_TextLabel"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel"].TextScaled = true
 Converted["_TextLabel"].TextSize = 14
 Converted["_TextLabel"].TextWrapped = true
 Converted["_TextLabel"].TextXAlignment = Enum.TextXAlignment.Left
 Converted["_TextLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_TextLabel"].BackgroundTransparency = 0.2
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
 Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel"].BorderSizePixel = 0
 Converted["_TextLabel"].Position = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_TextLabel"].Size = UDim2.new(0.899999976, 0, 0.800000012, 0)
 Converted["_TextLabel"].Parent = Converted["_Placeholder"]
 
-Converted["_TextBoxPlaceholder"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_TextBoxPlaceholder"].BackgroundTransparency = 0.2
+Converted["_TextBoxPlaceholder"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextBoxPlaceholder"].BackgroundTransparency = 1
 Converted["_TextBoxPlaceholder"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextBoxPlaceholder"].BorderSizePixel = 0
 Converted["_TextBoxPlaceholder"].Size = UDim2.new(1, 0, 0, 50)
 Converted["_TextBoxPlaceholder"].Visible = false
 Converted["_TextBoxPlaceholder"].Name = "TextBoxPlaceholder"
-Converted["_TextBoxPlaceholder"].Parent = Converted["_YARHM"]
+Converted["_TextBoxPlaceholder"].Parent = Converted["_LucSky"]
 
 Converted["_UIListLayout1"].Padding = UDim.new(0, 5)
 Converted["_UIListLayout1"].FillDirection = Enum.FillDirection.Horizontal
@@ -361,7 +302,7 @@ Converted["_UIListLayout1"].HorizontalAlignment = Enum.HorizontalAlignment.Cente
 Converted["_UIListLayout1"].Parent = Converted["_TextBoxPlaceholder"]
 
 Converted["_TextButton"].Font = Enum.Font.Gotham
-Converted["_TextButton"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_TextButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextButton"].TextScaled = true
 Converted["_TextButton"].TextSize = 14
 Converted["_TextButton"].TextWrapped = true
@@ -372,8 +313,7 @@ Converted["_TextButton"].Position = UDim2.new(0.292333364, 0, 1.67999995, 0)
 Converted["_TextButton"].Size = UDim2.new(0, 50, 0, 50)
 Converted["_TextButton"].Parent = Converted["_TextBoxPlaceholder"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)3"].Parent = Converted["_TextButton"]
+Converted["_UICorner3"].Parent = Converted["_TextButton"]
 
 Converted["_UIPadding2"].PaddingBottom = UDim.new(0, 5)
 Converted["_UIPadding2"].PaddingLeft = UDim.new(0, 5)
@@ -384,7 +324,7 @@ Converted["_UIPadding2"].Parent = Converted["_TextButton"]
 Converted["_TextBox"].Font = Enum.Font.Gotham
 Converted["_TextBox"].PlaceholderText = "Placeholder"
 Converted["_TextBox"].Text = ""
-Converted["_TextBox"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_TextBox"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextBox"].TextSize = 14
 Converted["_TextBox"].TextWrapped = true
 Converted["_TextBox"].BackgroundColor3 = Color3.fromRGB(22.000000588595867, 22.000000588595867, 22.000000588595867)
@@ -393,12 +333,11 @@ Converted["_TextBox"].BorderSizePixel = 0
 Converted["_TextBox"].Size = UDim2.new(0.800000012, 0, 0, 50)
 Converted["_TextBox"].Parent = Converted["_TextBoxPlaceholder"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)4"].Parent = Converted["_TextBox"]
+Converted["_UICorner4"].Parent = Converted["_TextBox"]
 
 Converted["_FloatingButton"].Font = Enum.Font.Unknown
 Converted["_FloatingButton"].Text = "Shoot into murderer"
-Converted["_FloatingButton"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_FloatingButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_FloatingButton"].TextScaled = true
 Converted["_FloatingButton"].TextSize = 14
 Converted["_FloatingButton"].TextWrapped = true
@@ -410,7 +349,7 @@ Converted["_FloatingButton"].Position = UDim2.new(0, 125, 0, 40)
 Converted["_FloatingButton"].Size = UDim2.new(0, 50, 0, 100)
 Converted["_FloatingButton"].Visible = false
 Converted["_FloatingButton"].Name = "FloatingButton"
-Converted["_FloatingButton"].Parent = Converted["_YARHM"]
+Converted["_FloatingButton"].Parent = Converted["_LucSky"]
 
 Converted["_UIPadding3"].PaddingBottom = UDim.new(0, 5)
 Converted["_UIPadding3"].PaddingLeft = UDim.new(0, 5)
@@ -418,26 +357,25 @@ Converted["_UIPadding3"].PaddingRight = UDim.new(0, 5)
 Converted["_UIPadding3"].PaddingTop = UDim.new(0, 5)
 Converted["_UIPadding3"].Parent = Converted["_FloatingButton"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)5"].Parent = Converted["_FloatingButton"]
+Converted["_UICorner5"].Parent = Converted["_FloatingButton"]
 
 Converted["_UIStroke"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-Converted["_UIStroke"].Color = Color3.fromRGB(230, 230, 230)
+Converted["_UIStroke"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke"].Parent = Converted["_FloatingButton"]
 
 Converted["_FloatingButtons"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_FloatingButtons"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_FloatingButtons"].BackgroundTransparency = 0.2
+Converted["_FloatingButtons"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_FloatingButtons"].BackgroundTransparency = 1
 Converted["_FloatingButtons"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_FloatingButtons"].BorderSizePixel = 0
 Converted["_FloatingButtons"].Position = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_FloatingButtons"].Size = UDim2.new(1, 0, 1, 0)
 Converted["_FloatingButtons"].ZIndex = 3
 Converted["_FloatingButtons"].Name = "FloatingButtons"
-Converted["_FloatingButtons"].Parent = Converted["_YARHM"]
+Converted["_FloatingButtons"].Parent = Converted["_LucSky"]
 
 Converted["_AddCustomModule"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_AddCustomModule"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_AddCustomModule"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_AddCustomModule"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_AddCustomModule"].BorderSizePixel = 0
 Converted["_AddCustomModule"].ClipsDescendants = true
@@ -445,19 +383,18 @@ Converted["_AddCustomModule"].Position = UDim2.new(0.5, 0, -0.5, 0)
 Converted["_AddCustomModule"].Size = UDim2.new(0, 440, 0, 268)
 Converted["_AddCustomModule"].ZIndex = 3
 Converted["_AddCustomModule"].Name = "AddCustomModule"
-Converted["_AddCustomModule"].Parent = Converted["_YARHM"]
+Converted["_AddCustomModule"].Parent = Converted["_LucSky"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)6"].Parent = Converted["_AddCustomModule"]
+Converted["_UICorner6"].Parent = Converted["_AddCustomModule"]
 
-Converted["_UIStroke1"].Color = Color3.fromRGB(230, 230, 230)
-Converted["_UIStroke1"].Thickness = 3
+Converted["_UIStroke1"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke1"].Thickness = 2
 Converted["_UIStroke1"].Parent = Converted["_AddCustomModule"]
 
 Converted["_UIGradient"].Color = ColorSequence.new{
 	ColorSequenceKeypoint.new(0, Color3.fromRGB(53.00000064074993, 53.00000064074993, 53.00000064074993)),
 	ColorSequenceKeypoint.new(0.15224914252758026, Color3.fromRGB(50.69031357765198, 50.69031357765198, 50.69031357765198)),
-	ColorSequenceKeypoint.new(0.4723183512687683, Color3.fromRGB(230, 230, 230)),
+	ColorSequenceKeypoint.new(0.4723183512687683, Color3.fromRGB(255, 255, 255)),
 	ColorSequenceKeypoint.new(0.7577854990959167, Color3.fromRGB(50.13314567506313, 50.13314567506313, 50.13314567506313)),
 	ColorSequenceKeypoint.new(1, Color3.fromRGB(48.000000938773155, 48.000000938773155, 48.000000938773155))
 }
@@ -475,13 +412,13 @@ Converted["_UIScale"].Parent = Converted["_AddCustomModule"]
 
 Converted["_TextLabel1"].Font = Enum.Font.Gotham
 Converted["_TextLabel1"].Text = "Add a module"
-Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel1"].TextScaled = true
 Converted["_TextLabel1"].TextSize = 14
 Converted["_TextLabel1"].TextWrapped = true
 Converted["_TextLabel1"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_TextLabel1"].BackgroundTransparency = 0.2
+Converted["_TextLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel1"].BackgroundTransparency = 1
 Converted["_TextLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel1"].BorderSizePixel = 0
 Converted["_TextLabel1"].Position = UDim2.new(0.352256238, 0, 0.133915231, 0)
@@ -492,7 +429,7 @@ Converted["_TextBox1"].ClearTextOnFocus = false
 Converted["_TextBox1"].Font = Enum.Font.Gotham
 Converted["_TextBox1"].PlaceholderText = "Custom module link"
 Converted["_TextBox1"].Text = ""
-Converted["_TextBox1"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_TextBox1"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextBox1"].TextScaled = true
 Converted["_TextBox1"].TextSize = 14
 Converted["_TextBox1"].TextWrapped = true
@@ -504,8 +441,7 @@ Converted["_TextBox1"].Position = UDim2.new(0.499648541, 0, 0.500059664, 0)
 Converted["_TextBox1"].Size = UDim2.new(0.804988742, 0, 0.544776142, 0)
 Converted["_TextBox1"].Parent = Converted["_AddCustomModule"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)7"].Parent = Converted["_TextBox1"]
+Converted["_UICorner7"].Parent = Converted["_TextBox1"]
 
 Converted["_UIPadding4"].PaddingBottom = UDim.new(0, 10)
 Converted["_UIPadding4"].PaddingLeft = UDim.new(0, 10)
@@ -515,13 +451,13 @@ Converted["_UIPadding4"].Parent = Converted["_TextBox1"]
 
 Converted["_TextLabel2"].Font = Enum.Font.Gotham
 Converted["_TextLabel2"].Text = "Only add modules you trust!"
-Converted["_TextLabel2"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_TextLabel2"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel2"].TextScaled = true
 Converted["_TextLabel2"].TextSize = 14
 Converted["_TextLabel2"].TextWrapped = true
 Converted["_TextLabel2"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel2"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_TextLabel2"].BackgroundTransparency = 0.2
+Converted["_TextLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel2"].BackgroundTransparency = 1
 Converted["_TextLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel2"].BorderSizePixel = 0
 Converted["_TextLabel2"].Position = UDim2.new(0.499648541, 0, 0.833542168, 0)
@@ -530,7 +466,7 @@ Converted["_TextLabel2"].Parent = Converted["_AddCustomModule"]
 
 Converted["_Add"].Font = Enum.Font.Gotham
 Converted["_Add"].Text = "Add"
-Converted["_Add"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_Add"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Add"].TextScaled = true
 Converted["_Add"].TextSize = 14
 Converted["_Add"].TextWrapped = true
@@ -543,8 +479,7 @@ Converted["_Add"].Size = UDim2.new(0.163265288, 0, 0.0858208984, 0)
 Converted["_Add"].Name = "Add"
 Converted["_Add"].Parent = Converted["_AddCustomModule"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)8"].Parent = Converted["_Add"]
+Converted["_UICorner8"].Parent = Converted["_Add"]
 
 Converted["_UIPadding5"].PaddingBottom = UDim.new(0, 5)
 Converted["_UIPadding5"].PaddingLeft = UDim.new(0, 5)
@@ -553,7 +488,7 @@ Converted["_UIPadding5"].PaddingTop = UDim.new(0, 5)
 Converted["_UIPadding5"].Parent = Converted["_Add"]
 
 Converted["_UIStroke2"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-Converted["_UIStroke2"].Color = Color3.fromRGB(230, 230, 230)
+Converted["_UIStroke2"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke2"].Parent = Converted["_Add"]
 
 Converted["_Cancel"].Font = Enum.Font.Gotham
@@ -571,8 +506,7 @@ Converted["_Cancel"].Size = UDim2.new(0.163265288, 0, 0.0858208984, 0)
 Converted["_Cancel"].Name = "Cancel"
 Converted["_Cancel"].Parent = Converted["_AddCustomModule"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)9"].Parent = Converted["_Cancel"]
+Converted["_UICorner9"].Parent = Converted["_Cancel"]
 
 Converted["_UIPadding6"].PaddingBottom = UDim.new(0, 5)
 Converted["_UIPadding6"].PaddingLeft = UDim.new(0, 5)
@@ -591,7 +525,7 @@ Converted["_DroppedGunBGUI"].Size = UDim2.new(0, 70, 0, 70)
 Converted["_DroppedGunBGUI"].Enabled = false
 Converted["_DroppedGunBGUI"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Converted["_DroppedGunBGUI"].Name = "DroppedGunBGUI"
-Converted["_DroppedGunBGUI"].Parent = Converted["_YARHM"]
+Converted["_DroppedGunBGUI"].Parent = Converted["_LucSky"]
 
 Converted["_TextLabel3"].Font = Enum.Font.SourceSansBold
 Converted["_TextLabel3"].Text = "Dropped Gun!"
@@ -600,8 +534,8 @@ Converted["_TextLabel3"].TextScaled = true
 Converted["_TextLabel3"].TextSize = 14
 Converted["_TextLabel3"].TextWrapped = true
 Converted["_TextLabel3"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel3"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_TextLabel3"].BackgroundTransparency = 0.2
+Converted["_TextLabel3"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel3"].BackgroundTransparency = 1
 Converted["_TextLabel3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel3"].BorderSizePixel = 0
 Converted["_TextLabel3"].Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -619,7 +553,7 @@ Converted["_MurdererBGUI"].StudsOffset = Vector3.new(0, 2, 2)
 Converted["_MurdererBGUI"].Enabled = false
 Converted["_MurdererBGUI"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Converted["_MurdererBGUI"].Name = "MurdererBGUI"
-Converted["_MurdererBGUI"].Parent = Converted["_YARHM"]
+Converted["_MurdererBGUI"].Parent = Converted["_LucSky"]
 
 Converted["_TextLabel4"].Font = Enum.Font.SourceSansBold
 Converted["_TextLabel4"].Text = "Murderer"
@@ -628,8 +562,8 @@ Converted["_TextLabel4"].TextScaled = true
 Converted["_TextLabel4"].TextSize = 14
 Converted["_TextLabel4"].TextWrapped = true
 Converted["_TextLabel4"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel4"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_TextLabel4"].BackgroundTransparency = 0.2
+Converted["_TextLabel4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel4"].BackgroundTransparency = 1
 Converted["_TextLabel4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel4"].BorderSizePixel = 0
 Converted["_TextLabel4"].Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -639,21 +573,20 @@ Converted["_TextLabel4"].Parent = Converted["_MurdererBGUI"]
 Converted["_UIStroke5"].Parent = Converted["_TextLabel4"]
 
 Converted["_Menu"].AnchorPoint = Vector2.new(0, 1)
-Converted["_Menu"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_Menu"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Menu"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Menu"].BorderSizePixel = 0
 Converted["_Menu"].Position = UDim2.new(0.0182283204, 0, 0.968158305, 0)
 Converted["_Menu"].Size = UDim2.new(0, 441, 0, 268)
 Converted["_Menu"].Name = "Menu"
-Converted["_Menu"].Parent = Converted["_YARHM"]
+Converted["_Menu"].Parent = Converted["_LucSky"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)10"].Parent = Converted["_Menu"]
+Converted["_UICorner10"].Parent = Converted["_Menu"]
 
 Converted["_UIScale1"].Parent = Converted["_Menu"]
 
-Converted["_UIStroke6"].Color = Color3.fromRGB(230, 230, 230)
-Converted["_UIStroke6"].Thickness = 3
+Converted["_UIStroke6"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke6"].Thickness = 2
 Converted["_UIStroke6"].Parent = Converted["_Menu"]
 
 Converted["_UIGradient2"].Color = ColorSequence.new{
@@ -667,7 +600,7 @@ Converted["_UIGradient2"].Rotation = 180
 Converted["_UIGradient2"].Parent = Converted["_UIStroke6"]
 
 Converted["_List"].AnchorPoint = Vector2.new(0, 0.5)
-Converted["_List"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_List"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_List"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_List"].BorderSizePixel = 0
 Converted["_List"].Position = UDim2.new(0, 0, 0.606999993, 0)
@@ -675,17 +608,16 @@ Converted["_List"].Size = UDim2.new(0.315405339, 0, 0.785387993, 0)
 Converted["_List"].Name = "List"
 Converted["_List"].Parent = Converted["_Menu"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)11"].Parent = Converted["_List"]
+Converted["_UICorner11"].Parent = Converted["_List"]
 
 Converted["_ScrollingFrame"].AutomaticCanvasSize = Enum.AutomaticSize.Y
 Converted["_ScrollingFrame"].CanvasSize = UDim2.new(0, 0, 0, 0)
-Converted["_ScrollingFrame"].ScrollBarThickness = 3
+Converted["_ScrollingFrame"].ScrollBarThickness = 2
 Converted["_ScrollingFrame"].VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
 Converted["_ScrollingFrame"].Active = true
 Converted["_ScrollingFrame"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_ScrollingFrame"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_ScrollingFrame"].BackgroundTransparency = 0.2
+Converted["_ScrollingFrame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ScrollingFrame"].BackgroundTransparency = 1
 Converted["_ScrollingFrame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_ScrollingFrame"].BorderSizePixel = 0
 Converted["_ScrollingFrame"].Position = UDim2.new(0.478333294, 0, 0.408619136, 0)
@@ -713,21 +645,21 @@ Converted["_UIGradient3"].Color = ColorSequence.new{
 Converted["_UIGradient3"].Rotation = -133
 Converted["_UIGradient3"].Parent = Converted["_List"]
 
-Converted["_UIStroke7"].Color = Color3.fromRGB(230, 230, 230)
+Converted["_UIStroke7"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke7"].Thickness = 0
 Converted["_UIStroke7"].Parent = Converted["_List"]
 
 Converted["_UIGradient4"].Color = ColorSequence.new{
 	ColorSequenceKeypoint.new(0, Color3.fromRGB(111.00000098347664, 111.00000098347664, 111.00000098347664)),
 	ColorSequenceKeypoint.new(0.6401384472846985, Color3.fromRGB(114.23875719308853, 114.23875719308853, 114.23875719308853)),
-	ColorSequenceKeypoint.new(1, Color3.fromRGB(230, 230, 230))
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
 }
 Converted["_UIGradient4"].Rotation = -44
 Converted["_UIGradient4"].Parent = Converted["_UIStroke7"]
 
 Converted["_AddCustomModule1"].Font = Enum.Font.Gotham
 Converted["_AddCustomModule1"].Text = "Add module"
-Converted["_AddCustomModule1"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_AddCustomModule1"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_AddCustomModule1"].TextScaled = true
 Converted["_AddCustomModule1"].TextSize = 14
 Converted["_AddCustomModule1"].TextWrapped = true
@@ -740,8 +672,7 @@ Converted["_AddCustomModule1"].Size = UDim2.new(1, 0, 0, 30)
 Converted["_AddCustomModule1"].Name = "AddCustomModule"
 Converted["_AddCustomModule1"].Parent = Converted["_List"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)12"].Parent = Converted["_AddCustomModule1"]
+Converted["_UICorner12"].Parent = Converted["_AddCustomModule1"]
 
 Converted["_UIPadding9"].PaddingBottom = UDim.new(0, 5)
 Converted["_UIPadding9"].PaddingLeft = UDim.new(0, 5)
@@ -750,16 +681,16 @@ Converted["_UIPadding9"].PaddingTop = UDim.new(0, 5)
 Converted["_UIPadding9"].Parent = Converted["_AddCustomModule1"]
 
 Converted["_UIStroke8"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-Converted["_UIStroke8"].Color = Color3.fromRGB(230, 230, 230)
+Converted["_UIStroke8"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke8"].Parent = Converted["_AddCustomModule1"]
 
 Converted["_Close"].Font = Enum.Font.GothamBold
 Converted["_Close"].Text = "Close"
-Converted["_Close"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_Close"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Close"].TextSize = 14
 Converted["_Close"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_Close"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_Close"].BackgroundTransparency = 0.10000001192092896
+Converted["_Close"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Close"].BackgroundTransparency = 0.30000001192092896
 Converted["_Close"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Close"].BorderSizePixel = 0
 Converted["_Close"].Position = UDim2.new(0.914614439, 0, 0.914238751, 0)
@@ -769,22 +700,21 @@ Converted["_Close"].ZIndex = 999999999
 Converted["_Close"].Name = "Close"
 Converted["_Close"].Parent = Converted["_Menu"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)13"].Parent = Converted["_Close"]
+Converted["_UICorner13"].Parent = Converted["_Close"]
 
 Converted["_UIStroke9"].Parent = Converted["_Close"]
 
 Converted["_HubCredits"].Font = Enum.Font.GothamBold
 Converted["_HubCredits"].Text = "made and open sourced by imperial"
-Converted["_HubCredits"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_HubCredits"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_HubCredits"].TextScaled = true
 Converted["_HubCredits"].TextSize = 14
 Converted["_HubCredits"].TextTransparency = 0.699999988079071
 Converted["_HubCredits"].TextWrapped = true
 Converted["_HubCredits"].TextXAlignment = Enum.TextXAlignment.Right
 Converted["_HubCredits"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_HubCredits"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_HubCredits"].BackgroundTransparency = 0.2
+Converted["_HubCredits"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_HubCredits"].BackgroundTransparency = 1
 Converted["_HubCredits"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_HubCredits"].BorderSizePixel = 0
 Converted["_HubCredits"].Position = UDim2.new(0.785926819, 0, 0.160157606, 0)
@@ -794,13 +724,13 @@ Converted["_HubCredits"].Parent = Converted["_Menu"]
 
 Converted["_HubDesc"].Font = Enum.Font.GothamBold
 Converted["_HubDesc"].Text = "yet another random hub menu"
-Converted["_HubDesc"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_HubDesc"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_HubDesc"].TextSize = 14
 Converted["_HubDesc"].TextWrapped = true
 Converted["_HubDesc"].TextXAlignment = Enum.TextXAlignment.Right
 Converted["_HubDesc"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_HubDesc"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_HubDesc"].BackgroundTransparency = 0.2
+Converted["_HubDesc"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_HubDesc"].BackgroundTransparency = 1
 Converted["_HubDesc"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_HubDesc"].BorderSizePixel = 0
 Converted["_HubDesc"].Position = UDim2.new(0.708829343, 0, 0.116141364, 0)
@@ -809,15 +739,15 @@ Converted["_HubDesc"].Name = "HubDesc"
 Converted["_HubDesc"].Parent = Converted["_Menu"]
 
 Converted["_HubName"].Font = Enum.Font.GothamBold
-Converted["_HubName"].Text = "YARHM"
-Converted["_HubName"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_HubName"].Text = "LucSky"
+Converted["_HubName"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_HubName"].TextScaled = true
 Converted["_HubName"].TextSize = 14
 Converted["_HubName"].TextWrapped = true
 Converted["_HubName"].TextXAlignment = Enum.TextXAlignment.Left
 Converted["_HubName"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_HubName"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_HubName"].BackgroundTransparency = 0.2
+Converted["_HubName"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_HubName"].BackgroundTransparency = 1
 Converted["_HubName"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_HubName"].BorderSizePixel = 0
 Converted["_HubName"].Position = UDim2.new(0.186153606, 0, 0.112410031, 0)
@@ -827,7 +757,7 @@ Converted["_HubName"].Parent = Converted["_Menu"]
 
 Converted["_CanvasGroup"].GroupTransparency = 1
 Converted["_CanvasGroup"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_CanvasGroup"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_CanvasGroup"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_CanvasGroup"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_CanvasGroup"].BorderSizePixel = 0
 Converted["_CanvasGroup"].Interactable = false
@@ -837,12 +767,11 @@ Converted["_CanvasGroup"].Visible = false
 Converted["_CanvasGroup"].ZIndex = 999999998
 Converted["_CanvasGroup"].Parent = Converted["_Menu"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)14"].Parent = Converted["_CanvasGroup"]
+Converted["_UICorner14"].Parent = Converted["_CanvasGroup"]
 
 Converted["_ImageLabel"].Image = "rbxassetid://17864987433"
 Converted["_ImageLabel"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_ImageLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_ImageLabel"].BorderSizePixel = 0
 Converted["_ImageLabel"].Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -856,7 +785,7 @@ Converted["_Opener"].Text = ""
 Converted["_Opener"].TextColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Opener"].TextSize = 14
 Converted["_Opener"].AutoButtonColor = false
-Converted["_Opener"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_Opener"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Opener"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Opener"].BorderSizePixel = 0
 Converted["_Opener"].Size = UDim2.new(1, 0, 1, 0)
@@ -869,8 +798,8 @@ Converted["_TextLabel5"].TextColor3 = Color3.fromRGB(255, 69.00000348687172, 67.
 Converted["_TextLabel5"].TextScaled = true
 Converted["_TextLabel5"].TextSize = 14
 Converted["_TextLabel5"].TextWrapped = true
-Converted["_TextLabel5"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_TextLabel5"].BackgroundTransparency = 0.2
+Converted["_TextLabel5"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel5"].BackgroundTransparency = 1
 Converted["_TextLabel5"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel5"].BorderSizePixel = 0
 Converted["_TextLabel5"].Position = UDim2.new(0.204081595, 0, 0.447761208, 0)
@@ -879,8 +808,8 @@ Converted["_TextLabel5"].ZIndex = 3
 Converted["_TextLabel5"].Parent = Converted["_CanvasGroup"]
 
 Converted["_Area"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_Area"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_Area"].BackgroundTransparency = 0.2
+Converted["_Area"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Area"].BackgroundTransparency = 1
 Converted["_Area"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Area"].BorderSizePixel = 0
 Converted["_Area"].ClipsDescendants = true
@@ -893,8 +822,8 @@ Converted["_Area1"].AutomaticCanvasSize = Enum.AutomaticSize.Y
 Converted["_Area1"].CanvasSize = UDim2.new(0, 0, 0, 0)
 Converted["_Area1"].ScrollBarThickness = 0
 Converted["_Area1"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_Area1"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_Area1"].BackgroundTransparency = 0.2
+Converted["_Area1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Area1"].BackgroundTransparency = 1
 Converted["_Area1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Area1"].BorderSizePixel = 0
 Converted["_Area1"].Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -905,11 +834,11 @@ Converted["_Area1"].Parent = Converted["_Area"]
 
 Converted["_TextLabel6"].Font = Enum.Font.GothamBold
 Converted["_TextLabel6"].Text = "happy spooky season"
-Converted["_TextLabel6"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_TextLabel6"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel6"].TextSize = 14
 Converted["_TextLabel6"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel6"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_TextLabel6"].BackgroundTransparency = 0.2
+Converted["_TextLabel6"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel6"].BackgroundTransparency = 1
 Converted["_TextLabel6"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel6"].BorderSizePixel = 0
 Converted["_TextLabel6"].Position = UDim2.new(0.4923051, 0, 0.46438089, 0)
@@ -917,14 +846,14 @@ Converted["_TextLabel6"].Size = UDim2.new(0, 200, 0, 50)
 Converted["_TextLabel6"].Parent = Converted["_Area1"]
 
 Converted["_TextLabel7"].Font = Enum.Font.GothamBold
-Converted["_TextLabel7"].Text = "YARHM"
-Converted["_TextLabel7"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_TextLabel7"].Text = "LucSky"
+Converted["_TextLabel7"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel7"].TextScaled = true
 Converted["_TextLabel7"].TextSize = 14
 Converted["_TextLabel7"].TextWrapped = true
 Converted["_TextLabel7"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel7"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_TextLabel7"].BackgroundTransparency = 0.2
+Converted["_TextLabel7"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel7"].BackgroundTransparency = 1
 Converted["_TextLabel7"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel7"].BorderSizePixel = 0
 Converted["_TextLabel7"].Position = UDim2.new(0.491272807, 0, 0.363785654, 0)
@@ -940,8 +869,8 @@ Converted["_UIGradient5"].Parent = Converted["_Menu"]
 
 Converted["_CloseArea"].Text = ""
 Converted["_CloseArea"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_CloseArea"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_CloseArea"].BackgroundTransparency = 0.2
+Converted["_CloseArea"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_CloseArea"].BackgroundTransparency = 1
 Converted["_CloseArea"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_CloseArea"].BorderSizePixel = 0
 Converted["_CloseArea"].Position = UDim2.new(0.5, 0, 0.00295135868, 0)
@@ -950,7 +879,7 @@ Converted["_CloseArea"].Name = "CloseArea"
 Converted["_CloseArea"].Parent = Converted["_Menu"]
 
 Converted["_Frame"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Frame"].BackgroundTransparency = 0.6499999761581421
 Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Frame"].BorderSizePixel = 0
@@ -958,14 +887,12 @@ Converted["_Frame"].Position = UDim2.new(0.5, 0, 0.699999988, 0)
 Converted["_Frame"].Size = UDim2.new(0.699999988, 0, 0.100000001, 0)
 Converted["_Frame"].Parent = Converted["_CloseArea"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)15"].CornerRadius = UDim.new(0, 9999)
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)15"].Parent = Converted["_Frame"]
+Converted["_UICorner15"].CornerRadius = UDim.new(0, 9999)
+Converted["_UICorner15"].Parent = Converted["_Frame"]
 
 Converted["_TextLabel8"].Font = Enum.Font.Gotham
 Converted["_TextLabel8"].Text = "Tap here to minimize."
-Converted["_TextLabel8"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_TextLabel8"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel8"].TextSize = 15
 Converted["_TextLabel8"].TextWrapped = true
 Converted["_TextLabel8"].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -977,30 +904,29 @@ Converted["_TextLabel8"].Position = UDim2.new(0.5, 0, 0.680000007, 0)
 Converted["_TextLabel8"].Size = UDim2.new(1.39999998, 0, 0.740999997, 0)
 Converted["_TextLabel8"].Parent = Converted["_CloseArea"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)16"].Parent = Converted["_TextLabel8"]
+Converted["_UICorner16"].Parent = Converted["_TextLabel8"]
 
 Converted["_AllowForSpring"].Name = "AllowForSpring"
 Converted["_AllowForSpring"].Parent = Converted["_CloseArea"]
 
-Converted["_Toggle"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_Toggle"].BackgroundTransparency = 0.2
+Converted["_Toggle"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Toggle"].BackgroundTransparency = 1
 Converted["_Toggle"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Toggle"].BorderSizePixel = 0
 Converted["_Toggle"].Size = UDim2.new(1, 0, 0, 35)
 Converted["_Toggle"].Visible = false
 Converted["_Toggle"].Name = "Toggle"
-Converted["_Toggle"].Parent = Converted["_YARHM"]
+Converted["_Toggle"].Parent = Converted["_LucSky"]
 
 Converted["_TextLabel9"].Font = Enum.Font.Unknown
 Converted["_TextLabel9"].Text = "Loop walkspeed and FOV"
-Converted["_TextLabel9"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_TextLabel9"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel9"].TextScaled = true
 Converted["_TextLabel9"].TextSize = 14
 Converted["_TextLabel9"].TextWrapped = true
 Converted["_TextLabel9"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_TextLabel9"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_TextLabel9"].BackgroundTransparency = 0.2
+Converted["_TextLabel9"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel9"].BackgroundTransparency = 1
 Converted["_TextLabel9"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel9"].BorderSizePixel = 0
 Converted["_TextLabel9"].Size = UDim2.new(0.699999988, 0, 1, 0)
@@ -1012,8 +938,8 @@ Converted["_UIListLayout3"].HorizontalAlignment = Enum.HorizontalAlignment.Cente
 Converted["_UIListLayout3"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIListLayout3"].Parent = Converted["_Toggle"]
 
-Converted["_Frame1"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_Frame1"].BackgroundTransparency = 0.2
+Converted["_Frame1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Frame1"].BackgroundTransparency = 1
 Converted["_Frame1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Frame1"].BorderSizePixel = 0
 Converted["_Frame1"].Size = UDim2.new(0.200000003, 0, 1, 0)
@@ -1027,17 +953,15 @@ Converted["_Frame2"].Position = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_Frame2"].Size = UDim2.new(0, 89, 1, 0)
 Converted["_Frame2"].Parent = Converted["_Frame1"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)17"].CornerRadius = UDim.new(1, 0)
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)17"].Parent = Converted["_Frame2"]
+Converted["_UICorner17"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner17"].Parent = Converted["_Frame2"]
 
 Converted["_Toggler"].Font = Enum.Font.SourceSans
 Converted["_Toggler"].Text = ""
 Converted["_Toggler"].TextColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Toggler"].TextSize = 14
 Converted["_Toggler"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_Toggler"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_Toggler"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Toggler"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Toggler"].BorderSizePixel = 0
 Converted["_Toggler"].Position = UDim2.new(0.300000012, 0, 0.5, 0)
@@ -1045,16 +969,14 @@ Converted["_Toggler"].Size = UDim2.new(0.449438214, 0, 0.800000012, 0)
 Converted["_Toggler"].Name = "Toggler"
 Converted["_Toggler"].Parent = Converted["_Frame2"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)18"].CornerRadius = UDim.new(1, 0)
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)18"].Parent = Converted["_Toggler"]
+Converted["_UICorner18"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner18"].Parent = Converted["_Toggler"]
 
 Converted["_ImageLabel1"].Image = "rbxassetid://10002373478"
 Converted["_ImageLabel1"].ImageColor3 = Color3.fromRGB(255, 0, 4.000000236555934)
 Converted["_ImageLabel1"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_ImageLabel1"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_ImageLabel1"].BackgroundTransparency = 0.2
+Converted["_ImageLabel1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel1"].BackgroundTransparency = 1
 Converted["_ImageLabel1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_ImageLabel1"].BorderSizePixel = 0
 Converted["_ImageLabel1"].Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -1065,18 +987,17 @@ Converted["_UIPadding10"].PaddingRight = UDim.new(0.0700000003, 0)
 Converted["_UIPadding10"].Parent = Converted["_Toggle"]
 
 Converted["_Modules"].Name = "Modules"
-Converted["_Modules"].Parent = Converted["_YARHM"]
+Converted["_Modules"].Parent = Converted["_LucSky"]
 
-Converted["_DropdownFrameSample"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_DropdownFrameSample"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_DropdownFrameSample"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_DropdownFrameSample"].BorderSizePixel = 0
 Converted["_DropdownFrameSample"].Size = UDim2.new(0, 108, 0, 239)
 Converted["_DropdownFrameSample"].Visible = false
 Converted["_DropdownFrameSample"].Name = "DropdownFrameSample"
-Converted["_DropdownFrameSample"].Parent = Converted["_YARHM"]
+Converted["_DropdownFrameSample"].Parent = Converted["_LucSky"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)19"].Parent = Converted["_DropdownFrameSample"]
+Converted["_UICorner19"].Parent = Converted["_DropdownFrameSample"]
 
 Converted["_UIGradient6"].Color = ColorSequence.new{
 	ColorSequenceKeypoint.new(0, Color3.fromRGB(36.00000165402889, 36.00000165402889, 36.00000165402889)),
@@ -1085,14 +1006,14 @@ Converted["_UIGradient6"].Color = ColorSequence.new{
 Converted["_UIGradient6"].Rotation = 68
 Converted["_UIGradient6"].Parent = Converted["_DropdownFrameSample"]
 
-Converted["_UIStroke10"].Color = Color3.fromRGB(230, 230, 230)
-Converted["_UIStroke10"].Thickness = 3
+Converted["_UIStroke10"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke10"].Thickness = 2
 Converted["_UIStroke10"].Parent = Converted["_DropdownFrameSample"]
 
 Converted["_UIGradient7"].Color = ColorSequence.new{
 	ColorSequenceKeypoint.new(0, Color3.fromRGB(111.00000098347664, 111.00000098347664, 111.00000098347664)),
 	ColorSequenceKeypoint.new(0.6401384472846985, Color3.fromRGB(114.23875719308853, 114.23875719308853, 114.23875719308853)),
-	ColorSequenceKeypoint.new(1, Color3.fromRGB(230, 230, 230))
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
 }
 Converted["_UIGradient7"].Rotation = -107
 Converted["_UIGradient7"].Parent = Converted["_UIStroke10"]
@@ -1102,8 +1023,8 @@ Converted["_ScrollingFrame1"].CanvasSize = UDim2.new(0, 0, 0, 0)
 Converted["_ScrollingFrame1"].ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_ScrollingFrame1"].ScrollBarThickness = 0
 Converted["_ScrollingFrame1"].Active = true
-Converted["_ScrollingFrame1"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_ScrollingFrame1"].BackgroundTransparency = 0.2
+Converted["_ScrollingFrame1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ScrollingFrame1"].BackgroundTransparency = 1
 Converted["_ScrollingFrame1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_ScrollingFrame1"].BorderSizePixel = 0
 Converted["_ScrollingFrame1"].Size = UDim2.new(1, 0, 1, 0)
@@ -1115,7 +1036,7 @@ Converted["_UIListLayout4"].Parent = Converted["_ScrollingFrame1"]
 
 Converted["_Sample"].Font = Enum.Font.Unknown
 Converted["_Sample"].Text = "This can fit a lot of text, probably."
-Converted["_Sample"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_Sample"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Sample"].TextScaled = true
 Converted["_Sample"].TextSize = 14
 Converted["_Sample"].TextWrapped = true
@@ -1133,8 +1054,7 @@ Converted["_UIPadding11"].PaddingRight = UDim.new(0, 7)
 Converted["_UIPadding11"].PaddingTop = UDim.new(0, 7)
 Converted["_UIPadding11"].Parent = Converted["_Sample"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)20"].Parent = Converted["_Sample"]
+Converted["_UICorner20"].Parent = Converted["_Sample"]
 
 Converted["_UIPadding12"].PaddingBottom = UDim.new(0, 7)
 Converted["_UIPadding12"].PaddingLeft = UDim.new(0, 7)
@@ -1142,24 +1062,24 @@ Converted["_UIPadding12"].PaddingRight = UDim.new(0, 7)
 Converted["_UIPadding12"].PaddingTop = UDim.new(0, 7)
 Converted["_UIPadding12"].Parent = Converted["_DropdownFrameSample"]
 
-Converted["_Range"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_Range"].BackgroundTransparency = 0.2
+Converted["_Range"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Range"].BackgroundTransparency = 1
 Converted["_Range"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Range"].BorderSizePixel = 0
 Converted["_Range"].Size = UDim2.new(1, 0, 0, 35)
 Converted["_Range"].Visible = false
 Converted["_Range"].Name = "Range"
-Converted["_Range"].Parent = Converted["_YARHM"]
+Converted["_Range"].Parent = Converted["_LucSky"]
 
 Converted["_TextLabel10"].Font = Enum.Font.Unknown
 Converted["_TextLabel10"].Text = "How many #### I give"
-Converted["_TextLabel10"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_TextLabel10"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel10"].TextScaled = true
 Converted["_TextLabel10"].TextSize = 14
 Converted["_TextLabel10"].TextWrapped = true
 Converted["_TextLabel10"].TextXAlignment = Enum.TextXAlignment.Left
-Converted["_TextLabel10"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_TextLabel10"].BackgroundTransparency = 0.2
+Converted["_TextLabel10"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel10"].BackgroundTransparency = 1
 Converted["_TextLabel10"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel10"].BorderSizePixel = 0
 Converted["_TextLabel10"].Size = UDim2.new(0.699999988, 0, 1, 0)
@@ -1176,7 +1096,7 @@ Converted["_UIPadding13"].PaddingRight = UDim.new(0.0700000003, 0)
 Converted["_UIPadding13"].Parent = Converted["_Range"]
 
 Converted["_Frame3"].BackgroundColor3 = Color3.fromRGB(31.000001952052116, 31.000001952052116, 31.000001952052116)
-Converted["_Frame3"].BackgroundTransparency = 0.2
+Converted["_Frame3"].BackgroundTransparency = 1
 Converted["_Frame3"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Frame3"].BorderSizePixel = 0
 Converted["_Frame3"].Size = UDim2.new(0.400000006, 0, 1, 0)
@@ -1188,39 +1108,34 @@ Converted["_UIPadding14"].PaddingRight = UDim.new(0, 7)
 Converted["_UIPadding14"].PaddingTop = UDim.new(0, 7)
 Converted["_UIPadding14"].Parent = Converted["_Frame3"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)21"].Parent = Converted["_Frame3"]
+Converted["_UICorner21"].Parent = Converted["_Frame3"]
 
-Converted["_Frame4"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_Frame4"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Frame4"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Frame4"].BorderSizePixel = 0
 Converted["_Frame4"].Size = UDim2.new(1, 0, 0.200000003, 0)
 Converted["_Frame4"].Parent = Converted["_Frame3"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)22"].CornerRadius = UDim.new(1, 0)
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)22"].Parent = Converted["_Frame4"]
+Converted["_UICorner22"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner22"].Parent = Converted["_Frame4"]
 
 Converted["_TextButton1"].Font = Enum.Font.SourceSans
 Converted["_TextButton1"].Text = ""
 Converted["_TextButton1"].TextColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextButton1"].TextSize = 14
 Converted["_TextButton1"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextButton1"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_TextButton1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextButton1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextButton1"].BorderSizePixel = 0
 Converted["_TextButton1"].Position = UDim2.new(0, 0, 0.5, 0)
 Converted["_TextButton1"].Size = UDim2.new(0, 20, 0, 20)
 Converted["_TextButton1"].Parent = Converted["_Frame4"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)23"].CornerRadius = UDim.new(1, 0)
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)23"].Parent = Converted["_TextButton1"]
+Converted["_UICorner23"].CornerRadius = UDim.new(1, 0)
+Converted["_UICorner23"].Parent = Converted["_TextButton1"]
 
 Converted["_Dialog"].AnchorPoint = Vector2.new(0.5, 1)
-Converted["_Dialog"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_Dialog"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Dialog"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Dialog"].BorderSizePixel = 0
 Converted["_Dialog"].Position = UDim2.new(0.499000013, 0, 0.984000027, 0)
@@ -1228,10 +1143,9 @@ Converted["_Dialog"].Size = UDim2.new(0, 313, 0, 147)
 Converted["_Dialog"].Visible = false
 Converted["_Dialog"].ZIndex = 5
 Converted["_Dialog"].Name = "Dialog"
-Converted["_Dialog"].Parent = Converted["_YARHM"]
+Converted["_Dialog"].Parent = Converted["_LucSky"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)24"].Parent = Converted["_Dialog"]
+Converted["_UICorner24"].Parent = Converted["_Dialog"]
 
 Converted["_UIGradient8"].Color = ColorSequence.new{
 	ColorSequenceKeypoint.new(0, Color3.fromRGB(36.00000165402889, 36.00000165402889, 36.00000165402889)),
@@ -1246,26 +1160,26 @@ Converted["_UIPadding15"].PaddingRight = UDim.new(0, 15)
 Converted["_UIPadding15"].PaddingTop = UDim.new(0, 15)
 Converted["_UIPadding15"].Parent = Converted["_Dialog"]
 
-Converted["_UIStroke11"].Color = Color3.fromRGB(230, 230, 230)
-Converted["_UIStroke11"].Thickness = 3
+Converted["_UIStroke11"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke11"].Thickness = 2
 Converted["_UIStroke11"].Parent = Converted["_Dialog"]
 
 Converted["_UIGradient9"].Color = ColorSequence.new{
 	ColorSequenceKeypoint.new(0, Color3.fromRGB(111.00000098347664, 111.00000098347664, 111.00000098347664)),
 	ColorSequenceKeypoint.new(0.6401384472846985, Color3.fromRGB(114.23875719308853, 114.23875719308853, 114.23875719308853)),
-	ColorSequenceKeypoint.new(1, Color3.fromRGB(230, 230, 230))
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
 }
 Converted["_UIGradient9"].Rotation = -107
 Converted["_UIGradient9"].Parent = Converted["_UIStroke11"]
 
 Converted["_DialogTitle"].Font = Enum.Font.Unknown
-Converted["_DialogTitle"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_DialogTitle"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_DialogTitle"].TextScaled = true
 Converted["_DialogTitle"].TextSize = 14
 Converted["_DialogTitle"].TextWrapped = true
 Converted["_DialogTitle"].TextXAlignment = Enum.TextXAlignment.Right
-Converted["_DialogTitle"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_DialogTitle"].BackgroundTransparency = 0.2
+Converted["_DialogTitle"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_DialogTitle"].BackgroundTransparency = 1
 Converted["_DialogTitle"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_DialogTitle"].BorderSizePixel = 0
 Converted["_DialogTitle"].Size = UDim2.new(0.997416437, 0, 0.16459392, 0)
@@ -1277,14 +1191,14 @@ Converted["_UIListLayout6"].SortOrder = Enum.SortOrder.LayoutOrder
 Converted["_UIListLayout6"].Parent = Converted["_Dialog"]
 
 Converted["_DialogDesc"].Font = Enum.Font.Unknown
-Converted["_DialogDesc"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_DialogDesc"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_DialogDesc"].TextScaled = true
 Converted["_DialogDesc"].TextSize = 14
 Converted["_DialogDesc"].TextWrapped = true
 Converted["_DialogDesc"].TextXAlignment = Enum.TextXAlignment.Left
 Converted["_DialogDesc"].TextYAlignment = Enum.TextYAlignment.Top
-Converted["_DialogDesc"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_DialogDesc"].BackgroundTransparency = 0.2
+Converted["_DialogDesc"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_DialogDesc"].BackgroundTransparency = 1
 Converted["_DialogDesc"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_DialogDesc"].BorderSizePixel = 0
 Converted["_DialogDesc"].Position = UDim2.new(0, 0, 0.187079012, 0)
@@ -1296,8 +1210,8 @@ Converted["_UITextSizeConstraint"].MaxTextSize = 20
 Converted["_UITextSizeConstraint"].MinTextSize = 5
 Converted["_UITextSizeConstraint"].Parent = Converted["_DialogDesc"]
 
-Converted["_Options"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_Options"].BackgroundTransparency = 0.2
+Converted["_Options"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Options"].BackgroundTransparency = 1
 Converted["_Options"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Options"].BorderSizePixel = 0
 Converted["_Options"].Position = UDim2.new(0, 0, 0.82045126, 0)
@@ -1314,7 +1228,7 @@ Converted["_UIListLayout7"].Parent = Converted["_Options"]
 Converted["_OptionPlaceholder"].Font = Enum.Font.GothamBold
 Converted["_OptionPlaceholder"].RichText = true
 Converted["_OptionPlaceholder"].Text = "aaaaaaaaaaa"
-Converted["_OptionPlaceholder"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_OptionPlaceholder"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_OptionPlaceholder"].TextScaled = true
 Converted["_OptionPlaceholder"].TextSize = 100
 Converted["_OptionPlaceholder"].TextWrapped = true
@@ -1332,18 +1246,17 @@ Converted["_UIPadding16"].PaddingRight = UDim.new(0, 15)
 Converted["_UIPadding16"].PaddingTop = UDim.new(0, 1)
 Converted["_UIPadding16"].Parent = Converted["_OptionPlaceholder"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)25"].Parent = Converted["_OptionPlaceholder"]
+Converted["_UICorner25"].Parent = Converted["_OptionPlaceholder"]
 
 Converted["_UIStroke12"].ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-Converted["_UIStroke12"].Color = Color3.fromRGB(230, 230, 230)
-Converted["_UIStroke12"].Thickness = 3
+Converted["_UIStroke12"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_UIStroke12"].Thickness = 2
 Converted["_UIStroke12"].Parent = Converted["_OptionPlaceholder"]
 
 Converted["_UIGradient10"].Color = ColorSequence.new{
 	ColorSequenceKeypoint.new(0, Color3.fromRGB(111.00000098347664, 111.00000098347664, 111.00000098347664)),
 	ColorSequenceKeypoint.new(0.6401384472846985, Color3.fromRGB(114.23875719308853, 114.23875719308853, 114.23875719308853)),
-	ColorSequenceKeypoint.new(1, Color3.fromRGB(230, 230, 230))
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
 }
 Converted["_UIGradient10"].Rotation = -107
 Converted["_UIGradient10"].Parent = Converted["_UIStroke12"]
@@ -1354,7 +1267,7 @@ Converted["_OnSelect"].Parent = Converted["_Dialog"]
 Converted["_UIScale2"].Parent = Converted["_Dialog"]
 
 Converted["_NotificationSample"].AnchorPoint = Vector2.new(0.5, 0)
-Converted["_NotificationSample"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_NotificationSample"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_NotificationSample"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_NotificationSample"].BorderSizePixel = 0
 Converted["_NotificationSample"].ClipsDescendants = true
@@ -1363,14 +1276,12 @@ Converted["_NotificationSample"].Size = UDim2.new(0, 400, 0, 50)
 Converted["_NotificationSample"].Visible = false
 Converted["_NotificationSample"].ZIndex = 5
 Converted["_NotificationSample"].Name = "NotificationSample"
-Converted["_NotificationSample"].Parent = Converted["_YARHM"]
+Converted["_NotificationSample"].Parent = Converted["_LucSky"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)26"].CornerRadius = UDim.new(0, 10)
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)26"].Parent = Converted["_NotificationSample"]
+Converted["_UICorner26"].CornerRadius = UDim.new(0, 10)
+Converted["_UICorner26"].Parent = Converted["_NotificationSample"]
 
-Converted["_UIStroke13"].Color = Color3.fromRGB(230, 230, 230)
+Converted["_UIStroke13"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke13"].Thickness = 1.600000023841858
 Converted["_UIStroke13"].Parent = Converted["_NotificationSample"]
 
@@ -1383,8 +1294,8 @@ Converted["_UIGradient11"].Parent = Converted["_NotificationSample"]
 Converted["_ImageLabel2"].Image = "rbxassetid://11780939099"
 Converted["_ImageLabel2"].ScaleType = Enum.ScaleType.Fit
 Converted["_ImageLabel2"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_ImageLabel2"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_ImageLabel2"].BackgroundTransparency = 0.2
+Converted["_ImageLabel2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel2"].BackgroundTransparency = 1
 Converted["_ImageLabel2"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_ImageLabel2"].BorderSizePixel = 0
 Converted["_ImageLabel2"].Position = UDim2.new(0.100000001, 0, 0.5, 0)
@@ -1392,14 +1303,14 @@ Converted["_ImageLabel2"].Size = UDim2.new(0.0799999982, 0, 0.639999986, 0)
 Converted["_ImageLabel2"].Parent = Converted["_NotificationSample"]
 
 Converted["_TextLabel11"].Font = Enum.Font.Gotham
-Converted["_TextLabel11"].TextColor3 = Color3.fromRGB(230, 230, 230)
+Converted["_TextLabel11"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel11"].TextScaled = true
 Converted["_TextLabel11"].TextSize = 14
 Converted["_TextLabel11"].TextWrapped = true
 Converted["_TextLabel11"].TextXAlignment = Enum.TextXAlignment.Left
 Converted["_TextLabel11"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_TextLabel11"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_TextLabel11"].BackgroundTransparency = 0.2
+Converted["_TextLabel11"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel11"].BackgroundTransparency = 1
 Converted["_TextLabel11"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_TextLabel11"].BorderSizePixel = 0
 Converted["_TextLabel11"].Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -1413,8 +1324,8 @@ Converted["_Close1"].Image = "rbxassetid://10002373478"
 Converted["_Close1"].ScaleType = Enum.ScaleType.Fit
 Converted["_Close1"].Active = false
 Converted["_Close1"].AnchorPoint = Vector2.new(0.5, 0.5)
-Converted["_Close1"].BackgroundColor3 = Color3.fromRGB(230, 230, 230)
-Converted["_Close1"].BackgroundTransparency = 0.2
+Converted["_Close1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Close1"].BackgroundTransparency = 1
 Converted["_Close1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_Close1"].BorderSizePixel = 0
 Converted["_Close1"].Position = UDim2.new(0.899999976, 0, 0.5, 0)
@@ -1423,10 +1334,9 @@ Converted["_Close1"].Size = UDim2.new(0.0799999982, 0, 0.639999986, 0)
 Converted["_Close1"].Name = "Close"
 Converted["_Close1"].Parent = Converted["_NotificationSample"]
 
-Converted["_UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)27"].Parent = Converted["_Close1"]
+Converted["_UICorner27"].Parent = Converted["_Close1"]
 
-Converted["_UIStroke14"].Color = Color3.fromRGB(230, 230, 230)
+Converted["_UIStroke14"].Color = Color3.fromRGB(255, 255, 255)
 Converted["_UIStroke14"].Parent = Converted["_Close1"]
 
 Converted["_UIScale3"].Scale = 0.800000011920929
@@ -1436,10 +1346,10 @@ Converted["_UIScale3"].Parent = Converted["_NotificationSample"]
 
 local fake_module_scripts = {}
 
-do -- Fake Module: StarterGui.YARHM.FUNCTIONS
+do -- Fake Module: StarterGui.LucSky.FUNCTIONS
     local script = Instance.new("ModuleScript")
     script.Name = "FUNCTIONS"
-    script.Parent = Converted["_YARHM"]
+    script.Parent = Converted["_LucSky"]
     local function module_script()
 		local FUNCTIONSmodule = {}
 		
@@ -1556,11 +1466,11 @@ do -- Fake Module: StarterGui.YARHM.FUNCTIONS
 			lockMode = s
 		end
 		function FUNCTIONSmodule.createFloatingButton(item,button,buttonname)
-			if not _G.YARHM.FloatingButtons:FindFirstChild(string.gsub(buttonname, "_", "")) then
+			if not _G.LucSky.FloatingButtons:FindFirstChild(string.gsub(buttonname, "_", "")) then
 		
 		
-				local newFloatingButton = _G.YARHM.FloatingButton:Clone()
-				newFloatingButton.Parent = _G.YARHM.FloatingButtons
+				local newFloatingButton = _G.LucSky.FloatingButton:Clone()
+				newFloatingButton.Parent = _G.LucSky.FloatingButtons
 				newFloatingButton.Name = string.gsub(buttonname, "_", "")
 				newFloatingButton.Text = string.gsub(buttonname, "_", " ")
 				newFloatingButton.Visible = true
@@ -1606,7 +1516,7 @@ do -- Fake Module: StarterGui.YARHM.FUNCTIONS
 					if not floatingButtonInvisibility[string.gsub(buttonname, "_", "")] then 
 						floatingButtonInvisibility[string.gsub(buttonname, "_", "")] = true
 						ts:Create(newFloatingButton, TweenInfo.new(1, Enum.EasingStyle.Cubic, Enum.EasingDirection.InOut), {
-							BackgroundTransparency = 0.2,
+							BackgroundTransparency = 1,
 							TextTransparency = 1
 						}):Play()
 						ts:Create(newFloatingButton.UIStroke, TweenInfo.new(1, Enum.EasingStyle.Cubic, Enum.EasingDirection.InOut), {
@@ -1664,7 +1574,7 @@ do -- Fake Module: StarterGui.YARHM.FUNCTIONS
 					floatingButtonConnections[string.gsub(buttonname, "_", "")]:Disconnect()
 				end
 				task.spawn(function()
-					local buttontodestroy = _G.YARHM.FloatingButtons:FindFirstChild(string.gsub(buttonname, "_", ""))
+					local buttontodestroy = _G.LucSky.FloatingButtons:FindFirstChild(string.gsub(buttonname, "_", ""))
 					local btdtween = ts:Create(buttontodestroy, TweenInfo.new(0.5, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {
 						Size = UDim2.new(0,0,0,0)
 					})
@@ -1697,7 +1607,7 @@ do -- Fake Module: StarterGui.YARHM.FUNCTIONS
 					local text = Instance.new("TextLabel")
 					text.Parent = AREA
 		
-					text.BackgroundTransparency = 0.2
+					text.BackgroundTransparency = 1
 					text.Text = item["Args"][1]
 					text.TextScaled = true
 					text.TextColor3 = Color3.fromRGB(255,255,255)
@@ -1726,8 +1636,7 @@ do -- Fake Module: StarterGui.YARHM.FUNCTIONS
 					padding.PaddingBottom = UDim.new(0, 5)
 		
 		
-					Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)", button)
+					Instance.new("UICorner", button)
 		
 					local hold = false
 		
@@ -1750,7 +1659,7 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)", button)
 					frame.Parent = AREA
 					frame.Size = UDim2.new(1, 0, 0, 0)
 					frame.AutomaticSize = Enum.AutomaticSize.Y
-					frame.BackgroundTransparency = 0.2
+					frame.BackgroundTransparency = 1
 		
 		
 					local gridlayout = Instance.new("UIGridLayout")
@@ -1780,8 +1689,7 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)", button)
 						padding.PaddingTop = UDim.new(0, 5)
 						padding.PaddingBottom = UDim.new(0, 5)
 		
-						Instance.new("UICorner
-Converted["_UICorner"].CornerRadius = UDim.new(0, 10)", button)
+						Instance.new("UICorner", button)
 		
 						button.MouseButton1Click:Connect(function()
 							if item["Toggleable"] then
@@ -1811,7 +1719,7 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)", button)
 		
 		
 				elseif item["Type"] == "Input" then
-					local cloneinput = _G.YARHM.TextBoxPlaceholder:Clone()
+					local cloneinput = _G.LucSky.TextBoxPlaceholder:Clone()
 					cloneinput.Parent = AREA
 					cloneinput.Visible = true
 		
@@ -1822,7 +1730,7 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)", button)
 						item["Args"][3](cloneinput.TextButton, cloneinput.TextBox.Text)
 					end)
 				elseif item["Type"] == "Toggle" then
-					local clonetoggle = _G.YARHM.Toggle:Clone()
+					local clonetoggle = _G.LucSky.Toggle:Clone()
 					clonetoggle.Parent = AREA
 					clonetoggle.Visible = true
 		
@@ -1851,8 +1759,8 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)", button)
 						item["Args"][2](clonetoggletoggler, toggleStates[item["Args"][1] .. module.Name])
 					end)
 				elseif item["Type"] == "Dropdown" then	
-					local clonedropdown = _G.YARHM.Dropdown:Clone()
-					local dropdownFrame = _G.YARHM.DropdownFrameSample
+					local clonedropdown = _G.LucSky.Dropdown:Clone()
+					local dropdownFrame = _G.LucSky.DropdownFrameSample
 					clonedropdown.Parent = AREA
 					clonedropdown.Visible = true
 		
@@ -1913,7 +1821,7 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)", button)
 			end
 			for modulei, module in ipairs(_G.Modules) do
 				local success, err = pcall(function()
-					local listbutton = _G.YARHM.ListButton:Clone()
+					local listbutton = _G.LucSky.ListButton:Clone()
 					listbutton.Parent = script.Parent.Menu.List.ScrollingFrame
 					listbutton.Name = module.Name
 					listbutton.Text = module.Name
@@ -1962,7 +1870,7 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)", button)
 		
 				end)
 				if not success then
-					warn("[YARHM] Error while requiring " .. module.Name .. "!")
+					warn("[LucSky] Error while requiring " .. module.Name .. "!")
 					warn(err)
 				end
 			end
@@ -2013,35 +1921,35 @@ Converted["_UICorner"].CornerRadius = UDim.new(0, 10)", button)
 		end
 		
 		
-		_G.YARHMFUNCTIONS = FUNCTIONSmodule
+		_G.LucSkyFUNCTIONS = FUNCTIONSmodule
 		return FUNCTIONSmodule
 		
     end
     fake_module_scripts[script] = module_script
 end
-do -- Fake Module: StarterGui.YARHM.DraggableObject
+do -- Fake Module: StarterGui.LucSky.DraggableObject
     local script = Instance.new("ModuleScript")
     script.Name = "DraggableObject"
-    script.Parent = Converted["_YARHM"]
+    script.Parent = Converted["_LucSky"]
     local function module_script()
 		local function a(b,c)local d=c.AbsoluteSize;local e=c.AbsolutePosition;local f=b.X.Scale*d.X+b.X.Offset;local g=b.Y.Scale*d.Y+b.Y.Offset;local h=math.clamp(f,0,d.X)local i=math.clamp(g,0,d.Y)local j=UDim2.new(b.X.Scale,h-b.X.Scale*d.X,b.Y.Scale,i-b.Y.Scale*d.Y)return j end;local k=UDim2.new;local l=game:GetService("UserInputService")local m=game:GetService("TweenService")local n={}n.__index=n;function n.new(o,p,q,r)local self={}self.Object=o;self.ToMove=p;self.Smooth=q;self.CallbackOnly=r;self.DragStarted=nil;self.DragEnded=nil;self.Dragged=nil;self.Dragging=false;self.LastPosition=nil;self.Velocity=Vector2.new(0,0)setmetatable(self,n)return self end;function n:Enable()local s=self.Object;local t=self.ToMove;local u=nil;local v=nil;local w=nil;local x=false;local function y(z)local A=z.Position-v;local B=UDim2.new(w.X.Scale,w.X.Offset+A.X,w.Y.Scale,w.Y.Offset+A.Y)if self.CallbackOnly then else B=a(B,self.Object:FindFirstAncestorWhichIsA("ScreenGui"))if(self.Smooth==nil or self.Smooth==true)and self.Smooth~=false then m:Create(t and t or s,TweenInfo.new(0.5,Enum.EasingStyle.Cubic,Enum.EasingDirection.Out),{Position=B}):Play()else local C=t and t or s;C.Position=B end end;return B end;self.InputBegan=s.InputBegan:Connect(function(z)if z.UserInputType==Enum.UserInputType.MouseButton1 or z.UserInputType==Enum.UserInputType.Touch then x=true;local D;D=z.Changed:Connect(function()if z.UserInputState==Enum.UserInputState.End and(self.Dragging or x)then self.Dragging=false;D:Disconnect()if self.DragEnded and not x then self.DragEnded(self.Velocity)end;x=false end end)end end)self.InputChanged=s.InputChanged:Connect(function(z)if z.UserInputType==Enum.UserInputType.MouseMovement or z.UserInputType==Enum.UserInputType.Touch then u=z end end)self.InputChanged2=l.InputChanged:Connect(function(z)if s.Parent==nil then self:Disable()return end;if x then x=false;if self.DragStarted then self.DragStarted()end;self.Dragging=true;v=z.Position;if t then w=t.Position else w=s.Position end;self.LastPosition=z.Position end;if z==u and self.Dragging then local B=y(z)self.Velocity=z.Position-self.LastPosition;self.LastPosition=z.Position;if self.Dragged then self.Dragged(B)end end end)end;function n:Disable()self.InputBegan:Disconnect()self.InputChanged:Disconnect()self.InputChanged2:Disconnect()if self.Dragging then self.Dragging=false;if self.DragEnded then self.DragEnded(self.Velocity)end end end;return n
 		
     end
     fake_module_scripts[script] = module_script
 end
-do -- Fake Module: StarterGui.YARHM.ClickAndHold
+do -- Fake Module: StarterGui.LucSky.ClickAndHold
     local script = Instance.new("ModuleScript")
     script.Name = "ClickAndHold"
-    script.Parent = Converted["_YARHM"]
+    script.Parent = Converted["_LucSky"]
     local function module_script()
 		local a={}a.__index=a;local b=game:GetService("UserInputService")function a.new(c,d)local self=setmetatable({},a)self.textButton=c;self.holdTime=d or 0.5;self.holdTask=nil;self.initialPosition=nil;self.Holded=Instance.new("BindableEvent")local function e(f,g)return math.sqrt((g.X-f.X)^2+(g.Y-f.Y)^2)end;self.textButton.MouseButton1Down:Connect(function(h,i)self.initialPosition=Vector2.new(h,i)self.holdTask=task.spawn(function()task.wait(self.holdTime)if self.holdTask then self.Holded:Fire()end end)end)b.InputChanged:Connect(function(j)if j.UserInputType==Enum.UserInputType.MouseMovement or j.UserInputType==Enum.UserInputType.Touch then if self.holdTask and self.initialPosition then local k=j.Position;local l=e(self.initialPosition,k)if l>10 then coroutine.close(self.holdTask)self.holdTask=nil end end end end)b.InputEnded:Connect(function(j)if j.UserInputType==Enum.UserInputType.MouseButton1 or j.UserInputType==Enum.UserInputType.Touch then if self.holdTask then coroutine.close(self.holdTask)self.holdTask=nil end;self.initialPosition=nil end end)return self end;return a
     end
     fake_module_scripts[script] = module_script
 end
-do -- Fake Module: StarterGui.YARHM.Spring
+do -- Fake Module: StarterGui.LucSky.Spring
     local script = Instance.new("ModuleScript")
     script.Name = "Spring"
-    script.Parent = Converted["_YARHM"]
+    script.Parent = Converted["_LucSky"]
     local function module_script()
 		local a=game:GetService("RunService")local b={}function OverDamping(c,d,e,f,g,h)local i=d*d-4*e/c;local j=-1/2;local k=d+math.sqrt(i)local l=d-math.sqrt(i)local m,n=j*k,j*l;local o,p=(n*f-g)/(n-m),(m*f-g)/(m-n)local q=h/e;return{Offset=function(r)return o*math.exp(m*r)+p*math.exp(n*r)+q end,Velocity=function(r)return o*m*math.exp(m*r)+p*n*math.exp(n*r)end,Acceleration=function(r)return o*m*m*math.exp(m*r)+p*n*n*math.exp(n*r)end}end;function CriticalDamping(c,d,e,f,g,h)local s=-d/2;local o,p=f,g-s*f;local q=h/e;return{Offset=function(r)return math.exp(s*r)*(o+p*r)+q end,Velocity=function(r)return math.exp(s*r)*(p*s*r+o*s+p)end,Acceleration=function(r)return s*math.exp(s*r)*(p*s*r+o*s+2*p)end}end;function UnderDamping(c,d,e,f,g,h)local i=d*d-4*e/c;local s=-d/2;local t=math.sqrt(-i)local o,p=f,(g-s*f)/t;local q=h/e;return{Offset=function(r)return math.exp(s*r)*(o*math.cos(t*r)+p*math.sin(t*r))+q end,Velocity=function(r)return-math.exp(s*r)*((o*t-p*s)*math.sin(t*r)+(-p*t-o*s)*math.cos(t*r))end,Acceleration=function(r)return-math.exp(s*r)*((p*t*t+2*o*s*t-p*s*s)*math.sin(t*r)+(o*t*t-2*p*s*t-o*s*s)*math.cos(t*r))end}end;function b.F(u)local f,g,h=u.InitialOffset,u.InitialVelocity,u.ExternalForce;local c,d,e=u.Mass,u.Damping,u.Constant;local i=d*d-4*e/c;if i>0 then return OverDamping(c,d,e,f,g,h)elseif i==0 then return CriticalDamping(c,d,e,f,g,h)else return UnderDamping(c,d,e,f,g,h)end end;local v=b;local w=math.sqrt;local x=math.pi;local y={OFFSET="Offset",VELOCITY="Velocity",ACCELERATION="Acceleration",GOAL="Goal",FREQUENCY="Frequency"}local z=[[.]]local A=[[.]]local u={}local B={}B.__index=function(self,C)local D={[y.OFFSET]=function()local r=tick()-self.StartTick;local E=self.F;local F=E.Offset(r)return F end,[y.VELOCITY]=function()local r=tick()-self.StartTick;local E=self.F;local G=E.Velocity(r)return G end,[y.ACCELERATION]=function()local r=tick()-self.StartTick;local E=self.F;local H=E.Acceleration(r)return H end,[y.GOAL]=function()local I=self.ExternalForce;local J=self.Constant;return I/J end,[y.FREQUENCY]=function()local K=self.Damping;local L=self.Constant;local M=self.Mass;return w(-K*K+4*L/M)/(2*x)end}local N=rawget(self,C)if N~=nil then return N end;local O=D[C]if O~=nil then return O()end;return B[C]end;B.__tostring=function(self)local r=tick()-self.StartTick;local E=self.F;local P=self.AdvancedObjectStringEnabled;local Q;if P==false then Q=string.format(z,E.Offset(r),E.Velocity(r),E.Acceleration(r))elseif P==true then Q=string.format(A,self.Mass,self.Damping,self.Constant,self.Goal,self.Frequency,self.InitialOffset,self.InitialVelocity,self.ExternalForce,self.StartTick,E.Offset(r),E.Velocity(r),E.Acceleration(r))end;return Q end;function u.new(M,K,L,f,g,R)assert(M>0,"Mass for spring system cannot be less than or equal to 0")assert(L>0,"Spring constant for spring system cannot be less than or equal to 0")f=f or 0;g=g or 0;R=R or 0;local S=R*L;local T={Mass=M,Damping=K,Constant=L,InitialOffset=f-R,InitialVelocity=g,ExternalForce=S,AdvancedObjectStringEnabled=false,StartTick=0}setmetatable(T,B)T:Reset()return T end;function u.fromFrequency(M,K,U,f,g,R)assert(M>0,"Mass for spring system cannot be less than or equal to 0")assert(U>0,"Spring frequency for spring system cannot be less than or equal to 0")local L=0.25*M*(4*x*x*U*U+K*K)f=f or 0;g=g or 0;R=R or 0;local S=R*L;local T={Mass=M,Damping=K,Constant=L,InitialOffset=f-R,InitialVelocity=g,ExternalForce=S,AdvancedObjectStringEnabled=false,StartTick=0}setmetatable(T,B)T:Reset()return T end;function B:Reset()self.F=v.F(self)self.StartTick=tick()end;function B:SetExternalForce(V)self.ExternalForce=V;self.InitialOffset=self.Offset-V/self.Constant;self.InitialVelocity=self.Velocity;self:Reset()end;function B:SetGoal(R)self.ExternalForce=R*self.Constant;self.InitialOffset=self.Offset-R;self.InitialVelocity=self.Velocity;self:Reset()end;function B:SetFrequency(U)self.Constant=0.25*self.Mass*(4*x*x*U*U+self.Damping*self.Damping)self.InitialOffset=self.Offset;self.InitialVelocity=self.Velocity;self:Reset()end;function B:SnapToCriticalDamping()self.Damping=2*w(self.Constant/self.Mass)self.InitialOffset=self.Offset;self.InitialVelocity=self.Velocity;self:Reset()end;function B:SetOffset(F,W)self.InitialOffset=F-self.Goal;self.InitialVelocity=W and 0 or self.Velocity;self:Reset()end;function B:AddOffset(F)self.InitialOffset=self.Offset+F;self.InitialVelocity=self.Velocity;self:Reset()end;function B:SetVelocity(G)self.InitialOffset=self.Offset;self.InitialVelocity=G;self:Reset()end;function B:AddVelocity(G)self.InitialOffset=self.Offset;self.InitialVelocity=self.Velocity+G;self:Reset()end;function B:Print()local X=tostring(self)print(X)end;return u
     end
@@ -2050,7 +1958,7 @@ end
 
 -- Fake Local Scripts:
 
-local function JQJVD_fake_script() -- Fake Script: StarterGui.YARHM.Open.InitOpen
+local function JQJVD_fake_script() -- Fake Script: StarterGui.LucSky.Open.InitOpen
     local script = Instance.new("LocalScript")
     script.Name = "InitOpen"
     script.Parent = Converted["_Open"]
@@ -2086,7 +1994,7 @@ local function JQJVD_fake_script() -- Fake Script: StarterGui.YARHM.Open.InitOpe
 	--	Transparency = 1
 	--}):Play()
 end
-local function QFRK_fake_script() -- Fake Script: StarterGui.YARHM.Open.OnClick
+local function QFRK_fake_script() -- Fake Script: StarterGui.LucSky.Open.OnClick
     local script = Instance.new("LocalScript")
     script.Name = "OnClick"
     script.Parent = Converted["_Open"]
@@ -2124,14 +2032,14 @@ local function QFRK_fake_script() -- Fake Script: StarterGui.YARHM.Open.OnClick
 		if clickCount == 3 then
 			-- Triple-click detected
 	
-			ts:Create(_G.YARHM.Menu, TweenInfo.new(0.7, Enum.EasingStyle.Back, Enum.EasingDirection.Out), 
+			ts:Create(_G.LucSky.Menu, TweenInfo.new(0.7, Enum.EasingStyle.Back, Enum.EasingDirection.Out), 
 				{Position = UDim2.fromScale(0.499, 0.041), Size = UDim2.fromOffset(441, 268)}
 			):Play()
 		end
 	end)
 	
 end
-local function KBEFORH_fake_script() -- Fake Script: StarterGui.YARHM.Open.Resizer
+local function KBEFORH_fake_script() -- Fake Script: StarterGui.LucSky.Open.Resizer
     local script = Instance.new("LocalScript")
     script.Name = "Resizer"
     script.Parent = Converted["_Open"]
@@ -2217,10 +2125,10 @@ local function KBEFORH_fake_script() -- Fake Script: StarterGui.YARHM.Open.Resiz
 	userInputService.InputChanged:Connect(onInputChanged)
 	
 end
-local function VXLACE_fake_script() -- Fake Script: StarterGui.YARHM.Init
+local function VXLACE_fake_script() -- Fake Script: StarterGui.LucSky.Init
     local script = Instance.new("LocalScript")
     script.Name = "Init"
-    script.Parent = Converted["_YARHM"]
+    script.Parent = Converted["_LucSky"]
     local req = require
     local require = function(obj)
         local fake = fake_module_scripts[obj]
@@ -2235,7 +2143,7 @@ local function VXLACE_fake_script() -- Fake Script: StarterGui.YARHM.Init
 	local ts = game:GetService("TweenService")
 	
 	
-	_G.YARHM = script.Parent
+	_G.LucSky = script.Parent
 	local COREGUI = game:GetService("CoreGui")
 	function randomString()
 		local length = math.random(10,20)
@@ -2250,30 +2158,30 @@ local function VXLACE_fake_script() -- Fake Script: StarterGui.YARHM.Init
 			local hiddenUI = get_hidden_gui or gethui
 			script.Parent.Name = randomString()
 			script.Parent.Parent = hiddenUI()
-			print("[YARHM] - Using get_hidden_gui for anti-detection.")
+			print("[LucSky] - Using get_hidden_gui for anti-detection.")
 		elseif (not is_sirhurt_closure) and (syn and syn.protect_gui) then
 			script.Parent.Name = randomString()
 			syn.protect_gui(script.Parent)
 			script.Parent.Parent = COREGUI
-			print("[YARHM] - Using syn.protect_gui for anti-detection.")
+			print("[LucSky] - Using syn.protect_gui for anti-detection.")
 		elseif COREGUI:FindFirstChild('RobloxGui') then
 			script.Parent.Parent = COREGUI.RobloxGui
-			print("[YARHM] - Using RobloxGui for anti-detection.")
+			print("[LucSky] - Using RobloxGui for anti-detection.")
 		else
-			warn("[YARHM] - Using CoreGui as anti-detection. This is the most basic coverage and can still be detected.")
+			warn("[LucSky] - Using CoreGui as anti-detection. This is the most basic coverage and can still be detected.")
 		end
 	end)
 	
-	print("[YARHM] - YARHM is now in " .. tostring(script.Parent:GetFullName()))
+	print("[LucSky] - LucSky is now in " .. tostring(script.Parent:GetFullName()))
 	if not s then
-		warn("[YARHM] - Attempts at anti-detection failed. Using CoreGui as anti-detection.")
+		warn("[LucSky] - Attempts at anti-detection failed. Using CoreGui as anti-detection.")
 		warn(e)	
 	end
 	
-	printidentity("[YARHM] - Your executor level (identity) is")
+	printidentity("[LucSky] - Your executor level (identity) is")
 	
 	local getExeName = identifyexecutor or getexecutorname or function() return "Yet Another Roblox Executor v1.2" end
-	print("[YARHM] - Your executor is " .. getExeName())
+	print("[LucSky] - Your executor is " .. getExeName())
 	
 	script.Parent.SafeAreaCompatibility = Enum.SafeAreaCompatibility.None
 	script.Parent.ScreenInsets = Enum.ScreenInsets.None
@@ -2294,7 +2202,7 @@ local function VXLACE_fake_script() -- Fake Script: StarterGui.YARHM.Init
 	if not game:IsLoaded() then
 		game.Loaded:Wait()
 	end
-	require(script.Parent.FUNCTIONS).notification("Welcome to YARHM Astralfire.")
+	require(script.Parent.FUNCTIONS).notification("Welcome to LucSky Astralfire.")
 	
 	ts:Create(script.Parent.Menu, TweenInfo.new(1, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), 
 		{Position = UDim2.fromScale(0.018, 0.968)}
@@ -2312,7 +2220,7 @@ local function VXLACE_fake_script() -- Fake Script: StarterGui.YARHM.Init
 	
 	script.Parent.Menu.CloseArea.AllowForSpring:Fire()
 end
-local function JGXWB_fake_script() -- Fake Script: StarterGui.YARHM.FloatingButton.Keybinding
+local function JGXWB_fake_script() -- Fake Script: StarterGui.LucSky.FloatingButton.Keybinding
     local script = Instance.new("LocalScript")
     script.Name = "Keybinding"
     script.Parent = Converted["_FloatingButton"]
@@ -2327,7 +2235,7 @@ local function JGXWB_fake_script() -- Fake Script: StarterGui.YARHM.FloatingButt
 
 	
 end
-local function MGTT_fake_script() -- Fake Script: StarterGui.YARHM.FloatingButton.Invisible
+local function MGTT_fake_script() -- Fake Script: StarterGui.LucSky.FloatingButton.Invisible
     local script = Instance.new("LocalScript")
     script.Name = "Invisible"
     script.Parent = Converted["_FloatingButton"]
@@ -2354,7 +2262,7 @@ local function MGTT_fake_script() -- Fake Script: StarterGui.YARHM.FloatingButto
 	--		if not invisible then 
 	--			invisible = true
 	--			ts:Create(script.Parent, TweenInfo.new(1, Enum.EasingStyle.Cubic, Enum.EasingDirection.InOut), {
-	--				BackgroundTransparency = 0.2,
+	--				BackgroundTransparency = 1,
 	--				TextTransparency = 1
 	--			}):Play()
 	--			ts:Create(script.Parent.UIStroke, TweenInfo.new(1, Enum.EasingStyle.Cubic, Enum.EasingDirection.InOut), {
@@ -2377,7 +2285,7 @@ local function MGTT_fake_script() -- Fake Script: StarterGui.YARHM.FloatingButto
 	--	holding = false
 	--end)
 end
-local function TKTMNY_fake_script() -- Fake Script: StarterGui.YARHM.AddCustomModule.Add.LocalScript
+local function TKTMNY_fake_script() -- Fake Script: StarterGui.LucSky.AddCustomModule.Add.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Add"]
@@ -2418,7 +2326,7 @@ local function TKTMNY_fake_script() -- Fake Script: StarterGui.YARHM.AddCustomMo
 		end
 	end)
 end
-local function ZNJPL_fake_script() -- Fake Script: StarterGui.YARHM.AddCustomModule.Cancel.LocalScript
+local function ZNJPL_fake_script() -- Fake Script: StarterGui.LucSky.AddCustomModule.Cancel.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Cancel"]
@@ -2442,7 +2350,7 @@ local function ZNJPL_fake_script() -- Fake Script: StarterGui.YARHM.AddCustomMod
 		}):Play()
 	end)
 end
-local function FHXBSSY_fake_script() -- Fake Script: StarterGui.YARHM.Menu.UIStroke.UIGradient.Animator
+local function FHXBSSY_fake_script() -- Fake Script: StarterGui.LucSky.Menu.UIStroke.UIGradient.Animator
     local script = Instance.new("LocalScript")
     script.Name = "Animator"
     script.Parent = Converted["_UIGradient2"]
@@ -2463,7 +2371,7 @@ local function FHXBSSY_fake_script() -- Fake Script: StarterGui.YARHM.Menu.UIStr
 			Rotation = -180
 		}):Play()
 end
-local function PCGAKG_fake_script() -- Fake Script: StarterGui.YARHM.Menu.List.AutoSetup
+local function PCGAKG_fake_script() -- Fake Script: StarterGui.LucSky.Menu.List.AutoSetup
     local script = Instance.new("LocalScript")
     script.Name = "AutoSetup"
     script.Parent = Converted["_List"]
@@ -2517,7 +2425,7 @@ local function PCGAKG_fake_script() -- Fake Script: StarterGui.YARHM.Menu.List.A
 		end
 	end)
 end
-local function HXNHH_fake_script() -- Fake Script: StarterGui.YARHM.Menu.List.AddCustomModule.LocalScript
+local function HXNHH_fake_script() -- Fake Script: StarterGui.LucSky.Menu.List.AddCustomModule.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_AddCustomModule1"]
@@ -2541,7 +2449,7 @@ local function HXNHH_fake_script() -- Fake Script: StarterGui.YARHM.Menu.List.Ad
 		}):Play()
 	end)
 end
-local function DGSNCYE_fake_script() -- Fake Script: StarterGui.YARHM.Menu.Close.LocalScript
+local function DGSNCYE_fake_script() -- Fake Script: StarterGui.LucSky.Menu.Close.LocalScript
     local script = Instance.new("LocalScript")
     script.Name = "LocalScript"
     script.Parent = Converted["_Close"]
@@ -2557,7 +2465,7 @@ local function DGSNCYE_fake_script() -- Fake Script: StarterGui.YARHM.Menu.Close
 	local ts = game:GetService("TweenService")
 	
 	script.Parent.MouseButton1Click:Connect(function()
-		ts:Create(_G.YARHM.Menu, TweenInfo.new(0.4, Enum.EasingStyle.Circular, Enum.EasingDirection.Out), 
+		ts:Create(_G.LucSky.Menu, TweenInfo.new(0.4, Enum.EasingStyle.Circular, Enum.EasingDirection.Out), 
 			{Size = UDim2.fromOffset(55, 55)}
 		):Play()
 		
@@ -2567,7 +2475,7 @@ local function DGSNCYE_fake_script() -- Fake Script: StarterGui.YARHM.Menu.Close
 		}):Play()
 	end)
 end
-local function BVLUONR_fake_script() -- Fake Script: StarterGui.YARHM.Menu.CloseArea.CloseOpen
+local function BVLUONR_fake_script() -- Fake Script: StarterGui.LucSky.Menu.CloseArea.CloseOpen
     local script = Instance.new("LocalScript")
     script.Name = "CloseOpen"
     script.Parent = Converted["_CloseArea"]
@@ -2591,7 +2499,7 @@ local function BVLUONR_fake_script() -- Fake Script: StarterGui.YARHM.Menu.Close
 	-- Tween the TextLabel transparency
 	--TweenService:Create(script.Parent.TextLabel, TweenInfo.new(20, Enum.EasingStyle.Linear), {
 	--	TextTransparency = 1,
-	--	BackgroundTransparency = 0.2
+	--	BackgroundTransparency = 1
 	--}):Play()
 	
 	local closed = false
@@ -2646,7 +2554,7 @@ local function BVLUONR_fake_script() -- Fake Script: StarterGui.YARHM.Menu.Close
 		--	textHidden = true
 		--	TweenService:Create(script.Parent.TextLabel, TweenInfo.new(1, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {
 		--		TextTransparency = 1,
-		--		BackgroundTransparency = 0.2
+		--		BackgroundTransparency = 1
 		--	}):Play()
 		--end
 		setSpringPosGoal(pos)
@@ -2664,7 +2572,7 @@ local function BVLUONR_fake_script() -- Fake Script: StarterGui.YARHM.Menu.Close
 			textHidden = true
 			TweenService:Create(script.Parent.TextLabel, TweenInfo.new(1, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {
 				TextTransparency = 1,
-				BackgroundTransparency = 0.2
+				BackgroundTransparency = 1
 			}):Play()
 		end
 		TweenService:Create(menu, TweenInfo.new(2, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {
@@ -2687,7 +2595,7 @@ local function BVLUONR_fake_script() -- Fake Script: StarterGui.YARHM.Menu.Close
 				textHidden = true
 				TweenService:Create(script.Parent.TextLabel, TweenInfo.new(1, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {
 					TextTransparency = 1,
-					BackgroundTransparency = 0.2
+					BackgroundTransparency = 1
 				}):Play()
 			end
 			TweenService:Create(menu, TweenInfo.new(2, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {
@@ -2729,10 +2637,10 @@ local function BVLUONR_fake_script() -- Fake Script: StarterGui.YARHM.Menu.Close
 	script.Parent.AllowForSpring.Event:Wait()
 	springing = true
 end
-local function TDXDSDS_fake_script() -- Fake Script: StarterGui.YARHM.Flee the Facility
+local function TDXDSDS_fake_script() -- Fake Script: StarterGui.LucSky.Flee the Facility
     local script = Instance.new("LocalScript")
     script.Name = "Flee the Facility"
-    script.Parent = Converted["_YARHM"]
+    script.Parent = Converted["_LucSky"]
     local req = require
     local require = function(obj)
         local fake = fake_module_scripts[obj]
@@ -3039,10 +2947,10 @@ local function TDXDSDS_fake_script() -- Fake Script: StarterGui.YARHM.Flee the F
 	
 	_G.Modules[2] = module
 end
-local function VHCKUS_fake_script() -- Fake Script: StarterGui.YARHM.Murder Mystery 2
+local function VHCKUS_fake_script() -- Fake Script: StarterGui.LucSky.Murder Mystery 2
     local script = Instance.new("LocalScript")
     script.Name = "Murder Mystery 2"
-    script.Parent = Converted["_YARHM"]
+    script.Parent = Converted["_LucSky"]
     local req = require
     local require = function(obj)
         local fake = fake_module_scripts[obj]
@@ -3187,14 +3095,14 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.YARHM.Murder Myst
 					a.Name = "PlayerESP"
 					a.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
 					a.Adornee = character
-					a.FillColor = Color3.fromRGB(230, 230, 230)
+					a.FillColor = Color3.fromRGB(255, 255, 255)
 					a.FillTransparency = 0.5
 					task.spawn(function()
 						if player == findMurderer() then
 							--local mbgui = script.Parent.MurdererBGUI:Clone()
 							--mbgui.Enabled = true
 							--mbgui.Name = "AppliedMurdererBGUI"
-							--mbgui.Parent = _G.YARHM
+							--mbgui.Parent = _G.LucSky
 							--mbgui.Adornee = character
 							a.FillColor = Color3.fromRGB(255,0,0)
 							a.OutlineColor = Color3.fromRGB(255,0,0)
@@ -3217,7 +3125,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.YARHM.Murder Myst
 	end
 	
 	
-	local fu = require(_G.YARHM.FUNCTIONS)
+	local fu = require(_G.LucSky.FUNCTIONS)
 	if not game.ReplicatedStorage:WaitForChild("Remotes", 10) then
 		fu.dialog("Not MM2", "Looks like this game isn't MM2. Do you want to load the module anyway?", {"Load", "No"})
 	
@@ -3346,8 +3254,8 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.YARHM.Murder Myst
 		if ch == getMap() and playerESP then
 			fu.notification("Game ended, removing Player ESPs.")
 			playerData = {}
-			if _G.YARHM:FindFirstChild("AppliedMurdererBGUI") then _G.YARHM:FindFirstChild("AppliedMurdererBGUI"):Destroy() end
-			if _G.YARHM:FindFirstChild("DGBGUIClone") then _G.YARHM:FindFirstChild("DGBGUIClone"):Destroy() end
+			if _G.LucSky:FindFirstChild("AppliedMurdererBGUI") then _G.LucSky:FindFirstChild("AppliedMurdererBGUI"):Destroy() end
+			if _G.LucSky:FindFirstChild("DGBGUIClone") then _G.LucSky:FindFirstChild("DGBGUIClone"):Destroy() end
 			for _, v in ipairs(script.Parent:GetChildren()) do if v.Name == "PlayerESP" then v:Destroy() end end
 		end
 	end)
@@ -3421,14 +3329,14 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.YARHM.Murder Myst
 						a.Name = "PlayerESP"
 						a.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
 						a.Adornee = character
-						a.FillColor = Color3.fromRGB(230, 230, 230)
+						a.FillColor = Color3.fromRGB(255, 255, 255)
 						a.FillTransparency = 0.5
 						task.spawn(function()
 							if player == findMurderer() then
 								local mbgui = script.Parent.MurdererBGUI:Clone()
 								mbgui.Enabled = true
 								mbgui.Name = "AppliedMurdererBGUI"
-								mbgui.Parent = _G.YARHM
+								mbgui.Parent = _G.LucSky
 								mbgui.Adornee = character
 								a.FillColor = Color3.fromRGB(255,0,0)
 								a.OutlineColor = Color3.fromRGB(255,0,0)
@@ -3602,8 +3510,8 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.YARHM.Murder Myst
 			Players = function()
 				if playerESP then
 					playerESP = false
-					if _G.YARHM:FindFirstChild("AppliedMurdererBGUI") then _G.YARHM:FindFirstChild("AppliedMurdererBGUI"):Destroy() end
-					if _G.YARHM:FindFirstChild("DGBGUIClone") then _G.YARHM:FindFirstChild("DGBGUIClone"):Destroy() end
+					if _G.LucSky:FindFirstChild("AppliedMurdererBGUI") then _G.LucSky:FindFirstChild("AppliedMurdererBGUI"):Destroy() end
+					if _G.LucSky:FindFirstChild("DGBGUIClone") then _G.LucSky:FindFirstChild("DGBGUIClone"):Destroy() end
 					for _, v in ipairs(script.Parent:GetChildren()) do if v.Name == "PlayerESP" then v:Destroy() end end
 				else
 					playerESP = true
@@ -3620,8 +3528,8 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.YARHM.Murder Myst
 			Dropped_Gun = function()
 				if gunDropESP then
 					gunDropESP = false
-					if _G.YARHM:FindFirstChild("GunESP") then _G.YARHM:FindFirstChild("GunESP"):Destroy() end
-					if _G.YARHM:FindFirstChild("DGBGUIClone") then _G.YARHM:FindFirstChild("DGBGUIClone"):Destroy() end
+					if _G.LucSky:FindFirstChild("GunESP") then _G.LucSky:FindFirstChild("GunESP"):Destroy() end
+					if _G.LucSky:FindFirstChild("DGBGUIClone") then _G.LucSky:FindFirstChild("DGBGUIClone"):Destroy() end
 				else
 					gunDropESP = true
 					if not getMap() then return end
@@ -3776,7 +3684,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.YARHM.Murder Myst
 					repeat
 						task.wait(0.1)
 						local murderer = findMurderer() or findSheriffThatsNotMe()
-						if not murderer then warn("[YARHM] > MM2 Autoshoot - No murderer.") continue end
+						if not murderer then warn("[LucSky] > MM2 Autoshoot - No murderer.") continue end
 						local murdererPosition = murderer.Character.HumanoidRootPart.Position
 						local characterRootPart = localplayer.Character.HumanoidRootPart
 						local rayDirection = (murdererPosition - characterRootPart.Position).Unit * 50
@@ -3834,8 +3742,8 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.YARHM.Murder Myst
 			if state then
 				timertext = Instance.new("TextLabel")
 				timertext.Parent = script.Parent
-				timertext.BackgroundTransparency = 0.2
-				timertext.TextColor3 = Color3.fromRGB(230, 230, 230)
+				timertext.BackgroundTransparency = 1
+				timertext.TextColor3 = Color3.fromRGB(255, 255, 255)
 				timertext.TextScaled = true
 				timertext.AnchorPoint = Vector2.new(0.5, 0.5)
 	
@@ -3881,7 +3789,7 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.YARHM.Murder Myst
 				if sher then sherName = sher.Name end
 				local message = string.format([[Murderer: %s |
 	Sheriff: %s |
-	<<YARHM>>]], murdName, sherName)
+	<<LucSky>>]], murdName, sherName)
 				textchannel:SendAsync(message)
 			end
 		end,}
@@ -4149,10 +4057,10 @@ local function VHCKUS_fake_script() -- Fake Script: StarterGui.YARHM.Murder Myst
 	_G.Modules[3] = module
 	fu.refreshlist()
 end
-local function COBWDKS_fake_script() -- Fake Script: StarterGui.YARHM.Universal
+local function COBWDKS_fake_script() -- Fake Script: StarterGui.LucSky.Universal
     local script = Instance.new("LocalScript")
     script.Name = "Universal"
-    script.Parent = Converted["_YARHM"]
+    script.Parent = Converted["_LucSky"]
     local req = require
     local require = function(obj)
         local fake = fake_module_scripts[obj]
@@ -4350,7 +4258,7 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.YARHM.Universal
 	
 	table.insert(module, {
 		Type = "Text",
-		Args = {"Welcome to YARHM! The open, free script hub."}
+		Args = {"Welcome to LucSky! The open, free script hub."}
 	})
 	
 	table.insert(module, {
@@ -5170,7 +5078,7 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.YARHM.Universal
 	
 	table.insert(module, {
 		Type = "Button",
-		Args = {"Hide YARHM", function(Self)
+		Args = {"Hide LucSky", function(Self)
 			if uis.KeyboardEnabled then
 				ts:Create(script.Parent.Menu.UIScale, TweenInfo.new(0.6, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {
 					Scale = 0
@@ -5184,7 +5092,7 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.YARHM.Universal
 				hidden=true
 				fu.notification("Shake your device to bring back the menu.")
 			else
-				fu.notification("Can't hide YARHM!") -- how else are you gonna open???
+				fu.notification("Can't hide LucSky!") -- how else are you gonna open???
 			end
 		end,}
 	}
@@ -5298,16 +5206,16 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.YARHM.Universal
 		Type = "Button",
 		Args = {"Open developer console (debugging)", function(Self)
 			game.StarterGui:SetCore("DevConsoleVisible", true)
-			--_G.YARHM.Open.UIStroke.Transparency = 0
-			--_G.YARHM.Open.TextTransparency = 0
-			--ts:Create(_G.YARHM.Open, TweenInfo.new(1, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {
+			--_G.LucSky.Open.UIStroke.Transparency = 0
+			--_G.LucSky.Open.TextTransparency = 0
+			--ts:Create(_G.LucSky.Open, TweenInfo.new(1, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out), {
 			--	Position = UDim2.fromScale(0.5, 0.903)
 			--}):Play()
 
-			--ts:Create(_G.YARHM.Open.UIStroke, TweenInfo.new(1), {
+			--ts:Create(_G.LucSky.Open.UIStroke, TweenInfo.new(1), {
 			--	Transparency = 1
 			--}):Play()
-			--ts:Create(_G.YARHM.Open, TweenInfo.new(1), {
+			--ts:Create(_G.LucSky.Open, TweenInfo.new(1), {
 			--	TextTransparency = 1
 			--}):Play()
 		end}
@@ -5337,9 +5245,9 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.YARHM.Universal
 		["fweemeimtrapwed"] = Color3.fromHex("ffac33"),
 	}
 
-	local mainText = "YARHM Developer"
+	local mainText = "LucSky Developer"
 	local mainFont = Enum.Font.GothamBold
-	local specialText = "YARHM+"
+	local specialText = "LucSky+"
 	local specialFont = Enum.Font.GothamBold
 
 	local function createTextLabel(player, text, color)
@@ -5368,7 +5276,7 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.YARHM.Universal
 			mainTextElement.Size = UDim2.new(1, 0, 1, 0)
 			mainTextElement.Text = text
 			mainTextElement.TextColor3 = color
-			mainTextElement.BackgroundTransparency = 0.2
+			mainTextElement.BackgroundTransparency = 1
 			mainTextElement.Font = mainFont
 			mainTextElement.TextScaled = true
 			mainTextElement.Parent = mainTextLabel
@@ -5404,7 +5312,7 @@ local function COBWDKS_fake_script() -- Fake Script: StarterGui.YARHM.Universal
 
 	table.insert(module, {
 		Type = "Toggle",
-		Args = {"Hide YARHM+/Developer tags", function(Self, state)
+		Args = {"Hide LucSky+/Developer tags", function(Self, state)
 			for _, tag in ipairs(tagsFolder:GetChildren()) do
 				tag.Enabled = not state
 			end
