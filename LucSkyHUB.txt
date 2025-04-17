@@ -1,171 +1,172 @@
---[[
-██████  ██      ███████ ██   ██ v3 (Atualizado)
-██   ██ ██      ██       ██ ██
-██████  ██      █████     ███
-██      ██      ██       ██ ██
-██      ███████ ███████ ██   ██
-task#5555 // Opelika#1412
-Atualizado por ChatGPT para 2025
-]]
-
-local Players = game:GetService("Players")
-local CoreGui = game:GetService("CoreGui")
-local HttpService = game:GetService("HttpService")
-
-local LocalPlayer = Players.LocalPlayer
-local Remotes = {}
-local Minimized = false
-
-local Settings = {
-    Font = Enum.Font.SourceSans,
-    Theme = "Dark", -- "Dark" ou "Light"
-    AdvancedMode = false
+local RemoteLogger = {
+    Logs = {},
+    MaxLogs = 1000,  -- Limite máximo de logs armazenados
+    OutputToConsole = true,
+    OutputToUI = false  -- Pode ser ativado para mostrar em uma SurfaceGui
 }
 
-local function generateRandomString()
-    local chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-    local str = ""
-    for i = 1, 10 do
-        local index = math.random(1, #chars)
-        str = str .. chars:sub(index, index)
-    end
-    return str
-end
-
-local function logRemoteCall(remote, method, args)
-    if not table.find(Remotes, remote) then
-        table.insert(Remotes, remote)
-    end
-
-    warn("[RemoteSpy] Detected:", remote, method)
-    for i, v in ipairs(args) do
-        print("Arg[" .. i .. "]:", v)
-    end
-
-    if Settings.AdvancedMode then
-        print("FullName:", remote:GetFullName())
-        print("Calling Script:", getcallingscript and getcallingscript().Name or "N/A")
-    end
-end
-
-local function createGui()
-    local guiName = generateRandomString()
-    local ScreenGui = Instance.new("ScreenGui")
-    ScreenGui.Name = guiName
-    ScreenGui.ResetOnSpawn = false
-    ScreenGui.Parent = CoreGui
-
-    local Frame = Instance.new("Frame")
-    Frame.Size = UDim2.new(0, 400, 0, 300)
-    Frame.Position = UDim2.new(0.5, -200, 0.5, -150)
-    Frame.BackgroundColor3 = Settings.Theme == "Dark" and Color3.fromRGB(25, 25, 25) or Color3.fromRGB(240, 240, 240)
-    Frame.BorderSizePixel = 0
-    Frame.Active = true
-    Frame.Draggable = true
-    Frame.Parent = ScreenGui
-
-    local TitleBar = Instance.new("Frame")
-    TitleBar.Size = UDim2.new(1, 0, 0, 30)
-    TitleBar.BackgroundColor3 = Settings.Theme == "Dark" and Color3.fromRGB(40, 40, 40) or Color3.fromRGB(200, 200, 200)
-    TitleBar.BorderSizePixel = 0
-    TitleBar.Parent = Frame
-
-    local Title = Instance.new("TextLabel")
-    Title.Size = UDim2.new(1, -30, 1, 0)
-    Title.Position = UDim2.new(0, 5, 0, 0)
-    Title.BackgroundTransparency = 1
-    Title.TextColor3 = Settings.Theme == "Dark" and Color3.new(1, 1, 1) or Color3.new(0, 0, 0)
-    Title.Text = "<b>PLEX v3</b> - <i>" .. guiName .. "</i>"
-    Title.Font = Settings.Font
-    Title.TextSize = 18
-    Title.TextXAlignment = Enum.TextXAlignment.Left
-    Title.RichText = true
-    Title.Parent = TitleBar
-
-    local MinimizeButton = Instance.new("TextButton")
-    MinimizeButton.Size = UDim2.new(0, 30, 1, 0)
-    MinimizeButton.Position = UDim2.new(1, -30, 0, 0)
-    MinimizeButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
-    MinimizeButton.BorderSizePixel = 0
-    MinimizeButton.TextColor3 = Color3.new(1, 1, 1)
-    MinimizeButton.Text = "—"
-    MinimizeButton.Font = Settings.Font
-    MinimizeButton.TextSize = 18
-    MinimizeButton.Parent = TitleBar
-
-    local ScrollingFrame = Instance.new("ScrollingFrame")
-    ScrollingFrame.Size = UDim2.new(1, 0, 1, -30)
-    ScrollingFrame.Position = UDim2.new(0, 0, 0, 30)
-    ScrollingFrame.CanvasSize = UDim2.new(0, 0, 0, #Remotes * 30)
-    ScrollingFrame.ScrollBarThickness = 8
-    ScrollingFrame.BackgroundTransparency = 1
-    ScrollingFrame.BorderSizePixel = 0
-    ScrollingFrame.Parent = Frame
-
-    local function refreshList()
-        ScrollingFrame:ClearAllChildren()
-        for i, remote in ipairs(Remotes) do
-            local btn = Instance.new("TextButton")
-            btn.Size = UDim2.new(1, -16, 0, 30)
-            btn.Position = UDim2.new(0, 8, 0, (i - 1) * 30)
-            btn.BackgroundColor3 = Settings.Theme == "Dark" and Color3.fromRGB(40, 40, 40) or Color3.fromRGB(220, 220, 220)
-            btn.BorderSizePixel = 0
-            btn.TextColor3 = Settings.Theme == "Dark" and Color3.new(1, 1, 1) or Color3.new(0, 0, 0)
-            btn.Text = remote.Name
-            btn.Font = Settings.Font
-            btn.TextSize = 16
-            btn.Parent = ScrollingFrame
-
-            btn.MouseButton1Click:Connect(function()
-                if setclipboard then
-                    setclipboard(remote:GetFullName())
-                end
-            end)
-        end
-        ScrollingFrame.CanvasSize = UDim2.new(0, 0, 0, #Remotes * 30)
-    end
-
-    MinimizeButton.MouseButton1Click:Connect(function()
-        Minimized = not Minimized
-        ScrollingFrame.Visible = not Minimized
-        Frame.Size = Minimized and UDim2.new(0, 400, 0, 30) or UDim2.new(0, 400, 0, 300)
+-- Cria uma UI simples se quiser visualização in-game
+local function createLoggerUI()
+    local screenGui = Instance.new("ScreenGui")
+    local frame = Instance.new("Frame")
+    local scroller = Instance.new("ScrollingFrame")
+    local layout = Instance.new("UIListLayout")
+    
+    -- Configuração básica da UI
+    screenGui.Name = "RemoteEventLoggerUI"
+    screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+    
+    frame.Size = UDim2.new(0.4, 0, 0.5, 0)
+    frame.Position = UDim2.new(0.6, 0, 0.25, 0)
+    frame.BackgroundTransparency = 0.7
+    frame.Parent = screenGui
+    
+    scroller.Size = UDim2.new(1, 0, 1, 0)
+    scroller.CanvasSize = UDim2.new(1, 0, 0, 0)
+    scroller.Parent = frame
+    
+    layout.Parent = scroller
+    layout:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
+        scroller.CanvasSize = UDim2.new(0, 0, 0, layout.AbsoluteContentSize.Y)
     end)
-
-    refreshList()
+    
+    RemoteLogger.OutputUI = scroller
 end
 
--- Hook de __namecall para detectar RemoteEvents e RemoteFunctions
-local oldNamecall
-oldNamecall = hookmetamethod(game, "__namecall", newcclosure(function(self, ...)
+-- Formata os argumentos para exibição
+local function formatArgs(...)
     local args = {...}
-    local method = getnamecallmethod()
-    if not checkcaller() and (method == "FireServer" or method == "InvokeServer") then
-        logRemoteCall(self, method, args)
+    local formatted = {}
+    
+    for i, v in ipairs(args) do
+        local vType = typeof(v)
+        local display
+        
+        if vType == "table" then
+            display = "{...} (table)"
+        elseif vType == "function" then
+            display = "function"
+        elseif vType == "userdata" then
+            display = tostring(v)
+        else
+            display = string.format("%q", tostring(v))
+        end
+        
+        table.insert(formatted, string.format("[%d]: %s (%s)", i, display, vType))
     end
-    return oldNamecall(self, ...)
-end))
+    
+    return formatted
+end
 
--- Escuta quando novos remotes aparecem em personagens
-local function trackRemotes(player)
-    local function onChild(child)
-        if child:IsA("RemoteEvent") or child:IsA("RemoteFunction") then
-            if not table.find(Remotes, child) then
-                table.insert(Remotes, child)
-            end
+-- Registra uma chamada de RemoteEvent
+function RemoteLogger:logCall(remote, args)
+    local logEntry = {
+        Timestamp = DateTime.now():FormatLocalTime("HH:mm:ss", "pt-BR"),
+        RemoteName = remote.Name,
+        RemotePath = remote:GetFullName(),
+        Arguments = args,
+        Formatted = formatArgs(unpack(args))
+    }
+    
+    -- Adiciona ao histórico
+    table.insert(self.Logs, 1, logEntry)
+    if #self.Logs > self.MaxLogs then
+        table.remove(self.Logs)
+    end
+    
+    -- Saída para console
+    if self.OutputToConsole then
+        print(string.format("\n[%s] %s chamado:", logEntry.Timestamp, logEntry.RemotePath))
+        for _, line in ipairs(logEntry.Formatted) do
+            print("  "..line)
         end
     end
-    player.CharacterAdded:Connect(function(char)
-        for _, child in ipairs(char:GetChildren()) do
-            onChild(child)
+    
+    -- Saída para UI
+    if self.OutputToUI and self.OutputUI then
+        local textLabel = Instance.new("TextLabel")
+        textLabel.Text = string.format("[%s] %s (%d args)", 
+            logEntry.Timestamp, logEntry.RemoteName, #args)
+        textLabel.TextXAlignment = Enum.TextXAlignment.Left
+        textLabel.Size = UDim2.new(1, 0, 0, 30)
+        textLabel.Parent = self.OutputUI
+    end
+    
+    return logEntry
+end
+
+-- Hooking dos RemoteEvents
+function RemoteLogger:startMonitoring()
+    local remotes = game:GetService("ReplicatedStorage"):FindFirstChild("Remotes") or
+                   game:GetService("ReplicatedStorage"):FindFirstChild("RemoteEvents") or
+                   game:GetService("ReplicatedStorage")
+    
+    -- Monitora eventos existentes
+    for _, remote in ipairs(remotes:GetDescendants()) do
+        if remote:IsA("RemoteEvent") then
+            self:hookRemoteEvent(remote)
         end
-        char.ChildAdded:Connect(onChild)
+    end
+    
+    -- Monitora novos eventos
+    remotes.DescendantAdded:Connect(function(child)
+        if child:IsA("RemoteEvent") then
+            self:hookRemoteEvent(child)
+            print("[Logger] Novo RemoteEvent detectado:", child:GetFullName())
+        end
     end)
 end
 
-for _, player in ipairs(Players:GetPlayers()) do
-    trackRemotes(player)
+-- Aplica hook a um RemoteEvent específico
+function RemoteLogger:hookRemoteEvent(remote)
+    local oldFire = remote.FireServer
+    
+    remote.FireServer = function(self, ...)
+        local args = {...}
+        self:logCall(remote, args)
+        return oldFire(self, unpack(args))
+    end
+    
+    print("[Logger] Monitorando:", remote:GetFullName())
 end
-Players.PlayerAdded:Connect(trackRemotes)
 
--- Inicializa GUI
-createGui()
+-- Exporta logs para texto formatado
+function RemoteLogger:exportLogs()
+    local output = "-- Log de RemoteEvents --\n\n"
+    
+    for i, log in ipairs(self.Logs) do
+        output = output .. string.format("[%s] %s\n", log.Timestamp, log.RemotePath)
+        for _, arg in ipairs(log.Formatted) do
+            output = output .. "  " .. arg .. "\n"
+        end
+        output = output .. "\n"
+    end
+    
+    -- Cria um arquivo de texto local (simulado)
+    local export = Instance.new("StringValue")
+    export.Name = "RemoteEventLogs_" .. os.time()
+    export.Value = output
+    export.Parent = game:GetService("ReplicatedStorage")
+    
+    print("\n=== LOGS EXPORTADOS ===\n")
+    print("Copie o conteúdo abaixo ou pegue o StringValue em ReplicatedStorage")
+    print(output)
+    
+    return output
+end
+
+-- Inicialização
+if not _G.RemoteEventLogger then
+    _G.RemoteEventLogger = RemoteLogger
+    RemoteLogger:startMonitoring()
+    
+    -- Ativa UI se necessário
+    if RemoteLogger.OutputToUI then
+        createLoggerUI()
+    end
+    
+    print("\n=== MONITORAMENTO ATIVADO ===")
+    print("Use _G.RemoteEventLogger:exportLogs() para exportar")
+end
+
+return RemoteLogger
