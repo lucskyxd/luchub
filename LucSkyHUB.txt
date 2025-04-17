@@ -1,287 +1,185 @@
--- Configuração inicial
 local Player = game:GetService("Players").LocalPlayer
 local CoreGui = game:GetService("CoreGui")
-local TextService = game:GetService("TextService")
 
--- Cria a interface minimalista
-local RemoteMonitor = Instance.new("ScreenGui")
-RemoteMonitor.Name = "RemoteMonitor_Swift"
-RemoteMonitor.Parent = CoreGui
-RemoteMonitor.ResetOnSpawn = false
+-- Criação da interface
+local MonitorUI = Instance.new("ScreenGui")
+MonitorUI.Name = "RemoteMonitorPro"
+MonitorUI.Parent = CoreGui
+MonitorUI.ResetOnSpawn = false
 
 -- Frame principal
 local MainFrame = Instance.new("Frame")
-MainFrame.Name = "MainFrame"
-MainFrame.Size = UDim2.new(0.35, 0, 0.4, 0)
-MainFrame.Position = UDim2.new(0.65, 0, 0.3, 0)
-MainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 20)
-MainFrame.BackgroundTransparency = 0.15
-MainFrame.BorderSizePixel = 0
+MainFrame.Size = UDim2.new(0.4, 0, 0.5, 0)
+MainFrame.Position = UDim2.new(0.6, 0, 0.25, 0)
+MainFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 30)
+MainFrame.BackgroundTransparency = 0.2
 MainFrame.Active = true
 MainFrame.Draggable = true
-MainFrame.Parent = RemoteMonitor
+MainFrame.Parent = MonitorUI
 
--- Barra de título
-local TitleBar = Instance.new("Frame")
-TitleBar.Name = "TitleBar"
-TitleBar.Size = UDim2.new(1, 0, 0, 25)
-TitleBar.BackgroundColor3 = Color3.fromRGB(25, 25, 35)
-TitleBar.BorderSizePixel = 0
-TitleBar.Parent = MainFrame
+-- Configuração da lista de eventos
+local EventList = Instance.new("ScrollingFrame")
+EventList.Size = UDim2.new(1, -10, 1, -40)
+EventList.Position = UDim2.new(0, 5, 0, 35)
+EventList.BackgroundTransparency = 1
+EventList.ScrollBarThickness = 6
+EventList.Parent = MainFrame
 
+local UIListLayout = Instance.new("UIListLayout")
+UIListLayout.Padding = UDim2.new(0, 0, 0, 5)
+UIListLayout.Parent = EventList
+
+-- Título e controles
 local Title = Instance.new("TextLabel")
-Title.Name = "Title"
-Title.Text = "REMOTE EVENT MONITOR [Swift]"
-Title.Size = UDim2.new(1, -50, 1, 0)
-Title.Position = UDim2.new(0, 5, 0, 0)
+Title.Text = "REMOTE EVENT MONITOR [PRO]"
+Title.Size = UDim2.new(1, 0, 0, 30)
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.Font = Enum.Font.GothamBold
-Title.TextXAlignment = Enum.TextXAlignment.Left
-Title.BackgroundTransparency = 1
-Title.Parent = TitleBar
+Title.BackgroundColor3 = Color3.fromRGB(30, 30, 45)
+Title.Parent = MainFrame
 
--- Botões de controle
-local CloseButton = Instance.new("TextButton")
-CloseButton.Name = "CloseButton"
-CloseButton.Text = "X"
-CloseButton.Size = UDim2.new(0, 25, 1, 0)
-CloseButton.Position = UDim2.new(1, -25, 0, 0)
-CloseButton.BackgroundColor3 = Color3.fromRGB(200, 50, 50)
-CloseButton.TextColor3 = Color3.new(1, 1, 1)
-CloseButton.Font = Enum.Font.GothamBold
-CloseButton.Parent = TitleBar
-
-local MinimizeButton = Instance.new("TextButton")
-MinimizeButton.Name = "MinimizeButton"
-MinimizeButton.Text = "_"
-MinimizeButton.Size = UDim2.new(0, 25, 1, 0)
-MinimizeButton.Position = UDim2.new(1, -50, 0, 0)
-MinimizeButton.BackgroundColor3 = Color3.fromRGB(80, 80, 100)
-MinimizeButton.TextColor3 = Color3.new(1, 1, 1)
-MinimizeButton.Font = Enum.Font.GothamBold
-MinimizeButton.Parent = TitleBar
-
--- Área de logs
-local LogsFrame = Instance.new("ScrollingFrame")
-LogsFrame.Name = "LogsFrame"
-LogsFrame.Size = UDim2.new(1, -5, 1, -30)
-LogsFrame.Position = UDim2.new(0, 5, 0, 30)
-LogsFrame.BackgroundTransparency = 1
-LogsFrame.ScrollBarThickness = 5
-LogsFrame.ScrollBarImageColor3 = Color3.fromRGB(100, 100, 120)
-LogsFrame.Parent = MainFrame
-
-local LogsLayout = Instance.new("UIListLayout")
-LogsLayout.Name = "LogsLayout"
-LogsLayout.Padding = UDim.new(0, 5)
-LogsLayout.Parent = LogsFrame
-
--- Contador de eventos
-local EventCount = Instance.new("TextLabel")
-EventCount.Name = "EventCount"
-EventCount.Text = "Events: 0"
-EventCount.Size = UDim2.new(1, 0, 0, 20)
-EventCount.Position = UDim2.new(0, 0, 1, -20)
-EventCount.TextColor3 = Color3.fromRGB(180, 180, 200)
-EventCount.Font = Enum.Font.Gotham
-EventCount.TextXAlignment = Enum.TextXAlignment.Left
-EventCount.BackgroundTransparency = 1
-EventCount.Parent = MainFrame
-
--- Funções de controle
-local minimized = false
-local function toggleMinimize()
-    minimized = not minimized
-    if minimized then
-        MainFrame.Size = UDim2.new(0.35, 0, 0, 30)
-        MinimizeButton.Text = "+"
-    else
-        MainFrame.Size = UDim2.new(0.35, 0, 0.4, 0)
-        MinimizeButton.Text = "_"
-    end
-end
-
-CloseButton.MouseButton1Click:Connect(function()
-    RemoteMonitor:Destroy()
-end)
-
-MinimizeButton.MouseButton1Click:Connect(toggleMinimize)
-
--- Função para criar entrada de log
-local eventCount = 0
-local function createLogEntry(remoteName, args)
-    eventCount = eventCount + 1
-    EventCount.Text = "Events: "..eventCount
-    
-    local entryFrame = Instance.new("Frame")
-    entryFrame.Name = "Entry_"..tostring(os.time())
-    entryFrame.Size = UDim2.new(1, 0, 0, 0)
-    entryFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 25)
-    entryFrame.BackgroundTransparency = 0.7
-    entryFrame.BorderSizePixel = 0
-    entryFrame.AutomaticSize = Enum.AutomaticSize.Y
-    entryFrame.LayoutOrder = -eventCount
-    entryFrame.Parent = LogsFrame
-    
-    local remoteLabel = Instance.new("TextLabel")
-    remoteLabel.Name = "RemoteLabel"
-    remoteLabel.Text = "⮕ "..remoteName
-    remoteLabel.Size = UDim2.new(1, -10, 0, 25)
-    remoteLabel.Position = UDim2.new(0, 5, 0, 0)
-    remoteLabel.TextColor3 = Color3.fromRGB(150, 200, 255)
-    remoteLabel.Font = Enum.Font.GothamMedium
-    remoteLabel.TextXAlignment = Enum.TextXAlignment.Left
-    remoteLabel.BackgroundTransparency = 1
-    remoteLabel.Parent = entryFrame
-    
-    local argsFrame = Instance.new("Frame")
-    argsFrame.Name = "ArgsFrame"
-    argsFrame.Size = UDim2.new(1, -15, 0, 0)
-    argsFrame.Position = UDim2.new(0, 15, 0, 25)
-    argsFrame.BackgroundTransparency = 1
-    argsFrame.AutomaticSize = Enum.AutomaticSize.Y
-    argsFrame.Parent = entryFrame
-    
-    local argsLayout = Instance.new("UIListLayout")
-    argsLayout.Padding = UDim.new(0, 3)
-    argsLayout.Parent = argsFrame
-    
-    -- Adiciona argumentos
-    for i, arg in ipairs(args) do
-        local argText = string.format("[%d] %s (%s)", i, tostring(arg), typeof(arg))
+-- Método avançado de captura
+local function hookAllRemotes()
+    -- 1. Captura tradicional de RemoteEvents
+    local function hookStandardRemotes()
+        local remotes = {
+            game:GetService("ReplicatedStorage"),
+            game:GetService("Workspace"),
+            game:GetService("ServerScriptService"),
+            game:GetService("ServerStorage")
+        }
         
-        -- Calcula o tamanho necessário para o texto
-        local textSize = TextService:GetTextSize(argText, 14, Enum.Font.Gotham, Vector2.new(LogsFrame.AbsoluteSize.X - 30, math.huge))
-        
-        local argLabel = Instance.new("TextLabel")
-        argLabel.Text = argText
-        argLabel.Size = UDim2.new(1, 0, 0, textSize.Y + 4)
-        argLabel.TextColor3 = Color3.fromRGB(220, 220, 220)
-        argLabel.Font = Enum.Font.Gotham
-        argLabel.TextSize = 14
-        argLabel.TextXAlignment = Enum.TextXAlignment.Left
-        argLabel.TextYAlignment = Enum.TextYAlignment.Top
-        argLabel.BackgroundTransparency = 1
-        argLabel.Parent = argsFrame
-    end
-    
-    -- Atualiza o tamanho do canvas
-    task.defer(function()
-        LogsFrame.CanvasSize = UDim2.new(0, 0, 0, LogsLayout.AbsoluteContentSize.Y + 10)
-        LogsFrame.CanvasPosition = Vector2.new(0, LogsLayout.AbsoluteContentSize.Y)
-    end)
-end
-
--- Hook avançado para RemoteEvents
-local function hookRemoteEvent(remote)
-    local oldFire = remote.FireServer
-    
-    remote.FireServer = newcclosure(function(self, ...)
-        local args = {...}
-        
-        -- Filtra dados muito grandes para performance
-        local displayArgs = {}
-        for i, arg in ipairs(args) do
-            if typeof(arg) == "table" and #tostring(arg) > 100 then
-                displayArgs[i] = "{...} (large table)"
-            elseif typeof(arg) == "string" and #arg > 50 then
-                displayArgs[i] = string.sub(arg, 1, 50).."... (truncated)"
-            else
-                displayArgs[i] = arg
-            end
-        end
-        
-        createLogEntry(remote:GetFullName(), displayArgs)
-        return oldFire(self, ...)
-    end)
-end
-
--- Monitoramento completo
-local function startMonitoring()
-    -- Monitora eventos existentes
-    local function processFolder(folder)
-        for _, item in ipairs(folder:GetDescendants()) do
-            if item:IsA("RemoteEvent") then
-                hookRemoteEvent(item)
-            end
-        end
-    end
-    
-    -- Verifica locais comuns
-    local remotesFolder = game:GetService("ReplicatedStorage"):FindFirstChild("Remotes") or
-                         game:GetService("ReplicatedStorage"):FindFirstChild("RemoteEvents") or
-                         game:GetService("ReplicatedStorage")
-    
-    processFolder(remotesFolder)
-    
-    -- Monitora novos eventos
-    remotesFolder.DescendantAdded:Connect(function(child)
-        if child:IsA("RemoteEvent") then
-            hookRemoteEvent(child)
-        end
-    end)
-    
-    -- Verifica outros serviços também
-    local servicesToCheck = {
-        game:GetService("Workspace"),
-        game:GetService("ServerStorage"),
-        game:GetService("ServerScriptService")
-    }
-    
-    for _, service in ipairs(servicesToCheck) do
-        task.spawn(function()
-            processFolder(service)
-            service.DescendantAdded:Connect(function(child)
-                if child:IsA("RemoteEvent") then
-                    hookRemoteEvent(child)
+        for _, location in ipairs(remotes) do
+            for _, remote in ipairs(location:GetDescendants()) do
+                if remote:IsA("RemoteEvent") then
+                    local oldFire = remote.FireServer
+                    remote.FireServer = function(self, ...)
+                        local args = {...}
+                        print("[RemoteEvent] "..remote:GetFullName(), args)
+                        return oldFire(self, unpack(args))
+                    end
                 end
-            end)
-        end)
+            end
+        end
     end
+
+    -- 2. Captura de chamadas remotas customizadas
+    local function hookCustomRemotes()
+        local mt = getrawmetatable(game)
+        local oldNamecall = mt.__namecall
+        
+        setreadonly(mt, false)
+        
+        mt.__namecall = newcclosure(function(self, ...)
+            local method = getnamecallmethod()
+            if tostring(method) == "FireServer" and self:IsA("RemoteEvent") then
+                local args = {...}
+                print("[CustomRemote] "..self:GetFullName(), args)
+            end
+            return oldNamecall(self, ...)
+        end)
+        
+        setreadonly(mt, true)
+    end
+
+    -- 3. Captura de RemoteFunctions (se necessário)
+    local function hookRemoteFunctions()
+        local mt = getrawmetatable(game)
+        local oldIndex = mt.__index
+        
+        setreadonly(mt, false)
+        
+        mt.__index = newcclosure(function(self, k)
+            if k == "InvokeServer" and self:IsA("RemoteFunction") then
+                local oldInvoke = oldIndex(self, k)
+                return function(_, ...)
+                    local args = {...}
+                    print("[RemoteFunction] "..self:GetFullName(), args)
+                    return oldInvoke(self, unpack(args))
+                end
+            end
+            return oldIndex(self, k)
+        end)
+        
+        setreadonly(mt, true)
+    end
+
+    -- Executa todos os métodos de hook
+    hookStandardRemotes()
+    hookCustomRemotes()
+    hookRemoteFunctions()
 end
 
 -- Inicia o monitoramento
-startMonitoring()
+hookAllRemotes()
 
--- Botão de cópia para facilitar
-local CopyButton = Instance.new("TextButton")
-CopyButton.Name = "CopyButton"
-CopyButton.Text = "Copy Last"
-CopyButton.Size = UDim2.new(0, 70, 0, 20)
-CopyButton.Position = UDim2.new(1, -75, 1, -20)
-CopyButton.BackgroundColor3 = Color3.fromRGB(60, 60, 80)
-CopyButton.TextColor3 = Color3.new(1, 1, 1)
-CopyButton.Font = Enum.Font.Gotham
-CopyButton.Parent = MainFrame
+-- Sistema de log na interface
+local function addEventToUI(remoteName, args)
+    local entry = Instance.new("Frame")
+    entry.Size = UDim2.new(1, 0, 0, 0)
+    entry.BackgroundTransparency = 1
+    entry.AutomaticSize = Enum.AutomaticSize.Y
+    entry.Parent = EventList
 
-CopyButton.MouseButton1Click:Connect(function()
-    if #LogsFrame:GetChildren() > 1 then -- Ignora o UIListLayout
-        local lastEntry = LogsFrame:GetChildren()[2]
-        local remoteName = lastEntry:FindFirstChild("RemoteLabel").Text
-        local argsText = ""
+    local nameLabel = Instance.new("TextLabel")
+    nameLabel.Text = "→ "..remoteName
+    nameLabel.Size = UDim2.new(1, 0, 0, 20)
+    nameLabel.TextColor3 = Color3.fromRGB(100, 200, 255)
+    nameLabel.Font = Enum.Font.GothamMedium
+    nameLabel.TextXAlignment = Enum.TextXAlignment.Left
+    nameLabel.Parent = entry
+
+    for i, arg in ipairs(args) do
+        local argLabel = Instance.new("TextLabel")
+        argLabel.Text = "  ["..i.."] "..tostring(arg).." ("..typeof(arg)..")"
+        argLabel.Size = UDim2.new(1, -20, 0, 18)
+        argLabel.Position = UDim2.new(0, 20, 0, 20 + (i-1)*20)
+        argLabel.TextColor3 = Color3.fromRGB(220, 220, 220)
+        argLabel.Font = Enum.Font.Gotham
+        argLabel.TextXAlignment = Enum.TextXAlignment.Left
+        argLabel.Parent = entry
+    end
+
+    EventList.CanvasSize = UDim2.new(0, 0, 0, UIListLayout.AbsoluteContentSize.Y)
+end
+
+-- Conecta a saída do print à interface
+local oldPrint = print
+print = function(...)
+    local args = {...}
+    local msg = table.concat(args, " ")
+    
+    if msg:find("%[RemoteEvent%]") or msg:find("%[CustomRemote%]") or msg:find("%[RemoteFunction%]") then
+        local remoteName = msg:match("%[(.-)%] (.+) %[")
+        local argsStr = msg:match("%[(.-)%]$") or ""
         
-        local argsFrame = lastEntry:FindFirstChild("ArgsFrame")
-        if argsFrame then
-            for _, argLabel in ipairs(argsFrame:GetChildren()) do
-                if argLabel:IsA("TextLabel") then
-                    argsText = argsText..argLabel.Text.."\n"
-                end
+        if remoteName and argsStr then
+            local success, argsTable = pcall(function()
+                return game:GetService("HttpService"):JSONDecode("["..argsStr.."]")
+            end)
+            
+            if success then
+                addEventToUI(remoteName, argsTable)
             end
         end
-        
-        local fullText = remoteName.."\n"..argsText
-        setclipboard(fullText)
-        
-        -- Feedback visual
-        CopyButton.Text = "Copied!"
-        task.wait(1)
-        CopyButton.Text = "Copy Last"
+    end
+    
+    return oldPrint(...)
+end
+
+-- Botão para limpar logs
+local ClearButton = Instance.new("TextButton")
+ClearButton.Text = "Clear Logs"
+ClearButton.Size = UDim2.new(0.3, 0, 0, 25)
+ClearButton.Position = UDim2.new(0.35, 0, 1, -25)
+ClearButton.Parent = MainFrame
+
+ClearButton.MouseButton1Click:Connect(function()
+    for _, child in ipairs(EventList:GetChildren()) do
+        if child:IsA("Frame") then
+            child:Destroy()
+        end
     end
 end)
 
--- Ajusta o tamanho quando a janela é redimensionada
-MainFrame:GetPropertyChangedSignal("AbsoluteSize"):Connect(function()
-    LogsFrame.CanvasSize = UDim2.new(0, 0, 0, LogsLayout.AbsoluteContentSize.Y + 10)
-end)
-
-return "RemoteEvent Monitor initialized successfully"
+return "Remote Event Monitor iniciado com sucesso"
